@@ -1,0 +1,160 @@
+
+import mongoose from 'mongoose';
+
+const anggaranSchema = new mongoose.Schema({
+  // Reference to SubKegiatan
+  subKegiatanId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'SubKegiatan',
+    required: true
+  },
+
+  // Budget year
+  budgetYear: {
+    type: String,
+    required: true,
+    match: /^\d{4}-\w+$/ // Format: "2026-Murni" or "2026-PAK"
+  },
+
+  // Array of budget allocations for different kode rekening
+  allocations: [{
+    kodeRekeningId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'KodeRekening',
+      required: true
+    },
+    amount: {
+      type: Number,
+      required: true,
+      min: 0
+    },
+    description: {
+      type: String,
+      trim: true,
+      maxlength: 500
+    }
+  }],
+
+  // Total budget amount (calculated field)
+  totalAmount: {
+    type: Number,
+    default: 0
+  },
+
+  // Status
+  status: {
+    type: String,
+    enum: ['draft', 'submitted', 'approved', 'rejected'],
+    default: 'draft'
+  },
+
+  // Approval tracking
+  approvalHistory: [{
+    action: {
+      type: String,
+      enum: ['submitted', 'approved', 'rejected', 'revised'],
+      required: true
+    },
+    performedBy: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true
+    },
+    timestamp: {
+      type: Date,
+      default: Date.now
+    },
+    notes: {
+      type: String,
+      trim: true,
+      maxlength: 500
+    }
+  }],
+
+  // Metadata
+  createdBy: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  },
+
+  updatedBy: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  }
+}, {
+  timestamps: true,
+  toJSON: { virtuals: true },
+  toObject: { virtuals: true }
+});
+
+// Indexes for performance
+anggaranSchema.index({ subKegiatanId: 1, budgetYear: 1 }, { unique: true });
+anggaranSchema.index({ budgetYear: 1, status: 1 });
+anggaranSchema.index({ 'allocations.kodeRekeningId': 1 });
+
+// Virtual for total amount calculation
+anggaranSchema.virtual('calculatedTotalAmount').get(function() {
+  return this.allocations.reduce((total, allocation) => total + allocation.amount, 0);
+});
+
+// Pre-save middleware to update totalAmount
+anggaranSchema.pre('save', function(next) {
+  this.totalAmount = this.calculatedTotalAmount;
+
+  // Update the updatedBy field
+  if (this.isModified() && !this.isNew) {
+    this.updatedBy = this.updatedBy || this.createdBy;
+  }
+
+  next();
+});
+
+// Pre-update middleware for allocations changes
+anggaranSchema.pre('findOneAndUpdate', function(next) {
+  const update = this.getUpdate();
+  if (update.allocations) {
+    // Calculate new total if allocations are being updated
+    const allocations = update.allocations;
+    if (Array.isArray(allocations)) {
+      update.totalAmount = allocations.reduce((total, allocation) => total + allocation.amount, 0);
+    }
+  }
+
+  // Update the updatedBy field if not provided
+  if (!update.updatedBy) {
+    update.updatedBy = update.updatedBy || this._conditions.createdBy;
+  }
+
+  next();
+});
+
+// Static methods for common queries
+anggaranSchema.statics.findByBudgetYear = function(budgetYear) {
+  return this.find({ budgetYear }).populate('subKegiatanId').populate('allocations.kodeRekeningId');
+};
+
+anggaranSchema.statics.findBySubKegiatan = function(subKegiatanId) {
+  return this.find({ subKegiatanId }).populate('subKegiatanId').populate('allocations.kodeRekeningId');
+};
+
+anggaranSchema.statics.findByStatus = function(status) {
+  return this.find({ status }).populate('subKegiatanId').populate('allocations.kodeRekeningId');
+};
+
+// Instance methods
+anggaranSchema.methods.addAllocation = function(kodeRekeningId, amount, description = '') {
+  // Check if allocation already exists
+  const existingIndex = this.allocations.findIndex(
+    allocation => allocation.kodeRekeningId.toString() === kodeRekeningId.toString()
+  );
+
+  if (existingIndex >= 0) {
+    this.allocations[existingIndex].amount = amount;
+    this.allocations[existingIndex].description = description;
+  } else {
+    this.allocations.push({
+      kodeRekeningId,
+      amount,
+      description

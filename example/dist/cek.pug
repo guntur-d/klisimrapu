@@ -1,0 +1,51 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title efin.cloud
+    script(src='/js/mithril.min.js')
+    link(href='https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css' rel='stylesheet' type='text/css')
+    link(href='/css/tw.css' rel='stylesheet' type='text/css')
+
+
+    script.
+        // Initialize the agent at application startup.
+
+        const fpPromise = import('https://openfpcdn.io/fingerprintjs/v3')
+        .then(FingerprintJS => FingerprintJS.load())
+        fpPromise
+        .then(fp => fp.get())
+        .then(result => {
+
+        const visitorId = result.visitorId
+        console.log(visitorId)
+        
+        // This is the visitor identifier:
+
+        m.request({
+        method: "POST",
+        url: "/api/phase",
+        //      headers: { "Authorization": "Guntur " + lstor.token, 'Accept': 'Accept:text/html,application/json,*/*', 'duget': du.get(), 'dupa': JSON.stringify(du.parse()) },
+        headers: { 'middlefinger2u': visitorId },
+        body: "operation",
+        responseType: 'json'
+        }).then(data => {
+        console.log(data)
+
+        if(data[visitorId]==0){
+            window.location = "/gabung/"+visitorId;
+        } else {
+            location.replace('/'); 
+        }})})
+
+
+
+title efin Cloud
+#w.flex.flex-col.auto-cols-max.mt-28
+    .flex.flex-col.justify-center.items-center.my-3
+        img(src='/img/efinCloudBk.svg' alt='efin.site' width='200' height='150')
+        p
+            | persembahan anak bangsa
+            span  &nbsp
+            span.loading.loading-bars.loading-xs
+        p untuk Indonesia

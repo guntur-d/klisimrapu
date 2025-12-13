@@ -1,0 +1,2294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>eFin Community Landing Page</title>
+   <meta name="generator" content="WYSIWYG Web Builder 19 - https://www.wysiwygwebbuilder.com">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="/migrate/images/favicon.ico">
+   <link href="/migrate/css/fontawesome6.min.css" rel="stylesheet">
+   <link href="/migrate/css/eFinsite.css" rel="stylesheet">
+   <link href="/migrate/css/index.css" rel="stylesheet">
+   <link href="/migrate/css/jquery.toast.min.css" rel="stylesheet">
+   <script src="/migrate/js/jquery-3.7.1.min.js"></script>
+   <script src="/migrate/js/wb.parallax.min.js"></script>
+   <script src="/migrate/js/popper.min.js"></script>
+   <script src="/migrate/js/bootstrap.min.js"></script>
+   <script src="/migrate/js/wb.stickylayer.min.js"></script>
+   <script src="/migrate/js/wwb19.min.js"></script>
+   <script src="/migrate/js/jquery.toast.min.js"></script>
+   <style type="text/css">
+      .showpointer {
+         cursor: pointer;
+      }
+   </style>
+
+   <script>
+      document.addEventListener('DOMContentLoaded', function (event) {
+         var Accordion1_items = document.querySelectorAll('#Accordion1 .accordion-collapse');
+         Accordion1_items.forEach(item => {
+            item.addEventListener('show.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               accordionItem.classList.add('active');
+            });
+            item.addEventListener('shown.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               var index = Array.prototype.indexOf.call(accordionItem.parentNode.children, accordionItem);
+               switch (index) {
+               }
+            });
+            item.addEventListener('hide.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               accordionItem.classList.remove('active');
+            });
+         });
+         var Accordion2_items = document.querySelectorAll('#Accordion2 .accordion-collapse');
+         Accordion2_items.forEach(item => {
+            item.addEventListener('show.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               accordionItem.classList.add('active');
+            });
+            item.addEventListener('shown.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               var index = Array.prototype.indexOf.call(accordionItem.parentNode.children, accordionItem);
+               switch (index) {
+               }
+            });
+            item.addEventListener('hide.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               accordionItem.classList.remove('active');
+            });
+         });
+         var Accordion3_items = document.querySelectorAll('#Accordion3 .accordion-collapse');
+         Accordion3_items.forEach(item => {
+            item.addEventListener('show.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               accordionItem.classList.add('active');
+            });
+            item.addEventListener('shown.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               var index = Array.prototype.indexOf.call(accordionItem.parentNode.children, accordionItem);
+               switch (index) {
+               }
+            });
+            item.addEventListener('hide.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               accordionItem.classList.remove('active');
+            });
+         });
+         var Accordion4_items = document.querySelectorAll('#Accordion4 .accordion-collapse');
+         Accordion4_items.forEach(item => {
+            item.addEventListener('show.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               accordionItem.classList.add('active');
+            });
+            item.addEventListener('hide.bs.collapse', function (e) {
+               var accordionItem = e.target.closest('.accordion-item');
+               accordionItem.classList.remove('active');
+            });
+         });
+      });
+   </script>
+   <script>
+      $(document).ready(function () {
+
+
+         //    var prm = {
+         //       method: "getAll",
+         //       tableName: "wilModel"
+         //   }
+
+
+         // Fetch wilayah data from Indoarea API (updated and comprehensive)
+         fetch("https://indoarea.vercel.app/api/provinsi", {
+            method: "GET",
+            headers: {
+               "Accept": "application/json"
+            }
+         }).then(function (response) {
+            // The API call was successful!
+            return response.json();
+         }).then(function (data) {
+            // This is the JSON from our response
+            console.log(data);
+            console.log("Provinces from Indoarea:", data.data);
+
+            // Transform indoarea format to match current system format
+            const transformedData = data.data.map(item => ({
+               kode: item.code,
+               nama: item.name
+            }));
+
+            console.log("Transformed wilayah data:", transformedData);
+
+            sessionStorage.setItem("efinSite", JSON.stringify({ 'wilayah': transformedData }));
+
+
+
+
+         }).catch(function (err) {
+            // There was an error
+            console.warn('Something went wrong.', err);
+         });
+
+
+         //    m.request({
+         //       method: "POST",
+         //       url: "/api/service",
+         //       //      headers: { "Authorization": "Guntur " + lstor.token, 'Accept': 'Accept:text/html,application/json,*/*', 'duget': du.get(), 'dupa': JSON.stringify(du.parse()) },
+         //       headers: { "Authorization": "Guntur's Project", 'Accept': 'Accept:text/html,application/json,*/*' },
+         //       body: operation,
+         //       responseType: responseType
+         //   }).then(data => {})
+
+
+
+
+         function isEmail(email) {
+            var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return regex.test(email);
+         }
+
+         $("#ThemeableButton5").click(() => {
+
+            var inputArr = []
+            $(".kontakform").each(function (index, element) {
+               inputArr.push($(this).val());
+            });
+
+            var urut = ['Nama', 'Email', 'Subyek', 'Pesan']
+            var no_go = []
+            inputArr.forEach((c, i) => {
+
+               if (c == "") {
+
+                  no_go.push(i)
+
+                  $.toast({
+                     heading: 'Warning ',
+                     text: ' mohon isi ' + urut[i],
+                     showHideTransition: 'fade',
+                     icon: 'warning',
+                     position: 'mid-center',
+                  })
+
+               } else {
+                  if (i == 1) {
+                     if (isEmail(c)) {
+
+                        var imelparts = c.split('@')
+                        console.log(imelparts)
+
+                        // if (imelparts[1].includes('.go.id')) {
+                        if (imelparts[1].includes('.')) {
+
+
+
+                           $.toast({
+                              heading: 'Sukses!',
+                              text: ' mengirimkan data, mohon menunggu ... ',
+                              showHideTransition: 'fade',
+                              icon: 'success',
+                              position: 'mid-center',
+                           })
+
+
+                           var json = {
+                              nama: inputArr[0],
+                              email: inputArr[1],
+                              subyek: inputArr[2],
+                              pesan: inputArr[3],
+                           }
+
+                           fetch("/api/service", {
+                              method: "POST",
+                              body: JSON.stringify({
+                                 method: "create",
+                                 tableName: "kontakModel",
+                                 json: json
+                              }),
+                              headers: {
+                                 "Content-type": "application/json; charset=UTF-8"
+                              }
+                           })
+                              .then((response) => {
+
+
+                                 window.location.href = "https://demo.efin.site/#Akses_Modul"
+
+                                 response.json()
+                                 console.log(response, response.status)
+
+                                 var textEmail = `nama: ` + inputArr[0] + "\n" +
+                                    `email: ` + inputArr[1] + "\n" +
+                                    `subyek: ` + inputArr[2] + "\n" +
+                                    `pesan: ` + inputArr[3] + "\n"
+
+                                 fetch("/api/kontak", {
+                                    method: "POST",
+                                    body: JSON.stringify({
+                                       text: textEmail,
+                                       to: inputArr[1]
+                                    }),
+                                    headers: {
+                                       "Content-type": "application/json; charset=UTF-8"
+                                    }
+                                 })
+
+                                    .then(res => {
+
+
+                                       // window.location.href = "https://efin.site/demo/#Akses_Modul"
+
+                                       // console.log(res.status)
+
+                                       // sessionStorage.setItem("efinCloud", JSON.stringify({ 'email': inputArr[1] }));
+                                       // const text = inputArr[1]
+
+                                       // async function digestMessage(message) {
+                                       //    const hashHex = btoa(message)
+
+                                       //    return hashHex;
+                                       // }
+
+                                       // digestMessage(text).then((digestHex) => {
+                                       //    console.log(digestHex)
+                                       //    window.location.href = "/daftar/" + digestHex
+
+                                       // });
+
+                                    })
+
+                              })
+                           // .then((data) => {
+                           //    console.log(data)
+                           // })
+
+                        } else {
+
+                           no_go.push(i)
+                           $.toast({
+                              heading: 'Warning ',
+                              text: ' email tidak valid',
+                              showHideTransition: 'fade',
+                              icon: 'warning',
+                              position: 'mid-center',
+                           })
+
+                           // no_go.push(i)
+                           // $.toast({
+                           //    heading: 'Warning ',
+                           //    text: ' mohon menggunakan email berdomain instansi pemerintah',
+                           //    showHideTransition: 'fade',
+                           //    icon: 'warning',
+                           //    position: 'mid-center',
+                           // })
+                        }
+
+                     } else {
+                        no_go.push(i)
+                        $.toast({
+                           heading: 'Error ',
+                           text: ' Email tidak valid!',
+                           showHideTransition: 'fade',
+                           icon: 'error',
+                           position: 'mid-center',
+                        })
+                     }
+                  }
+               }
+
+            })
+
+            if (no_go.length == 0) {
+               console.log(no_go, "lanjooot")
+            }
+
+         })
+
+         $(".emailbtn").click(function () {
+
+            var emails = ['']
+
+            $('.emailform').each(function (index) {
+               emails.push($(this).val())
+            });
+
+            let longestLength = 0;
+            let longestValue = null;
+
+            const primitives = ['string', 'number', 'bigint', 'boolean'];
+
+            emails.forEach(value => {
+
+               if (primitives.includes(typeof value)) {
+                  const valueLength = value.toString().length;
+                  if (valueLength > longestLength) {
+                     longestLength = valueLength;
+                     longestValue = value;
+                  }
+               }
+            });
+
+            console.log(longestValue)
+
+            if (longestValue != null) {
+               if (isEmail(longestValue)) {
+
+                  sessionStorage.setItem("efinCloud", JSON.stringify({ 'email': longestValue }));
+                  const text = longestValue
+
+                  async function digestMessage(message) {
+                     const hashHex = btoa(message)
+                     return hashHex;
+                  }
+
+                  digestMessage(text).then((digestHex) => {
+                     console.log(digestHex)
+                     window.location.href = "/daftar/" + digestHex
+
+                  });
+
+
+               } else {
+                  $.toast({
+                     heading: 'Error',
+                     text: ' maaf email tidak valid',
+                     showHideTransition: 'fade',
+                     icon: 'error',
+                     position: 'mid-center',
+                  })
+               }
+            } else {
+               $.toast({
+                  heading: 'Warning',
+                  text: ' mohon isi email',
+                  showHideTransition: 'fade',
+                  icon: 'warning',
+                  position: 'mid-center',
+               })
+            }
+
+         });
+
+
+
+
+         $('#wb_Heading9').addClass('visibility-hidden');
+         $('#wb_Image1').addClass('visibility-hidden');
+         $('#wb_Heading1').addClass('visibility-hidden');
+         $('#wb_Text2').addClass('visibility-hidden');
+         $('#wb_Accordion1').addClass('visibility-hidden');
+         $('#wb_Heading3').addClass('visibility-hidden');
+         $('#wb_Text10').addClass('visibility-hidden');
+         $('#wb_Image2').addClass('visibility-hidden');
+         $('#wb_Heading4').addClass('visibility-hidden');
+         $('#wb_Text11').addClass('visibility-hidden');
+         $('#wb_Image3').addClass('visibility-hidden');
+         $('#wb_Heading6').addClass('visibility-hidden');
+         $('#wb_Heading2').addClass('visibility-hidden');
+         $('#wb_Accordion2').addClass('visibility-hidden');
+         $('#wb_Accordion3').addClass('visibility-hidden');
+         $('#wb_LayoutGrid6').addClass('visibility-hidden');
+         $('#wb_ThemeableButton1').addClass('visibility-hidden');
+         $('#wb_ThemeableButton2').addClass('visibility-hidden');
+         $('#wb_ThemeableButton3').addClass('visibility-hidden');
+         $('#wb_Image6').addClass('visibility-hidden');
+         $('#wb_Heading7').addClass('visibility-hidden');
+         $('#Editbox6').addClass('visibility-hidden');
+         $('#Editbox7').addClass('visibility-hidden');
+         $('#Editbox8').addClass('visibility-hidden');
+         $('#TextArea2').addClass('visibility-hidden');
+         $('#ThemeableButton5').addClass('visibility-hidden');
+         $('#wb_Heading10').addClass('visibility-hidden');
+         $('#Editbox1').addClass('visibility-hidden');
+         $('#wb_Text26').addClass('visibility-hidden');
+         $('#wb_Text27').addClass('visibility-hidden');
+         $('#Button2').addClass('visibility-hidden');
+         $('#wb_Heading8').addClass('visibility-hidden');
+         function onScrollHeading9() {
+            var $obj = $("#wb_Heading9");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading9', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading9', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading9').inViewPort(true)) {
+            $('#wb_Heading9').addClass("in-viewport");
+         }
+         onScrollHeading9();
+         $(window).scroll(function (event) {
+            onScrollHeading9();
+         });
+         $('#wb_Header').parallax();
+         function onScrollImage1() {
+            var $obj = $("#wb_Image1");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Image1', 'slide-right-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Image1', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Image1').inViewPort(true)) {
+            $('#wb_Image1').addClass("in-viewport");
+         }
+         onScrollImage1();
+         $(window).scroll(function (event) {
+            onScrollImage1();
+         });
+         function onScrollHeading1() {
+            var $obj = $("#wb_Heading1");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading1', 'slide-left-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading1', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading1').inViewPort(true)) {
+            $('#wb_Heading1').addClass("in-viewport");
+         }
+         onScrollHeading1();
+         $(window).scroll(function (event) {
+            onScrollHeading1();
+         });
+         function onScrollText2() {
+            var $obj = $("#wb_Text2");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Text2', 'slide-left-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Text2', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Text2').inViewPort(true)) {
+            $('#wb_Text2').addClass("in-viewport");
+         }
+         onScrollText2();
+         $(window).scroll(function (event) {
+            onScrollText2();
+         });
+         function onScrollAccordion1() {
+            var $obj = $("#wb_Accordion1");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Accordion1', 'transform-zoom-in-right', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Accordion1', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Accordion1').inViewPort(true)) {
+            $('#wb_Accordion1').addClass("in-viewport");
+         }
+         onScrollAccordion1();
+         $(window).scroll(function (event) {
+            onScrollAccordion1();
+         });
+         function onScrollHeading3() {
+            var $obj = $("#wb_Heading3");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading3', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading3', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading3').inViewPort(true)) {
+            $('#wb_Heading3').addClass("in-viewport");
+         }
+         onScrollHeading3();
+         $(window).scroll(function (event) {
+            onScrollHeading3();
+         });
+         function onScrollText10() {
+            var $obj = $("#wb_Text10");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Text10', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Text10', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Text10').inViewPort(true)) {
+            $('#wb_Text10').addClass("in-viewport");
+         }
+         onScrollText10();
+         $(window).scroll(function (event) {
+            onScrollText10();
+         });
+         function onScrollImage2() {
+            var $obj = $("#wb_Image2");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Image2', 'transform-zoom-in-left', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Image2', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Image2').inViewPort(true)) {
+            $('#wb_Image2').addClass("in-viewport");
+         }
+         onScrollImage2();
+         $(window).scroll(function (event) {
+            onScrollImage2();
+         });
+         function onScrollHeading4() {
+            var $obj = $("#wb_Heading4");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading4', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading4', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading4').inViewPort(true)) {
+            $('#wb_Heading4').addClass("in-viewport");
+         }
+         onScrollHeading4();
+         $(window).scroll(function (event) {
+            onScrollHeading4();
+         });
+         function onScrollText11() {
+            var $obj = $("#wb_Text11");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Text11', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Text11', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Text11').inViewPort(true)) {
+            $('#wb_Text11').addClass("in-viewport");
+         }
+         onScrollText11();
+         $(window).scroll(function (event) {
+            onScrollText11();
+         });
+         function onScrollImage3() {
+            var $obj = $("#wb_Image3");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Image3', 'transform-zoom-in-left', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Image3', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Image3').inViewPort(true)) {
+            $('#wb_Image3').addClass("in-viewport");
+         }
+         onScrollImage3();
+         $(window).scroll(function (event) {
+            onScrollImage3();
+         });
+         function onScrollHeading6() {
+            var $obj = $("#wb_Heading6");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading6', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading6', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading6').inViewPort(true)) {
+            $('#wb_Heading6').addClass("in-viewport");
+         }
+         onScrollHeading6();
+         $(window).scroll(function (event) {
+            onScrollHeading6();
+         });
+         function onScrollHeading2() {
+            var $obj = $("#wb_Heading2");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading2', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading2', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading2').inViewPort(true)) {
+            $('#wb_Heading2').addClass("in-viewport");
+         }
+         onScrollHeading2();
+         $(window).scroll(function (event) {
+            onScrollHeading2();
+         });
+         function onScrollAccordion2() {
+            var $obj = $("#wb_Accordion2");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Accordion2', 'transform-zoom-in-left', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Accordion2', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Accordion2').inViewPort(true)) {
+            $('#wb_Accordion2').addClass("in-viewport");
+         }
+         onScrollAccordion2();
+         $(window).scroll(function (event) {
+            onScrollAccordion2();
+         });
+         function onScrollAccordion3() {
+            var $obj = $("#wb_Accordion3");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Accordion3', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Accordion3', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Accordion3').inViewPort(true)) {
+            $('#wb_Accordion3').addClass("in-viewport");
+         }
+         onScrollAccordion3();
+         $(window).scroll(function (event) {
+            onScrollAccordion3();
+         });
+         function onScrollLayoutGrid6() {
+            var $obj = $("#wb_LayoutGrid6");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_LayoutGrid6', 'slide-right-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_LayoutGrid6', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_LayoutGrid6').inViewPort(true)) {
+            $('#wb_LayoutGrid6').addClass("in-viewport");
+         }
+         onScrollLayoutGrid6();
+         $(window).scroll(function (event) {
+            onScrollLayoutGrid6();
+         });
+         function onScrollThemeableButton1() {
+            var $obj = $("#wb_ThemeableButton1");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_ThemeableButton1', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_ThemeableButton1', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_ThemeableButton1').inViewPort(true)) {
+            $('#wb_ThemeableButton1').addClass("in-viewport");
+         }
+         onScrollThemeableButton1();
+         $(window).scroll(function (event) {
+            onScrollThemeableButton1();
+         });
+         function onScrollThemeableButton2() {
+            var $obj = $("#wb_ThemeableButton2");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_ThemeableButton2', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_ThemeableButton2', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_ThemeableButton2').inViewPort(true)) {
+            $('#wb_ThemeableButton2').addClass("in-viewport");
+         }
+         onScrollThemeableButton2();
+         $(window).scroll(function (event) {
+            onScrollThemeableButton2();
+         });
+         function onScrollThemeableButton3() {
+            var $obj = $("#wb_ThemeableButton3");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_ThemeableButton3', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_ThemeableButton3', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_ThemeableButton3').inViewPort(true)) {
+            $('#wb_ThemeableButton3').addClass("in-viewport");
+         }
+         onScrollThemeableButton3();
+         $(window).scroll(function (event) {
+            onScrollThemeableButton3();
+         });
+         function onScrollImage6() {
+            var $obj = $("#wb_Image6");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Image6', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Image6', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Image6').inViewPort(true)) {
+            $('#wb_Image6').addClass("in-viewport");
+         }
+         onScrollImage6();
+         $(window).scroll(function (event) {
+            onScrollImage6();
+         });
+         function onScrollHeading7() {
+            var $obj = $("#wb_Heading7");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading7', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading7', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading7').inViewPort(true)) {
+            $('#wb_Heading7').addClass("in-viewport");
+         }
+         onScrollHeading7();
+         $(window).scroll(function (event) {
+            onScrollHeading7();
+         });
+         function onScrollEditbox6() {
+            var $obj = $("#Editbox6");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('Editbox6', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('Editbox6', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#Editbox6').inViewPort(true)) {
+            $('#Editbox6').addClass("in-viewport");
+         }
+         onScrollEditbox6();
+         $(window).scroll(function (event) {
+            onScrollEditbox6();
+         });
+         function onScrollEditbox7() {
+            var $obj = $("#Editbox7");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('Editbox7', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('Editbox7', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#Editbox7').inViewPort(true)) {
+            $('#Editbox7').addClass("in-viewport");
+         }
+         onScrollEditbox7();
+         $(window).scroll(function (event) {
+            onScrollEditbox7();
+         });
+         function onScrollEditbox8() {
+            var $obj = $("#Editbox8");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('Editbox8', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('Editbox8', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#Editbox8').inViewPort(true)) {
+            $('#Editbox8').addClass("in-viewport");
+         }
+         onScrollEditbox8();
+         $(window).scroll(function (event) {
+            onScrollEditbox8();
+         });
+         function onScrollTextArea2() {
+            var $obj = $("#TextArea2");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('TextArea2', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('TextArea2', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#TextArea2').inViewPort(true)) {
+            $('#TextArea2').addClass("in-viewport");
+         }
+         onScrollTextArea2();
+         $(window).scroll(function (event) {
+            onScrollTextArea2();
+         });
+         function onScrollThemeableButton5() {
+            var $obj = $("#ThemeableButton5");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('ThemeableButton5', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('ThemeableButton5', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#ThemeableButton5').inViewPort(true)) {
+            $('#ThemeableButton5').addClass("in-viewport");
+         }
+         onScrollThemeableButton5();
+         $(window).scroll(function (event) {
+            onScrollThemeableButton5();
+         });
+         function onScrollHeading10() {
+            var $obj = $("#wb_Heading10");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading10', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading10', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading10').inViewPort(true)) {
+            $('#wb_Heading10').addClass("in-viewport");
+         }
+         onScrollHeading10();
+         $(window).scroll(function (event) {
+            onScrollHeading10();
+         });
+         function onScrollEditbox1() {
+            var $obj = $("#Editbox1");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('Editbox1', 'transform-tada', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('Editbox1', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#Editbox1').inViewPort(true)) {
+            $('#Editbox1').addClass("in-viewport");
+         }
+         onScrollEditbox1();
+         $(window).scroll(function (event) {
+            onScrollEditbox1();
+         });
+         function onScrollText26() {
+            var $obj = $("#wb_Text26");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Text26', 'transform-tada', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Text26', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Text26').inViewPort(true)) {
+            $('#wb_Text26').addClass("in-viewport");
+         }
+         onScrollText26();
+         $(window).scroll(function (event) {
+            onScrollText26();
+         });
+         function onScrollText27() {
+            var $obj = $("#wb_Text27");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Text27', 'transform-tada', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Text27', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Text27').inViewPort(true)) {
+            $('#wb_Text27').addClass("in-viewport");
+         }
+         onScrollText27();
+         $(window).scroll(function (event) {
+            onScrollText27();
+         });
+         function onScrollButton2() {
+            var $obj = $("#Button2");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('Button2', 'transform-tada', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('Button2', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#Button2').inViewPort(true)) {
+            $('#Button2').addClass("in-viewport");
+         }
+         onScrollButton2();
+         $(window).scroll(function (event) {
+            onScrollButton2();
+         });
+         function onScrollHeading8() {
+            var $obj = $("#wb_Heading8");
+            if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false)) {
+               $obj.addClass("in-viewport");
+               AnimateCss('wb_Heading8', 'transform-scale-in', 0, 1250);
+            }
+            else
+               if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true)) {
+                  $obj.removeClass("in-viewport");
+                  AnimateCss('wb_Heading8', 'animate-fade-out', 0, 0);
+               }
+         }
+         if (!$('#wb_Heading8').inViewPort(true)) {
+            $('#wb_Heading8').addClass("in-viewport");
+         }
+         onScrollHeading8();
+         $(window).scroll(function (event) {
+            onScrollHeading8();
+         });
+         $("#Layer1").stickylayer({ orientation: 6, position: [0, 0], delay: 700 });
+      });
+   </script>
+</head>
+
+<body>
+   <div id="wb_Menu">
+      <div id="Menu">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_LayoutGrid19">
+                  <div id="LayoutGrid19">
+                     <div class="row">
+                        <div class="col-1">
+                           <div id="wb_TextMenu1">
+                              <span><a href="#Header">Home</a></span><span><a href="#SIPDBackup">Efinance
+                                    Update</a></span><span><a href="#Regulasi">Regulasi</a></span><span><a
+                                    href="#Fitur">Fitur</a></span><span><a
+                                    href="#Pengajuan">Pengajuan</a></span><span><a
+                                    href="#Pricing">Pricing</a></span><span><a href="#Join">Join</a></span><span><a
+                                    href="#Kontak">Kontak</a></span><span><a href="#Faq">FAQ</a></span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Header">
+      <div id="Header-overlay"></div>
+      <div id="Header">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid6">
+                     <div id="LayoutGrid6">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Heading1">
+                                 <h1 id="Heading1">Menyusun LKPD dengan CEPAT!</h1>
+                              </div>
+                              <div id="wb_Text2">
+                                 <span
+                                    style="color:#4F4F4F;font-family:Arial;font-size:19px;line-height:27px;">Satu-satunya
+                                    apps yang intuitif, user-friendly, dan mudah dioperasikan</span>
+                              </div>
+                           </div>
+                           <div class="col-2">
+                              <div class="col-2-padding">
+                                 <div id="wb_LayoutGrid7">
+                                    <div id="LayoutGrid7">
+                                       <div class="row">
+                                          <div class="col-1">
+                                             <div id="wb_Image1">
+                                                <img src="/migrate/images/Efinance%20Update.webp" id="Image1" alt=""
+                                                   width="404" height="146">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_SIPDBackup">
+      <div id="SIPDBackup">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid31">
+                     <div id="LayoutGrid31">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Heading2">
+                                 <h1 id="Heading2">Tentang Efinance</h1>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid32">
+                     <div id="LayoutGrid32">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Accordion2">
+                                 <div id="Accordion2" class="accordion-group" role="tablist">
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion2-collapse1"
+                                                aria-controls="Accordion2-collapse1" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-database accordion-icon"></i>Apa itu eFinance
+                                                ?</a></h4>
+                                       </div>
+                                       <div id="Accordion2-collapse1" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion2" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text15">
+                                                <p>Efinance merupakan Aplikasi&nbsp; untuk mengolah data anggaran dan
+                                                   keuangan guna menghasilkan laporan akuntansi keuangan dan laporan
+                                                   lainnya yang dibutuhkan. Terdaftar HAKI KEMENKUMHAM RI untuk membantu
+                                                   penyusunan LAPORAN KEUANGAN. Keunggulan Efinance adalah :</p>
+                                                <ul style="list-style-type:decimal;">
+                                                   <li style="margin:0 0 0 24px;">Modul aplikasi lengkap bisa mengolah
+                                                      data mulai dari perencanaan, penatausahaan hingga akuntansi /
+                                                      pelaporan
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;"> Data&nbsp; master dan laporan bisa
+                                                      dikustomisasi sesuai kebutuhan
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;"> Dapat diintegrasikan dengan sistem
+                                                      yang lain (pendapatan, rumah sakit, kependudukan, perbankan).
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;"> Dapat disinkronisasi dengan Sistem
+                                                      Keuangan Pemerintah Daerah
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;"> Dapat disinkronisasi data dengan
+                                                      aplikasi pendukung (SINERGI-DJPK).
+                                                   </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion2-collapse2"
+                                                aria-controls="Accordion2-collapse2" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i
+                                                   class="fa fa-brands fa-stack-overflow accordion-icon"></i>Bagaimana
+                                                Efinance Bekerja?</a></h4>
+                                       </div>
+                                       <div id="Accordion2-collapse2" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion2" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text16">
+                                                <span
+                                                   style="color:#696969;font-family:Arial;font-size:15px;line-height:24px;">Efinance
+                                                   Backup akan menggunakan data transaksi yang telah diinput baik secara
+                                                   manual entry atau proses ekspor-impor untuk proses penyusunan laporan
+                                                   keuangan dengan memanfaatkan teknologi migrasi yang tersedia </span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion2-collapse3"
+                                                aria-controls="Accordion2-collapse3" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-right-from-bracket accordion-icon"></i>Apa output
+                                                Efinance?</a></h4>
+                                       </div>
+                                       <div id="Accordion2-collapse3" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion2" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text17">
+                                                <p>eFINANCE Menghasilkan laporan-laporan antara lain : LRA, Neraca, LO,
+                                                   LPE, SAL, LAK, LKPj dan laporan lainnya sesuai ketentuan yang berlaku
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion2-collapse4"
+                                                aria-controls="Accordion2-collapse4" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-people-roof accordion-icon"></i>Siapa yang
+                                                membutuhkan Efinance</a></h4>
+                                       </div>
+                                       <div id="Accordion2-collapse4" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion2" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text18">
+                                                <span
+                                                   style="color:#696969;font-family:Arial;font-size:15px;line-height:24px;">Pengelola
+                                                   keuangan daerah baik tingkat provinsi maupun kota maupun kabupaten.
+                                                   Baik BPKAD/BPKD maupun OPD yang secara mandiri membutuhkannya.</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion2-collapse5"
+                                                aria-controls="Accordion2-collapse5" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-brands fa-centercode accordion-icon"></i>Anda
+                                                tertarik dan ingin bergabung?</a></h4>
+                                       </div>
+                                       <div id="Accordion2-collapse5" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion2" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_LayoutGrid28">
+                                                <div id="LayoutGrid28">
+                                                   <div class="row">
+                                                      <div class="col-1">
+                                                         <div id="wb_Text19">
+                                                            <p>Bila tertarik untuk mencoba menggunakan dan memanfaatkan
+                                                               teknologi eFINANCE, silahkan klik tombol join dibawah
+                                                               ini. </p>
+                                                            <p>Sebelumnya, silahkan siapkan data berikut ini. </p>
+                                                            <p>Nama, No HP, Instansi / OPD, pemda, jabatan, email resmi
+                                                               kantor untuk proses verifikasi memastikan data Anda
+                                                               valid.</p>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Regulasi">
+      <div id="Regulasi">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid4">
+                     <div id="LayoutGrid4">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Heading6">
+                                 <h1 id="Heading6">Sesuai dengan Regulasi terkini</h1>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid21">
+                     <div id="LayoutGrid21">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Accordion1">
+                                 <div id="Accordion1" class="accordion-group" role="tablist">
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion1-collapse1"
+                                                aria-controls="Accordion1-collapse1" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-book accordion-icon"></i>Undang-Undang</a></h4>
+                                       </div>
+                                       <div id="Accordion1-collapse1" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion1" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text5">
+                                                <ul style="list-style-type:decimal;">
+                                                   <li style="margin:0 0 0 24px;">Undang-undang No.17 Tahun 2003 tentang
+                                                      Keuangan Negara.
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Undang-undang No.1 Tahun 2004 tentang
+                                                      Perbendaharaan Negara.
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Undang Undang No.15 Tahun 2004 tentang
+                                                      Pemeriksaan Pengelolaan dan Tanggung Jawab Keuangan Negara
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Undang Undang No.32 Tahun 2004 tentang
+                                                      Pemerintahan Daerah
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Undang Undang No.33 Tahun 2004 tentang
+                                                      Perimbangan Keuangan Antara Pemerintah Pusat dan Pemerintahan
+                                                      Daerah
+                                                   </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion1-collapse2"
+                                                aria-controls="Accordion1-collapse2" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-balance-scale accordion-icon"></i>Peraturan
+                                                Pemerintah</a></h4>
+                                       </div>
+                                       <div id="Accordion1-collapse2" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion1" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text6">
+                                                <ul style="list-style-type:decimal;">
+                                                   <li style="margin:0 0 0 24px;">Peraturan Pemerintah No. 58 Tahun 2005
+                                                      tentang Pengelolaan Keuangan Daerah tentang Pengelolan Keuangan
+                                                      Daerah
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Peraturan Pemerintah No.8 Tahun 2006
+                                                      tentang Pelaporan Keuangan dan Kinerja Instansi Pemerintah
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Peraturan Pemerintah No.71 Tahun 2010
+                                                      tentang Standar Akuntansi Pemerintahan.
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Peraturan Pemerintah No 95 Tahun 2018
+                                                      tentang Sistem Informasi Pemerintah Berbasis Elektronik
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Peraturan Pemerintah No. 12 Tahun 2019
+                                                      tentang Pengelolaan Keuangan Daerah tentang Pengelolan Keuangan
+                                                      Daerah
+                                                   </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion1-collapse3"
+                                                aria-controls="Accordion1-collapse3" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-building-user accordion-icon"></i>Peraturan
+                                                Menteri Dalam Negeri</a></h4>
+                                       </div>
+                                       <div id="Accordion1-collapse3" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion1" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text7">
+                                                <ul style="list-style-type:decimal;">
+                                                   <li style="margin:0 0 0 24px;">Peraturan Menteri Dalam Negeri No.70
+                                                      Tahun 2019 tentang Sistem Informasi Pemerintah Daerah.
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Peraturan Menteri Dalam Negeri No.90
+                                                      Tahun 2019 tentang Klasifikasi, Kodefikasi dan Nomenklatur
+                                                      Perencanaan Pembangunan dan&nbsp; Keuangan Daerah.
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Peraturan Menteri Dalam Negeri No.77
+                                                      Tahun 2020 tentang Pedoman Teknis Pengelolaan Keuangan Daerah.
+                                                   </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion1-collapse4"
+                                                aria-controls="Accordion1-collapse4" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-money-check accordion-icon"></i>Peraturan Menteri
+                                                Keuangan</a></h4>
+                                       </div>
+                                       <div id="Accordion1-collapse4" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion1" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text8">
+                                                <ul style="list-style-type:decimal;">
+                                                   <li style="margin:0 0 0 24px;">Peraturan Kementerian Keuangan (PMK)
+                                                      Nomor 231/PMK.07/2020 Tahun 2020 tentang Tata Cara Penyampaian
+                                                      Informasi Keuangan Daerah, Laporan Data Bulanan, dan Laporan
+                                                      Pemerintah Daerah Lainnya.
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Peraturan Menteri dalam Negeri Nomor
+                                                      15 Tahun 2023 Tentang Pedoman Penyusunan Anggaran Pendapatan dan
+                                                      Belanja Daerah Tahun Anggaran 2024
+                                                   </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Fitur">
+      <div id="Fitur">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid10">
+                     <div id="LayoutGrid10">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Heading3">
+                                 <h1 id="Heading3">Penuh dengan fitur</h1>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid1">
+                     <div id="LayoutGrid1">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text10">
+                                 <span style="color:#4F4F4F;font-family:Arial;font-size:19px;line-height:27px;">Keamanan
+                                    Data, Teknologi canggih, mendukung APIs, Report Generator</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid11">
+                     <div id="LayoutGrid11">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Image2">
+                                 <img src="/migrate/images/LP-1.webp" id="Image2" alt="" width="940" height="564">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid33">
+                     <div id="LayoutGrid33">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_LayoutGrid2">
+                                 <div id="LayoutGrid2">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div id="wb_ThemeableButton1">
+                                             <a class="ui-button ui-corner-all" id="ThemeableButton1"
+                                                href="https://drive.google.com/drive/folders/1UsYafcx-hAnDqylyuboQs2qBxtjGVKpt?usp=sharing"
+                                                target="_blank"><span
+                                                   class="ui-button-icon ui-icon ui-primary"></span><span
+                                                   class="ui-button-icon-space"> </span>Download Flyer</a>
+                                          </div>
+                                       </div>
+                                       <div class="col-2">
+                                          <div id="wb_ThemeableButton2">
+                                             <a class="ui-button ui-corner-all" id="ThemeableButton2"
+                                                href="https://drive.google.com/drive/folders/13myD9Rk1j2Ab6fIF1v9slhrklI4znK0p?usp=sharing"
+                                                target="_blank"><span
+                                                   class="ui-button-icon ui-icon ui-primary"></span><span
+                                                   class="ui-button-icon-space"> </span>Download Manual Sistem</a>
+                                          </div>
+                                       </div>
+                                       <div class="col-3">
+                                          <div id="wb_ThemeableButton3">
+                                             <a class="ui-button ui-corner-all" id="ThemeableButton3"
+                                                href="https://www.youtube.com/@efincommunity/videos"
+                                                target="_blank"><span
+                                                   class="ui-button-icon ui-icon ui-primary"></span><span
+                                                   class="ui-button-icon-space"> </span>Short Movies</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Pengajuan">
+      <div id="Pengajuan">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid3">
+                     <div id="LayoutGrid3">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Heading9">
+                                 <h1 id="Heading9">Anda tertarik untuk mencoba?<br>berikut ini tata cara
+                                    pengajuannya<br>berikut apa saja yang Anda dapatkan</h1>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid24">
+                     <div id="LayoutGrid24">
+                        <div class="row">
+                           <div class="col-1">
+                              <div class="col-1-padding">
+                                 <div id="wb_Accordion3">
+                                    <div id="Accordion3" class="accordion-group" role="tablist">
+                                       <div class="accordion-item">
+                                          <div class="accordion-header" role="tab">
+                                             <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                   data-bs-toggle="collapse" href="#Accordion3-collapse1"
+                                                   aria-controls="Accordion3-collapse1" aria-expanded="false"><span
+                                                      class="accordion-arrow"><svg class="icon-default"
+                                                         viewBox="0 0 56 56" version="1.1"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                         <path
+                                                            d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                         </path>
+                                                      </svg>
+                                                      <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                         <path
+                                                            d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                         </path>
+                                                      </svg>
+                                                   </span><i class="fa fa-brands fa-wpforms accordion-icon"></i>Mengisi
+                                                   Form Pendaftaran</a></h4>
+                                          </div>
+                                          <div id="Accordion3-collapse1" class="accordion-collapse collapse"
+                                             data-bs-parent="#Accordion3" role="tabpanel">
+                                             <div class="accordion-body">
+                                                <div id="wb_Text22">
+                                                   <ul style="list-style-type:decimal;">
+                                                      <li style="margin:0 0 0 24px;"> Siapkan email dan no handphone
+                                                         yang digunakan. Pastikan keduanya aktif untuk afirmasi.
+                                                      </li>
+                                                      <li style="margin:0 0 0 24px;">&nbsp;<a href="#Join">Isi form
+                                                         </a>dan pastikan data Anda benar - lengkap. Kami akan batalkan
+                                                         akses bila ditemukan data tidak sesuai.
+                                                      </li>
+                                                      <li style="margin:0 0 0 24px;"> Ikuti informasi dalam email untuk
+                                                         tahap lebih lanjut
+                                                      </li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="accordion-item">
+                                          <div class="accordion-header" role="tab">
+                                             <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                   data-bs-toggle="collapse" href="#Accordion3-collapse2"
+                                                   aria-controls="Accordion3-collapse2" aria-expanded="false"><span
+                                                      class="accordion-arrow"><svg class="icon-default"
+                                                         viewBox="0 0 56 56" version="1.1"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                         <path
+                                                            d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                         </path>
+                                                      </svg>
+                                                      <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                         <path
+                                                            d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                         </path>
+                                                      </svg>
+                                                   </span><i class="fa fa-handshake-simple accordion-icon"></i>Apa yang
+                                                   Anda Dapatkan?</a></h4>
+                                          </div>
+                                          <div id="Accordion3-collapse2" class="accordion-collapse collapse"
+                                             data-bs-parent="#Accordion3" role="tabpanel">
+                                             <div class="accordion-body">
+                                                <div id="wb_Text23">
+                                                   <p style="margin:0 0 0 12px;">Bila permintaan Anda disetujui maka
+                                                      berikut ini yang diterima :</p>
+                                                   <ul style="list-style-type:decimal;">
+                                                      <li style="margin:0 0 0 24px;"> Link Aplikasi
+                                                      </li>
+                                                      <li style="margin:0 0 0 24px;"> User dan&nbsp; Password Login
+                                                      </li>
+                                                      <li style="margin:0 0 0 24px;"> Panduan Penggunaan Aplikasi
+                                                      </li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="accordion-item">
+                                          <div class="accordion-header" role="tab">
+                                             <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                   data-bs-toggle="collapse" href="#Accordion3-collapse3"
+                                                   aria-controls="Accordion3-collapse3" aria-expanded="false"><span
+                                                      class="accordion-arrow"><svg class="icon-default"
+                                                         viewBox="0 0 56 56" version="1.1"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                         <path
+                                                            d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                         </path>
+                                                      </svg>
+                                                      <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                         <path
+                                                            d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                         </path>
+                                                      </svg>
+                                                   </span><i
+                                                      class="fa fa-brands fa-hire-a-helper accordion-icon"></i>Memerlukan
+                                                   Fitur dan Support Tambahan?</a></h4>
+                                          </div>
+                                          <div id="Accordion3-collapse3" class="accordion-collapse collapse"
+                                             data-bs-parent="#Accordion3" role="tabpanel">
+                                             <div class="accordion-body">
+                                                <div id="wb_Text24">
+                                                   <p>Beragam kebutuhan pengguna menuntut kami untuk siap menyediakan
+                                                      fitur tambahan (custom) maupun asistensi sesuai kebutuhan .</p>
+                                                   <p>Silahkan hubungi tim kami untuk pelayanan khusus yang Anda
+                                                      perlukan. </p>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="accordion-item">
+                                          <div class="accordion-header" role="tab">
+                                             <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                   data-bs-toggle="collapse" href="#Accordion3-collapse4"
+                                                   aria-controls="Accordion3-collapse4" aria-expanded="false"><span
+                                                      class="accordion-arrow"><svg class="icon-default"
+                                                         viewBox="0 0 56 56" version="1.1"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                         <path
+                                                            d="M38 31 C39 30, 39 29, 39 28 L39 28 C39 27, 39 26, 38 25 L24 11 C23 10, 22 10, 21 11 C19 11, 18 12, 18 14 L18 42 C18 44, 19 45, 21 45 C22 46, 23 46, 24 45 L38 31Z ">
+                                                         </path>
+                                                      </svg>
+                                                      <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                         <path
+                                                            d="M25 38 C26 39, 27 39, 28 39 L28 39 C29 39, 30 39, 30 38 L44 24 C45 23, 46 22, 45 20 C44 19, 43 18, 42 18 L14 18 C12 18, 11 19, 11 20 C10 22, 10 23, 11 24 L25 38Z ">
+                                                         </path>
+                                                      </svg>
+                                                   </span><i class="fa fa-briefcase accordion-icon"></i>Kesepakatan
+                                                   Manfaat Bersama</a></h4>
+                                          </div>
+                                          <div id="Accordion3-collapse4" class="accordion-collapse collapse"
+                                             data-bs-parent="#Accordion3" role="tabpanel">
+                                             <div class="accordion-body">
+                                                <div id="wb_Text25">
+                                                   <span
+                                                      style="color:#4F4F4F;font-family:Arial;font-size:13px;line-height:27px;">Mohon
+                                                      support&nbsp; kami untuk tetap konsisten menyediakan piranti ini
+                                                      secara GRATIS untuk Anda. Dengan tidak menyalahgunakan hak akses
+                                                      dan sourcode yang telah kami dedikasikan untuk membantu tugas
+                                                      Anda. Semoga bermanfaat untuk kita semua</span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Pricing">
+      <div id="Pricing-overlay"></div>
+      <div id="Pricing">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_LayoutGrid14">
+                  <div id="LayoutGrid14">
+                     <div class="row">
+                        <div class="col-1">
+                           <div class="col-1-padding">
+                              <div id="wb_Heading4">
+                                 <h1 id="Heading4">100 % Gratis</h1>
+                              </div>
+                              <div id="wb_Text11">
+                                 <span
+                                    style="color:#4F4F4F;font-family:Arial;font-size:19px;line-height:27px;">Dipersembahkan
+                                    demi terciptanya akuntabilitas, transparansi dan peningkatan pelayanan masyarakat di
+                                    seluruh pelosok INDONESIA<br></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="wb_LayoutGrid34">
+                  <div id="LayoutGrid34">
+                     <div class="row">
+                        <div class="col-1">
+                           <div id="wb_Image3">
+                              <img src="/migrate/images/No%20Hidden%20Fee2.webp" id="Image3" alt="" width="305"
+                                 height="183">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Join">
+      <div id="Join">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid51">
+                     <div id="LayoutGrid51">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Heading8">
+                                 <h1 id="Heading8">Pendaftaran eFin Community</h1>
+                              </div>
+                              <div id="wb_LayoutGrid52">
+                                 <div id="LayoutGrid52">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_LayoutGrid53">
+                                                <div id="LayoutGrid53">
+                                                   <div class="row">
+                                                      <div class="col-1">
+                                                         <div id="wb_LayoutGrid46">
+                                                            <div id="LayoutGrid46">
+                                                               <div class="row">
+                                                                  <div class="col-1">
+                                                                     <div class="col-1-padding">
+                                                                        <div id="wb_Text27">
+                                                                           <span
+                                                                              style="color:#F5F5F5;font-family:Arial;font-size:12px;">Masukkan
+                                                                              alamat email</span>
+                                                                        </div>
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                         <div id="wb_LayoutGrid54">
+                                                            <div id="LayoutGrid54">
+                                                               <div class="row">
+                                                                  <div class="col-1">
+                                                                     <input type="text" id="Editbox1" name="Editbox1"
+                                                                        class="emailform" value="" spellcheck="false"
+                                                                        placeholder="nama@instansi.go.id">
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                         <div id="wb_LayoutGrid41">
+                                                            <div id="LayoutGrid41">
+                                                               <div class="row">
+                                                                  <div class="col-1">
+                                                                     <div class="col-1-padding">
+                                                                        <div id="wb_Text26">
+                                                                           <span
+                                                                              style="color:#F5F5F5;font-family:Arial;font-size:12px;">Mohon
+                                                                              gunakan email instansi Anda</span>
+                                                                        </div>
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                      <div class="col-2">
+                                                         <div class="col-2-padding">
+                                                            <input type="submit" class="emailbtn showpointer"
+                                                               id="Button2" name="" value="Kirim">
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Kontak">
+      <div id="Kontak">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid29">
+                     <div id="LayoutGrid29">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Heading10">
+                                 <h1 id="Heading10">Bila Anda ada pertanyaan <br>silahkan gunakan form dibawah ini</h1>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid42">
+                     <div id="LayoutGrid42">
+                        <div class="row">
+                           <div class="col-1">
+                              <div class="col-1-padding">
+                                 <input type="text" id="Editbox6" name="Editbox1" value="" spellcheck="false"
+                                    class="kontakform" placeholder="Nama">
+                              </div>
+                           </div>
+                           <div class="col-2">
+                              <div class="col-2-padding">
+                                 <input type="text" id="Editbox7" name="Editbox1" value="" spellcheck="false"
+                                    class="kontakform" placeholder="Email">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid43">
+                     <div id="LayoutGrid43">
+                        <div class="row">
+                           <div class="col-1">
+                              <div class="col-1-padding">
+                                 <input type="text" id="Editbox8" name="Editbox1" value="" spellcheck="false"
+                                    class="kontakform" placeholder="Subyek">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid44">
+                     <div id="LayoutGrid44">
+                        <div class="row">
+                           <div class="col-1">
+                              <div class="col-1-padding">
+                                 <textarea name="TextArea1" id="TextArea2" rows="8" cols="64" spellcheck="false"
+                                    class="kontakform" placeholder="Pesan"></textarea>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="wb_LayoutGrid45">
+                     <div id="LayoutGrid45">
+                        <div class="row">
+                           <div class="col-1">
+                              <div class="col-1-padding">
+                                 <button type="submit" id="ThemeableButton5" name="" value="Kirim"
+                                    class="ui-button ui-corner-all">Kirim</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid13">
+      <div id="LayoutGrid13">
+         <div class="row">
+            <div class="col-1">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid38">
+      <div id="LayoutGrid38">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_Image8">
+                     <img src="/migrate/images/efinlogo3.webp" id="Image8" alt="" width="293" height="243">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid15">
+      <div id="LayoutGrid15">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid5">
+                     <div id="LayoutGrid5">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Image6">
+                                 <img src="/migrate/images/Faq2.webp" id="Image6" alt="" width="131" height="131">
+                              </div>
+                           </div>
+                           <div class="col-2">
+                              <div class="col-2-padding">
+                                 <div id="wb_LayoutGrid9">
+                                    <div id="LayoutGrid9">
+                                       <div class="row">
+                                          <div class="col-1">
+                                             <div id="wb_Heading7">
+                                                <h1 id="Heading7">Frequently Asked Questions</h1>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid8">
+      <div id="LayoutGrid8">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid16">
+                     <div id="LayoutGrid16">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Accordion4">
+                                 <div id="Accordion4" class="accordion-group" role="tablist">
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion4-collapse1"
+                                                aria-controls="Accordion4-collapse1" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M28 0 C23 0, 19 1, 14 4 L14 4 C10 6, 7 10, 4 14 C2 18, 0 23, 0 28 C0 33, 2 38, 4 42 C7 46, 10 50, 14 52 C19 55, 23 56, 28 56 C33 56, 38 55, 42 52 C47 50, 50 46, 53 42 C55 38, 56 33, 56 28 C56 23, 55 18, 53 14 C50 10, 47 6, 42 4 C38 1, 33 0, 28 0 Z M14 31 C13 29, 13 28, 14 27 C15 26, 17 26, 18 27 L26 35 L26 15 C26 13, 27 12, 28 12 C30 12, 31 13, 31 15 L31 35 L39 27 C40 26, 41 26, 42 27 C43 28, 43 29, 42 31 L30 43 C29 44, 28 44, 26 43 L14 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M28 56 C33 56, 38 55, 42 52 L42 52 C47 50, 50 46, 53 42 C55 38, 56 33, 56 28 C56 23, 55 18, 53 14 C50 10, 47 6, 42 4 C38 1, 33 0, 28 0 C23 0, 19 1, 14 4 C10 6, 7 10, 4 14 C2 18, 0 23, 0 28 C0 33, 2 38, 4 42 C7 46, 10 50, 14 52 C19 55, 23 56, 28 56 Z M42 25 C43 27, 43 28, 42 29 C41 30, 40 30, 39 29 L31 21 L31 41 C31 43, 30 44, 28 44 C27 44, 26 43, 26 41 L26 21 L18 29 C17 30, 15 30, 14 29 C13 28, 13 27, 14 25 L26 13 C28 12, 29 12, 30 13 L42 25Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-1 accordion-icon"></i>Apakah boleh menggunakan
+                                                email pribadi (dengan akhiran .com) ?</a></h4>
+                                       </div>
+                                       <div id="Accordion4-collapse1" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion4" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text21">
+                                                <p
+                                                   style="margin:0 0 10.67px 0;font-family:Arial;font-size:13px;line-height:16.8px;">
+                                                   <span style="font-family:Calibri;font-size:15px;">Email harus
+                                                      menggunakan email resmi kantor/instansi (berakhiran go.id). Bila
+                                                      tidak maka akan secara otomatis ditolak oleh sistem. Hal itu
+                                                      merupakan salah satu upaya kami menjaga aplikasi agar tidak
+                                                      disalahgunakan oleh pihak yang tidak kompeten. Mohon maaf atas
+                                                      ketidaknyamanannya.</span>
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion4-collapse2"
+                                                aria-controls="Accordion4-collapse2" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M28 0 C23 0, 19 1, 14 4 L14 4 C10 6, 7 10, 4 14 C2 18, 0 23, 0 28 C0 33, 2 38, 4 42 C7 46, 10 50, 14 52 C19 55, 23 56, 28 56 C33 56, 38 55, 42 52 C47 50, 50 46, 53 42 C55 38, 56 33, 56 28 C56 23, 55 18, 53 14 C50 10, 47 6, 42 4 C38 1, 33 0, 28 0 Z M14 31 C13 29, 13 28, 14 27 C15 26, 17 26, 18 27 L26 35 L26 15 C26 13, 27 12, 28 12 C30 12, 31 13, 31 15 L31 35 L39 27 C40 26, 41 26, 42 27 C43 28, 43 29, 42 31 L30 43 C29 44, 28 44, 26 43 L14 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M28 56 C33 56, 38 55, 42 52 L42 52 C47 50, 50 46, 53 42 C55 38, 56 33, 56 28 C56 23, 55 18, 53 14 C50 10, 47 6, 42 4 C38 1, 33 0, 28 0 C23 0, 19 1, 14 4 C10 6, 7 10, 4 14 C2 18, 0 23, 0 28 C0 33, 2 38, 4 42 C7 46, 10 50, 14 52 C19 55, 23 56, 28 56 Z M42 25 C43 27, 43 28, 42 29 C41 30, 40 30, 39 29 L31 21 L31 41 C31 43, 30 44, 28 44 C27 44, 26 43, 26 41 L26 21 L18 29 C17 30, 15 30, 14 29 C13 28, 13 27, 14 25 L26 13 C28 12, 29 12, 30 13 L42 25Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-2 accordion-icon"></i>Kapan akun saya aktif
+                                                setelah mendaftarkan diri ?</a></h4>
+                                       </div>
+                                       <div id="Accordion4-collapse2" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion4" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text12">
+                                                <p style="margin:0 0 10.67px 0;line-height:16.8px;">Akun anda akan
+                                                   siap/aktif paling lambat 2x24 jam. Kami perlu waktu untuk&nbsp;
+                                                   proses verifikasi dan penyiapan link dan lainnya. </p>
+                                                <p style="font-family:Arial;font-size:13px;">&nbsp;</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion4-collapse3"
+                                                aria-controls="Accordion4-collapse3" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M28 0 C23 0, 19 1, 14 4 L14 4 C10 6, 7 10, 4 14 C2 18, 0 23, 0 28 C0 33, 2 38, 4 42 C7 46, 10 50, 14 52 C19 55, 23 56, 28 56 C33 56, 38 55, 42 52 C47 50, 50 46, 53 42 C55 38, 56 33, 56 28 C56 23, 55 18, 53 14 C50 10, 47 6, 42 4 C38 1, 33 0, 28 0 Z M14 31 C13 29, 13 28, 14 27 C15 26, 17 26, 18 27 L26 35 L26 15 C26 13, 27 12, 28 12 C30 12, 31 13, 31 15 L31 35 L39 27 C40 26, 41 26, 42 27 C43 28, 43 29, 42 31 L30 43 C29 44, 28 44, 26 43 L14 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M28 56 C33 56, 38 55, 42 52 L42 52 C47 50, 50 46, 53 42 C55 38, 56 33, 56 28 C56 23, 55 18, 53 14 C50 10, 47 6, 42 4 C38 1, 33 0, 28 0 C23 0, 19 1, 14 4 C10 6, 7 10, 4 14 C2 18, 0 23, 0 28 C0 33, 2 38, 4 42 C7 46, 10 50, 14 52 C19 55, 23 56, 28 56 Z M42 25 C43 27, 43 28, 42 29 C41 30, 40 30, 39 29 L31 21 L31 41 C31 43, 30 44, 28 44 C27 44, 26 43, 26 41 L26 21 L18 29 C17 30, 15 30, 14 29 C13 28, 13 27, 14 25 L26 13 C28 12, 29 12, 30 13 L42 25Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-3 accordion-icon"></i>Setelah mendaftar apa yang
+                                                harus dilakukan?</a></h4>
+                                       </div>
+                                       <div id="Accordion4-collapse3" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion4" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text13">
+                                                <p style="margin:0 0 10.67px 0;line-height:16.8px;">Setelah mendaftar,
+                                                   anda tidak perlu melakukan apapun. Sekali lagi kami pastikan bahwa
+                                                   layanan ini tidak berbayar alias free/gratis, tidak ada biaya kami
+                                                   kenakan. Mohon laporkan ke CS bila ada pihak yang menagihkan biaya
+                                                   dengan alasan apapun. Data anda akan kami verifikasi. Bila shahih
+                                                   maka akan ada email balasan berisikan link aplikasi, user aplikasi
+                                                   dan password yang digunakan. Periksa email anda secara berkala. </p>
+                                                <p style="font-family:Arial;font-size:13px;">&nbsp;</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                       <div class="accordion-header" role="tab">
+                                          <h4 class="accordion-title"><a class="collapsed" role="button"
+                                                data-bs-toggle="collapse" href="#Accordion4-collapse4"
+                                                aria-controls="Accordion4-collapse4" aria-expanded="false"><span
+                                                   class="accordion-arrow"><svg class="icon-default" viewBox="0 0 56 56"
+                                                      version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M28 0 C23 0, 19 1, 14 4 L14 4 C10 6, 7 10, 4 14 C2 18, 0 23, 0 28 C0 33, 2 38, 4 42 C7 46, 10 50, 14 52 C19 55, 23 56, 28 56 C33 56, 38 55, 42 52 C47 50, 50 46, 53 42 C55 38, 56 33, 56 28 C56 23, 55 18, 53 14 C50 10, 47 6, 42 4 C38 1, 33 0, 28 0 Z M14 31 C13 29, 13 28, 14 27 C15 26, 17 26, 18 27 L26 35 L26 15 C26 13, 27 12, 28 12 C30 12, 31 13, 31 15 L31 35 L39 27 C40 26, 41 26, 42 27 C43 28, 43 29, 42 31 L30 43 C29 44, 28 44, 26 43 L14 31Z ">
+                                                      </path>
+                                                   </svg>
+                                                   <svg class="icon-active" viewBox="0 0 56 56" version="1.1"
+                                                      xmlns="http://www.w3.org/2000/svg">
+                                                      <path
+                                                         d="M28 56 C33 56, 38 55, 42 52 L42 52 C47 50, 50 46, 53 42 C55 38, 56 33, 56 28 C56 23, 55 18, 53 14 C50 10, 47 6, 42 4 C38 1, 33 0, 28 0 C23 0, 19 1, 14 4 C10 6, 7 10, 4 14 C2 18, 0 23, 0 28 C0 33, 2 38, 4 42 C7 46, 10 50, 14 52 C19 55, 23 56, 28 56 Z M42 25 C43 27, 43 28, 42 29 C41 30, 40 30, 39 29 L31 21 L31 41 C31 43, 30 44, 28 44 C27 44, 26 43, 26 41 L26 21 L18 29 C17 30, 15 30, 14 29 C13 28, 13 27, 14 25 L26 13 C28 12, 29 12, 30 13 L42 25Z ">
+                                                      </path>
+                                                   </svg>
+                                                </span><i class="fa fa-4 accordion-icon"></i>Bagaimana cara mengenal,
+                                                mengetahui dan menguasai fitur dan cara penggunaan aplikasi
+                                                efinance?</a></h4>
+                                       </div>
+                                       <div id="Accordion4-collapse4" class="accordion-collapse collapse"
+                                          data-bs-parent="#Accordion4" role="tabpanel">
+                                          <div class="accordion-body">
+                                             <div id="wb_Text20">
+                                                <ul style="list-style-type:decimal;">
+                                                   <li style="margin:0 0 0 24px;">Silahkan pelajari manual aplikasi yang
+                                                      kami sertakan dalam email aktifasi
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Silakahkan cermati video tutorial
+                                                      aplikasi yang tersedia
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Aplikasi Gratis ini diperuntukkan
+                                                      untuk komunitas untuk itu diskusi kami arahkan ke forum komunitas.
+                                                   </li>
+                                                   <li style="margin:0 0 0 24px;">Bila perlu diskusi lebih lanjut
+                                                      tersedia versi PRO.
+                                                   </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_LayoutGrid20">
+                     <div id="LayoutGrid20">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Shape3">
+                                 <a href=""><img class="hover" src="/migrate/images/img0003_hover.png" alt=""
+                                       width="160" height="176" style="border-width:0;width:160px;height:176px;"><span
+                                       class="default"><img src="/migrate/images/img0003.png" id="Shape3" alt=""
+                                          width="160" height="176"></span></a>
+                              </div>
+                              <div id="wb_Image9">
+                                 <img src="/migrate/images/scanqrcode.webp" id="Image9" alt="" width="290" height="198">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="Layer1">
+      <div id="Layer1_Container">
+         <div id="wb_CssMenu1">
+            <ul id="CssMenu1" role="menubar" class="nav">
+               <li role="menuitem" class="nav-item firstmain"><a class="nav-link"
+                     href="https://demo.efin.site/#Akses_Modul" target="_blank"><i class="fa fa-display"></i>Demo</a>
+               </li>
+               <li role="menuitem" class="nav-item"><a class="nav-link" href="#Join" target="_self"><i
+                        class="fa fa-user-large"></i>Daftar</a>
+               </li>
+               <li role="menuitem" class="nav-item"><a class="nav-link" href="https://wa.me/6281331557575"
+                     target="_blank"><i class="fa fa-brands fa-whatsapp"></i>Kontak</a>
+               </li>
+            </ul>
+
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid18">
+      <div id="LayoutGrid18">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Image5">
+                  <img src="/migrate/images/efinlogo3.webp" id="Image5" alt="" width="65" height="54">
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_LayoutGrid23">
+                     <div id="LayoutGrid23">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text14">
+                                 <span style="color:#F5F5F5;font-family:Arial;font-size:13px;">©2023 efin.cloud. Hak
+                                    Cipta dilindungi Undang-Undang</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</body>
+
+</html>

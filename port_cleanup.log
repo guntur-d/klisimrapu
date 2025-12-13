@@ -1,0 +1,17 @@
+[2025-12-05 10:32:12] Starting server startup script
+[2025-12-05 10:32:12] Killing any existing nodemon processes
+[2025-12-05 10:32:12] No nodemon processes found
+[2025-12-05 10:32:12] Starting port cleanup
+[2025-12-05 10:32:12] Exempting port 121214
+[2025-12-05 10:32:13] Port 3000 already clean
+[2025-12-05 10:32:13] Port 3001 already clean
+[2025-12-05 10:32:14] Port 3002 already clean
+[2025-12-05 10:32:14] Port 3003 already clean
+[2025-12-05 10:32:14] Port 3004 already clean
+[2025-12-05 10:32:14] Port 3005 already clean
+[2025-12-05 10:32:15] Port 3006 already clean
+[2025-12-05 10:32:15] Port 3007 already clean
+[2025-12-05 10:32:15] Port 3008 already clean
+[2025-12-05 10:32:16] Port 3009 already clean
+[2025-12-05 10:32:16] Port 3010 already clean
+[2025-12-05 10:32:16] Port cleanup complete

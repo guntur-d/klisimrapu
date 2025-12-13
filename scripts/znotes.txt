@@ -1,0 +1,105 @@
+Hello!. You are now a QA tester and fixer for the Simrapu web app. Your mission is to exhaustively test all UI CRUD flows and related behaviors, then document any deviations from the knowledge base. Once you find error or bug even it is minor like page doesn't correctly display the data, just STOP, then do the fixing, confirm fixing with re-test, then continue testing until CRUD flows completed. 
+
+Notes: 
+
+1. You need to test using mcp playwright manually by opening browser and navigate to localhost:3000, login as admin/admin. The benefit of manual testing are able to see instantly on any toast message on error or warning and inspect browser console and knows when server crash, or when page not display correct data. Testing with script will do only for propagate data and when module are free of bugs.
+
+2. On fixing, if it is a frontend issues, always refers to knowledge-base.md under docs folder to follow the uniformities rules. On backends issues, you will need to use MongDB mcp server to check actual tables' data and structures, then adjust the schema.js, or alter table using script if needed if schema.js is more reliable. And always check server.log.
+
+3. It is mandatory to improve UI for better UX
+
+4. You may need to make some changes. On both frontend and backend, we dont need to restart the server or making build process since they are on watch modes. Simply refresh the page and you will see the changes.
+
+
+Let's test this module: 
+
+http://localhost:3000/perangkat-daerah
+
+
+add icon on Kinerja sublink linke the other links
+
+check the view on auth, refer to  @/DEVELOPMENT_GUIDELINES.md
+
+====22 Okt 2025
+
+on @/src/views/Layout.js under Anggaran sublink let's add Paket Kegiatan sublink
+
+the view is: user's need to select sub organisation (@/models/SubPerangkatDaerah.js  ) then select its Anggaran (@/models/Anggaran.js ) 
+
+then we could get one to one with Anggaran: its subkegiatan (@/models/Urusan.js)  and it's Kode Rekening (match kodeRekeningId with @/models/AkunLRA.js )
+
+after user select Anggaran (subkegiatan's name) she will then  select the kode rekenings that will be used as paket kegiatan
+
+
+
+
+📱 Layout (Role-Based)
+├── 🏠 Dashboard (All users)
+└── 👨‍💼 Administrator (Admin only)
+    ├── 📊 PERENCANAAN
+    │   ├── 💰 Anggaran
+    │   └── 📈 Kinerja
+    ├── 👁️ MONITORING  
+    │   ├── 💸 Realisasi
+    │   └── 🏆 Pencapaian
+    ├── 📋 EVALUASI
+    │   ├── 💸 Realisasi
+    │   └── 📈 Kinerja
+    ├── 📄 PELAPORAN
+    │   ├── 💰 Anggaran
+    │   ├── 💸 Realisasi
+    │   ├── 📈 Kinerja
+    │   └── 📊 Konsolidasi
+    ├── ⚙️ PENGATURAN
+    │   ├── 🏢 Perangkat Daerah
+    │   ├── 🌳 Program-Kegiatan
+    │   ├── 💳 Kode Rekening
+    │   ├── 👤 Pejabat
+    │   ├── 🚛 Penyedia Barang/Jasa
+    │   └── 📋 Jenis, Metode dan Paket Pengadaan
+    └── 👥 OPERATOR
+        └── 📦 Paket Kegiatan
+
+let's modify @/src/views/PaketKegiatan.js , its models and endpoints
+
+the view will have several tabs
+
+First tab is Informasi
+
+fetch 
+
+This is how the view work: from user's sub organisation (@/models/SubPerangkatDaerah.js  ) system  can  show its Anggaran (@/models/Anggaran.js ). then user could get one to one with Anggaran: its subkegiatan (@/models/Urusan.js)  and it's Kode Rekening (match kodeRekeningId with @/models/AkunLRA.js )
+
+after user select Anggaran (subkegiatan's name) she will then  select the kode rekenings that will be used as paket kegiatan, with these following inputs:
+
+
+on http://localhost:3000/pengadaan , tab of Informasi
+
+
+
+subkegiatan full code text and circle are overlapping. try z-index of subkegiatan fullcode is behind / lower than all the element and make circle transparent
+
+
+
+great! now create another tab of Kontrak after Paket Kegiatan. That will also create same accordion of subkegiatan and when expanded reveal its kode rekenings and when expanded reveal list of paket kegiatan, and when clicked it will show form of 
+
+Kode SIRUP LKPP
+Penyedia B/J	 (taken from @/src/views/Penyedia.js) 
+Pimpinan Penyedia B/J (automatically when Penyedia selected)	 
+Alamat Penyedia B/J	 (automatically when Penyedia selected)
+Telp. Penyedia B/J	 (automatically when Penyedia selected)
+No. Kontrak	 
+Tgl Kontrak	 
+
+No. SPMK	 
+Tgl SPMK	 
+
+Jangka Waktu	 
+Periode	 (dalam Hari)
+Tgl. Pelaksanaan	 (dari tgl sampai tgl)
+Lokasi	 (default: location on tab Informasi, can be changed)
+HPS	 
+Nilai Kontrak	 2
+Tipe (Konstruksi / Non Konstruksi)
+Metode Pengadaan	 (from @/src/views/JenisPengadaan.js )
+Kualifikasi Pengadaan (Prakualifikasi/Pascakualifikasi)

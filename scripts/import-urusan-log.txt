@@ -1,0 +1,1216 @@
+[2025-11-27T02:27:29.796Z] [INFO] Total lines in CSV: 594
+[2025-11-27T02:27:29.797Z] [INFO] Processing 593 data rows...
+[2025-11-27T02:27:29.798Z] [INFO] Connecting to MongoDB...
+[2025-11-27T02:27:32.252Z] [INFO] Connected to MongoDB successfully
+[2025-11-27T02:27:34.587Z] [INFO] Created Urusan: X - X.XX
+[2025-11-27T02:27:34.588Z] [INFO] Processed row 1: X    
+[2025-11-27T02:27:35.578Z] [INFO] Created Bidang: X.XX - Bidang XX
+[2025-11-27T02:27:35.580Z] [INFO] Processed row 2: X XX   
+[2025-11-27T02:27:36.800Z] [INFO] Created Program: X.XX.1 - PENUNJANG URUSAN PEMERINTAHAN DAERAH KABUPATEN/KOTA
+[2025-11-27T02:27:36.802Z] [INFO] Processed row 3: X XX 1  
+[2025-11-27T02:27:38.287Z] [INFO] Created Kegiatan: X.XX.1.2.01 - Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah
+[2025-11-27T02:27:38.288Z] [INFO] Processed row 4: X XX 1 2.01 
+[2025-11-27T02:27:40.004Z] [INFO] Created SubKegiatan: X.XX.1.2.01.1 - Penyusunan Dokumen Perencanaan Perangkat Daerah
+[2025-11-27T02:27:40.006Z] [INFO] Processed row 5: X XX 1 2.01 1
+[2025-11-27T02:27:41.767Z] [INFO] Created SubKegiatan: X.XX.1.2.01.2 - Koordinasi dan Penyusunan Dokumen RKA-SKPD
+[2025-11-27T02:27:41.768Z] [INFO] Processed row 6: X XX 1 2.01 2
+[2025-11-27T02:27:43.510Z] [INFO] Created SubKegiatan: X.XX.1.2.01.3 - Koordinasi dan Penyusunan Dokumen Perubahan RKA-SKPD
+[2025-11-27T02:27:43.511Z] [INFO] Processed row 7: X XX 1 2.01 3
+[2025-11-27T02:27:45.214Z] [INFO] Created SubKegiatan: X.XX.1.2.01.4 - Koordinasi dan Penyusunan DPA- SKPD
+[2025-11-27T02:27:45.216Z] [INFO] Processed row 8: X XX 1 2.01 4
+[2025-11-27T02:27:46.946Z] [INFO] Created SubKegiatan: X.XX.1.2.01.5 - Koordinasi dan Penyusunan Perubahan DPA- SKPD
+[2025-11-27T02:27:46.947Z] [INFO] Processed row 9: X XX 1 2.01 5
+[2025-11-27T02:27:48.673Z] [INFO] Created SubKegiatan: X.XX.1.2.01.6 - Koordinasi dan Penyusunan Laporan Capaian Kinerja dan Ikhtisar Realisasi Kinerja SKPD
+[2025-11-27T02:27:48.674Z] [INFO] Processed row 10: X XX 1 2.01 6
+[2025-11-27T02:27:50.421Z] [INFO] Created SubKegiatan: X.XX.1.2.01.7 - Evaluasi Kinerja Perangkat Daerah
+[2025-11-27T02:27:50.422Z] [INFO] Processed row 11: X XX 1 2.01 7
+[2025-11-27T02:27:52.274Z] [INFO] Created SubKegiatan: X.XX.1.2.01.8 - Penyelenggaraan Walidata Pendukung Statistik Sektoral Daerah
+[2025-11-27T02:27:52.275Z] [INFO] Processed row 12: X XX 1 2.01 8
+[2025-11-27T02:27:54.016Z] [INFO] Created SubKegiatan: X.XX.1.2.01.9 - Pelaksanaan Pengumpulan Data Statistik Sektoral Daerah
+[2025-11-27T02:27:54.017Z] [INFO] Processed row 13: X XX 1 2.01 9
+[2025-11-27T02:27:55.800Z] [INFO] Created SubKegiatan: X.XX.1.2.01.10 - Pelaksanaan Forum Perangkat Daerah Berdasarkan Bidang Urusan yang Diampu dalam Rangka Penyusunan Dokumen Perencanaan Perangkat Daerah
+[2025-11-27T02:27:55.802Z] [INFO] Processed row 14: X XX 1 2.01 10
+[2025-11-27T02:27:57.527Z] [INFO] Created SubKegiatan: X.XX.1.2.01.11 - Penyusunan Dokumen Perencanaan Urusan Selain Renstra PD dan Renja PD
+[2025-11-27T02:27:57.528Z] [INFO] Processed row 15: X XX 1 2.01 11
+[2025-11-27T02:27:59.250Z] [INFO] Created SubKegiatan: X.XX.1.2.01.12 - Koordinasi Peningkatan Partisipasi Masyarakat dalam Penyelenggaraan Urusan Pemerintahan Daerah yang Diampu
+[2025-11-27T02:27:59.251Z] [INFO] Processed row 16: X XX 1 2.01 12
+[2025-11-27T02:28:00.972Z] [INFO] Created SubKegiatan: X.XX.1.2.01.13 - Sinkronisasi dan Harmonisasi Pusat dan Daerah dalam Rangka Mendukung Target Pembangunan Nasional melalui Koordinasi Teknis Pembangunan
+[2025-11-27T02:28:00.973Z] [INFO] Processed row 17: X XX 1 2.01 13
+[2025-11-27T02:28:02.549Z] [INFO] Created Kegiatan: X.XX.1.2.02 - Administrasi Keuangan Perangkat Daerah
+[2025-11-27T02:28:02.551Z] [INFO] Processed row 18: X XX 1 2.02 
+[2025-11-27T02:28:04.283Z] [INFO] Created SubKegiatan: X.XX.1.2.02.1 - Penyediaan Gaji dan Tunjangan ASN
+[2025-11-27T02:28:04.284Z] [INFO] Processed row 19: X XX 1 2.02 1
+[2025-11-27T02:28:06.008Z] [INFO] Created SubKegiatan: X.XX.1.2.02.2 - Penyediaan Administrasi Pelaksanaan Tugas ASN
+[2025-11-27T02:28:06.010Z] [INFO] Processed row 20: X XX 1 2.02 2
+[2025-11-27T02:28:07.749Z] [INFO] Created SubKegiatan: X.XX.1.2.02.3 - Pelaksanaan Penatausahaan dan Pengujian/Verifikasi Keuangan SKPD
+[2025-11-27T02:28:07.751Z] [INFO] Processed row 21: X XX 1 2.02 3
+[2025-11-27T02:28:09.944Z] [INFO] Created SubKegiatan: X.XX.1.2.02.4 - Koordinasi dan Pelaksanaan Akuntansi SKPD
+[2025-11-27T02:28:09.946Z] [INFO] Processed row 22: X XX 1 2.02 4
+[2025-11-27T02:28:11.713Z] [INFO] Created SubKegiatan: X.XX.1.2.02.5 - Koordinasi dan Penyusunan Laporan Keuangan Akhir Tahun SKPD
+[2025-11-27T02:28:11.715Z] [INFO] Processed row 23: X XX 1 2.02 5
+[2025-11-27T02:28:13.457Z] [INFO] Created SubKegiatan: X.XX.1.2.02.6 - Pengelolaan dan Penyiapan Bahan Tanggapan Pemeriksaan
+[2025-11-27T02:28:13.458Z] [INFO] Processed row 24: X XX 1 2.02 6
+[2025-11-27T02:28:15.247Z] [INFO] Created SubKegiatan: X.XX.1.2.02.7 - Koordinasi dan Penyusunan Laporan Keuangan Bulanan/ Triwulanan/ Semesteran SKPD
+[2025-11-27T02:28:15.248Z] [INFO] Processed row 25: X XX 1 2.02 7
+[2025-11-27T02:28:17.101Z] [INFO] Created SubKegiatan: X.XX.1.2.02.8 - Penyusunan Pelaporan dan Analisis Prognosis Realisasi Anggaran
+[2025-11-27T02:28:17.102Z] [INFO] Processed row 26: X XX 1 2.02 8
+[2025-11-27T02:28:18.585Z] [INFO] Created Kegiatan: X.XX.1.2.03 - Administrasi Barang Milik Daerah pada Perangkat Daerah
+[2025-11-27T02:28:18.587Z] [INFO] Processed row 27: X XX 1 2.03 
+[2025-11-27T02:28:20.296Z] [INFO] Created SubKegiatan: X.XX.1.2.03.1 - Penyusunan Perencanaan Kebutuhan Barang Milik Daerah SKPD
+[2025-11-27T02:28:20.298Z] [INFO] Processed row 28: X XX 1 2.03 1
+[2025-11-27T02:28:22.189Z] [INFO] Created SubKegiatan: X.XX.1.2.03.2 - Pengamanan Barang Milik Daerah SKPD
+[2025-11-27T02:28:22.191Z] [INFO] Processed row 29: X XX 1 2.03 2
+[2025-11-27T02:28:23.907Z] [INFO] Created SubKegiatan: X.XX.1.2.03.3 - Koordinasi dan Penilaian Barang Milik Daerah SKPD
+[2025-11-27T02:28:23.908Z] [INFO] Processed row 30: X XX 1 2.03 3
+[2025-11-27T02:28:25.683Z] [INFO] Created SubKegiatan: X.XX.1.2.03.4 - Pembinaan, Pengawasan, dan Pengendalian Barang Milik Daerah pada SKPD
+[2025-11-27T02:28:25.684Z] [INFO] Processed row 31: X XX 1 2.03 4
+[2025-11-27T02:28:27.404Z] [INFO] Created SubKegiatan: X.XX.1.2.03.5 - Rekonsiliasi dan Penyusunan Laporan Barang Milik Daerah pada SKPD
+[2025-11-27T02:28:27.405Z] [INFO] Processed row 32: X XX 1 2.03 5
+[2025-11-27T02:28:29.286Z] [INFO] Created SubKegiatan: X.XX.1.2.03.6 - Penatausahaan Barang Milik Daerah pada SKPD
+[2025-11-27T02:28:29.288Z] [INFO] Processed row 33: X XX 1 2.03 6
+[2025-11-27T02:28:31.013Z] [INFO] Created SubKegiatan: X.XX.1.2.03.7 - Pemanfaatan Barang Milik Daerah SKPD
+[2025-11-27T02:28:31.015Z] [INFO] Processed row 34: X XX 1 2.03 7
+[2025-11-27T02:28:32.503Z] [INFO] Created Kegiatan: X.XX.1.2.04 - Administrasi Pendapatan Daerah Kewenangan Perangkat Daerah
+[2025-11-27T02:28:32.504Z] [INFO] Processed row 35: X XX 1 2.04 
+[2025-11-27T02:28:34.217Z] [INFO] Created SubKegiatan: X.XX.1.2.04.1 - Perencanaan Pengelolaan Retribusi Daerah
+[2025-11-27T02:28:34.219Z] [INFO] Processed row 36: X XX 1 2.04 1
+[2025-11-27T02:28:35.939Z] [INFO] Created SubKegiatan: X.XX.1.2.04.2 - Analisa dan Pengembangan Retribusi Daerah, serta Penyusunan Kebijakan Retribusi Daerah
+[2025-11-27T02:28:35.940Z] [INFO] Processed row 37: X XX 1 2.04 2
+[2025-11-27T02:28:37.684Z] [INFO] Created SubKegiatan: X.XX.1.2.04.3 - Penyuluhan dan Penyebarluasan Kebijakan Retribusi Daerah
+[2025-11-27T02:28:37.685Z] [INFO] Processed row 38: X XX 1 2.04 3
+[2025-11-27T02:28:39.433Z] [INFO] Created SubKegiatan: X.XX.1.2.04.4 - Pendataan dan Pendaftaran Objek Retribusi Daerah
+[2025-11-27T02:28:39.435Z] [INFO] Processed row 39: X XX 1 2.04 4
+[2025-11-27T02:28:41.363Z] [INFO] Created SubKegiatan: X.XX.1.2.04.5 - Pengolahan Data Retribusi Daerah
+[2025-11-27T02:28:41.364Z] [INFO] Processed row 40: X XX 1 2.04 5
+[2025-11-27T02:28:43.584Z] [INFO] Created SubKegiatan: X.XX.1.2.04.6 - Penetapan Wajib Retribusi Daerah
+[2025-11-27T02:28:43.585Z] [INFO] Processed row 41: X XX 1 2.04 6
+[2025-11-27T02:28:45.321Z] [INFO] Created SubKegiatan: X.XX.1.2.04.7 - Pelaporan Pengelolaan Retribusi Daerah
+[2025-11-27T02:28:45.322Z] [INFO] Processed row 42: X XX 1 2.04 7
+[2025-11-27T02:28:46.793Z] [INFO] Created Kegiatan: X.XX.1.2.05 - Administrasi Kepegawaian Perangkat Daerah
+[2025-11-27T02:28:46.794Z] [INFO] Processed row 43: X XX 1 2.05 
+[2025-11-27T02:28:48.514Z] [INFO] Created SubKegiatan: X.XX.1.2.05.1 - Peningkatan Sarana dan Prasarana Disiplin Pegawai
+[2025-11-27T02:28:48.515Z] [INFO] Processed row 44: X XX 1 2.05 1
+[2025-11-27T02:28:50.254Z] [INFO] Created SubKegiatan: X.XX.1.2.05.2 - Pengadaan Pakaian Dinas beserta Atribut Kelengkapannya
+[2025-11-27T02:28:50.256Z] [INFO] Processed row 45: X XX 1 2.05 2
+[2025-11-27T02:28:51.986Z] [INFO] Created SubKegiatan: X.XX.1.2.05.3 - Pendataan dan Pengolahan Administrasi Kepegawaian
+[2025-11-27T02:28:51.987Z] [INFO] Processed row 46: X XX 1 2.05 3
+[2025-11-27T02:28:53.715Z] [INFO] Created SubKegiatan: X.XX.1.2.05.4 - Koordinasi dan Pelaksanaan Sistem Informasi Kepegawaian
+[2025-11-27T02:28:53.717Z] [INFO] Processed row 47: X XX 1 2.05 4
+[2025-11-27T02:28:55.462Z] [INFO] Created SubKegiatan: X.XX.1.2.05.5 - Monitoring, Evaluasi, dan Penilaian Kinerja Pegawai
+[2025-11-27T02:28:55.463Z] [INFO] Processed row 48: X XX 1 2.05 5
+[2025-11-27T02:28:57.191Z] [INFO] Created SubKegiatan: X.XX.1.2.05.6 - Pemulangan Pegawai yang Pensiun
+[2025-11-27T02:28:57.192Z] [INFO] Processed row 49: X XX 1 2.05 6
+[2025-11-27T02:28:58.945Z] [INFO] Created SubKegiatan: X.XX.1.2.05.7 - Pemulangan Pegawai yang Meninggal dalam Melaksanakan Tugas
+[2025-11-27T02:28:58.947Z] [INFO] Processed row 50: X XX 1 2.05 7
+[2025-11-27T02:28:58.948Z] [INFO] Processed 50/593 rows...
+[2025-11-27T02:29:00.668Z] [INFO] Created SubKegiatan: X.XX.1.2.05.8 - Pemindahan Tugas ASN
+[2025-11-27T02:29:00.670Z] [INFO] Processed row 51: X XX 1 2.05 8
+[2025-11-27T02:29:02.411Z] [INFO] Created SubKegiatan: X.XX.1.2.05.9 - Pendidikan dan Pelatihan Pegawai Berdasarkan Tugas dan Fungsi
+[2025-11-27T02:29:02.412Z] [INFO] Processed row 52: X XX 1 2.05 9
+[2025-11-27T02:29:04.169Z] [INFO] Created SubKegiatan: X.XX.1.2.05.10 - Sosialisasi Peraturan Perundang- Undangan
+[2025-11-27T02:29:04.170Z] [INFO] Processed row 53: X XX 1 2.05 10
+[2025-11-27T02:29:05.885Z] [INFO] Created SubKegiatan: X.XX.1.2.05.11 - Bimbingan Teknis Implementasi Peraturan Perundang-Undangan
+[2025-11-27T02:29:05.887Z] [INFO] Processed row 54: X XX 1 2.05 11
+[2025-11-27T02:29:07.381Z] [INFO] Created Kegiatan: X.XX.1.2.06 - Administrasi Umum Perangkat Daerah
+[2025-11-27T02:29:07.382Z] [INFO] Processed row 55: X XX 1 2.06 
+[2025-11-27T02:29:09.108Z] [INFO] Created SubKegiatan: X.XX.1.2.06.1 - Penyediaan Komponen Instalasi Listrik/Penerangan Bangunan Kantor
+[2025-11-27T02:29:09.109Z] [INFO] Processed row 56: X XX 1 2.06 1
+[2025-11-27T02:29:10.887Z] [INFO] Created SubKegiatan: X.XX.1.2.06.2 - Penyediaan Peralatan dan Perlengkapan Kantor
+[2025-11-27T02:29:10.889Z] [INFO] Processed row 57: X XX 1 2.06 2
+[2025-11-27T02:29:12.686Z] [INFO] Created SubKegiatan: X.XX.1.2.06.3 - Penyediaan Peralatan Rumah Tangga
+[2025-11-27T02:29:12.687Z] [INFO] Processed row 58: X XX 1 2.06 3
+[2025-11-27T02:29:14.481Z] [INFO] Created SubKegiatan: X.XX.1.2.06.4 - Penyediaan Bahan Logistik Kantor
+[2025-11-27T02:29:14.482Z] [INFO] Processed row 59: X XX 1 2.06 4
+[2025-11-27T02:29:16.237Z] [INFO] Created SubKegiatan: X.XX.1.2.06.5 - Penyediaan Barang Cetakan dan Penggandaan
+[2025-11-27T02:29:16.238Z] [INFO] Processed row 60: X XX 1 2.06 5
+[2025-11-27T02:29:17.949Z] [INFO] Created SubKegiatan: X.XX.1.2.06.6 - Penyediaan Bahan Bacaan dan Peraturan Perundang-undangan
+[2025-11-27T02:29:17.952Z] [INFO] Processed row 61: X XX 1 2.06 6
+[2025-11-27T02:29:19.701Z] [INFO] Created SubKegiatan: X.XX.1.2.06.7 - Penyediaan Bahan/Material
+[2025-11-27T02:29:19.704Z] [INFO] Processed row 62: X XX 1 2.06 7
+[2025-11-27T02:29:21.560Z] [INFO] Created SubKegiatan: X.XX.1.2.06.8 - Fasilitasi Kunjungan Tamu
+[2025-11-27T02:29:21.561Z] [INFO] Processed row 63: X XX 1 2.06 8
+[2025-11-27T02:29:23.369Z] [INFO] Created SubKegiatan: X.XX.1.2.06.9 - Penyelenggaraan Rapat Koordinasi dan Konsultasi SKPD
+[2025-11-27T02:29:23.370Z] [INFO] Processed row 64: X XX 1 2.06 9
+[2025-11-27T02:29:25.113Z] [INFO] Created SubKegiatan: X.XX.1.2.06.10 - Penatausahaan Arsip Dinamis pada SKPD
+[2025-11-27T02:29:25.114Z] [INFO] Processed row 65: X XX 1 2.06 10
+[2025-11-27T02:29:26.942Z] [INFO] Created SubKegiatan: X.XX.1.2.06.11 - Dukungan Pelaksanaan Sistem Pemerintahan Berbasis Elektronik pada SKPD
+[2025-11-27T02:29:26.943Z] [INFO] Processed row 66: X XX 1 2.06 11
+[2025-11-27T02:29:28.861Z] [INFO] Created Kegiatan: X.XX.1.2.07 - Pengadaan Barang Milik Daerah Penunjang Urusan Pemerintah Daerah
+[2025-11-27T02:29:28.862Z] [INFO] Processed row 67: X XX 1 2.07 
+[2025-11-27T02:29:30.829Z] [INFO] Created SubKegiatan: X.XX.1.2.07.1 - Pengadaan Kendaraan Perorangan Dinas atau Kendaraan Dinas Jabatan
+[2025-11-27T02:29:30.830Z] [INFO] Processed row 68: X XX 1 2.07 1
+[2025-11-27T02:29:32.569Z] [INFO] Created SubKegiatan: X.XX.1.2.07.2 - Pengadaan Kendaraan Dinas Operasional atau Lapangan
+[2025-11-27T02:29:32.570Z] [INFO] Processed row 69: X XX 1 2.07 2
+[2025-11-27T02:29:34.350Z] [INFO] Created SubKegiatan: X.XX.1.2.07.3 - Pengadaan Alat Besar
+[2025-11-27T02:29:34.352Z] [INFO] Processed row 70: X XX 1 2.07 3
+[2025-11-27T02:29:36.158Z] [INFO] Created SubKegiatan: X.XX.1.2.07.4 - Pengadaan Alat Angkutan Darat Tak Bermotor
+[2025-11-27T02:29:36.159Z] [INFO] Processed row 71: X XX 1 2.07 4
+[2025-11-27T02:29:37.924Z] [INFO] Created SubKegiatan: X.XX.1.2.07.5 - Pengadaan Mebel
+[2025-11-27T02:29:37.926Z] [INFO] Processed row 72: X XX 1 2.07 5
+[2025-11-27T02:29:39.635Z] [INFO] Created SubKegiatan: X.XX.1.2.07.6 - Pengadaan Peralatan dan Mesin Lainnya
+[2025-11-27T02:29:39.637Z] [INFO] Processed row 73: X XX 1 2.07 6
+[2025-11-27T02:29:41.409Z] [INFO] Created SubKegiatan: X.XX.1.2.07.7 - Pengadaan Aset Tetap Lainnya
+[2025-11-27T02:29:41.411Z] [INFO] Processed row 74: X XX 1 2.07 7
+[2025-11-27T02:29:43.262Z] [INFO] Created SubKegiatan: X.XX.1.2.07.8 - Pengadaan Aset Tak Berwujud
+[2025-11-27T02:29:43.264Z] [INFO] Processed row 75: X XX 1 2.07 8
+[2025-11-27T02:29:45.061Z] [INFO] Created SubKegiatan: X.XX.1.2.07.9 - Pengadaan Gedung Kantor atau Bangunan Lainnya
+[2025-11-27T02:29:45.063Z] [INFO] Processed row 76: X XX 1 2.07 9
+[2025-11-27T02:29:47.032Z] [INFO] Created SubKegiatan: X.XX.1.2.07.10 - Pengadaan Sarana dan Prasarana Gedung Kantor atau Bangunan Lainnya
+[2025-11-27T02:29:47.033Z] [INFO] Processed row 77: X XX 1 2.07 10
+[2025-11-27T02:29:48.798Z] [INFO] Created SubKegiatan: X.XX.1.2.07.11 - Pengadaan Sarana dan Prasarana Pendukung Gedung Kantor atau Bangunan Lainnya
+[2025-11-27T02:29:48.799Z] [INFO] Processed row 78: X XX 1 2.07 11
+[2025-11-27T02:29:50.371Z] [INFO] Created Kegiatan: X.XX.1.2.08 - Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah
+[2025-11-27T02:29:50.372Z] [INFO] Processed row 79: X XX 1 2.08 
+[2025-11-27T02:29:52.312Z] [INFO] Created SubKegiatan: X.XX.1.2.08.1 - Penyediaan Jasa Surat Menyurat
+[2025-11-27T02:29:52.313Z] [INFO] Processed row 80: X XX 1 2.08 1
+[2025-11-27T02:29:54.049Z] [INFO] Created SubKegiatan: X.XX.1.2.08.2 - Penyediaan Jasa Komunikasi, Sumber Daya Air dan Listrik
+[2025-11-27T02:29:54.051Z] [INFO] Processed row 81: X XX 1 2.08 2
+[2025-11-27T02:29:55.819Z] [INFO] Created SubKegiatan: X.XX.1.2.08.3 - Penyediaan Jasa Peralatan dan Perlengkapan Kantor
+[2025-11-27T02:29:55.821Z] [INFO] Processed row 82: X XX 1 2.08 3
+[2025-11-27T02:29:57.544Z] [INFO] Created SubKegiatan: X.XX.1.2.08.4 - Penyediaan Jasa Pelayanan Umum Kantor
+[2025-11-27T02:29:57.545Z] [INFO] Processed row 83: X XX 1 2.08 4
+[2025-11-27T02:29:59.103Z] [INFO] Created Kegiatan: X.XX.1.2.09 - Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah
+[2025-11-27T02:29:59.104Z] [INFO] Processed row 84: X XX 1 2.09 
+[2025-11-27T02:30:01.008Z] [INFO] Created SubKegiatan: X.XX.1.2.09.1 - Penyediaan Jasa Pemeliharaan, Biaya Pemeliharaan, dan Pajak Kendaraan Perorangan Dinas atau Kendaraan Dinas Jabatan
+[2025-11-27T02:30:01.009Z] [INFO] Processed row 85: X XX 1 2.09 1
+[2025-11-27T02:30:02.766Z] [INFO] Created SubKegiatan: X.XX.1.2.09.2 - Penyediaan Jasa Pemeliharaan, Biaya Pemeliharaan, Pajak dan Perizinan Kendaraan Dinas Operasional atau Lapangan
+[2025-11-27T02:30:02.767Z] [INFO] Processed row 86: X XX 1 2.09 2
+[2025-11-27T02:30:04.482Z] [INFO] Created SubKegiatan: X.XX.1.2.09.3 - Penyediaan Jasa Pemeliharaan, Biaya Pemeliharaan dan Perizinan Alat Besar
+[2025-11-27T02:30:04.483Z] [INFO] Processed row 87: X XX 1 2.09 3
+[2025-11-27T02:30:06.209Z] [INFO] Created SubKegiatan: X.XX.1.2.09.4 - Penyediaan Jasa Pemeliharaan, Biaya Pemeliharaan dan Perizinan Alat Angkutan Darat Tak Bermotor
+[2025-11-27T02:30:06.210Z] [INFO] Processed row 88: X XX 1 2.09 4
+[2025-11-27T02:30:07.967Z] [INFO] Created SubKegiatan: X.XX.1.2.09.5 - Pemeliharaan Mebel
+[2025-11-27T02:30:07.969Z] [INFO] Processed row 89: X XX 1 2.09 5
+[2025-11-27T02:30:09.679Z] [INFO] Created SubKegiatan: X.XX.1.2.09.6 - Pemeliharaan Peralatan dan Mesin Lainnya
+[2025-11-27T02:30:09.680Z] [INFO] Processed row 90: X XX 1 2.09 6
+[2025-11-27T02:30:11.445Z] [INFO] Created SubKegiatan: X.XX.1.2.09.7 - Pemeliharaan Aset Tetap Lainnya
+[2025-11-27T02:30:11.446Z] [INFO] Processed row 91: X XX 1 2.09 7
+[2025-11-27T02:30:13.183Z] [INFO] Created SubKegiatan: X.XX.1.2.09.8 - Pemeliharaan Aset Tak Berwujud
+[2025-11-27T02:30:13.184Z] [INFO] Processed row 92: X XX 1 2.09 8
+[2025-11-27T02:30:14.923Z] [INFO] Created SubKegiatan: X.XX.1.2.09.9 - Pemeliharaan/Rehabilitasi Gedung Kantor dan Bangunan Lainnya
+[2025-11-27T02:30:14.926Z] [INFO] Processed row 93: X XX 1 2.09 9
+[2025-11-27T02:30:16.691Z] [INFO] Created SubKegiatan: X.XX.1.2.09.10 - Pemeliharaan/Rehabilitasi Sarana dan Prasarana Gedung Kantor atau Bangunan Lainnya
+[2025-11-27T02:30:16.693Z] [INFO] Processed row 94: X XX 1 2.09 10
+[2025-11-27T02:30:18.424Z] [INFO] Created SubKegiatan: X.XX.1.2.09.11 - Pemeliharaan/Rehabilitasi Sarana dan Prasarana Pendukung Gedung Kantor atau Bangunan Lainnya
+[2025-11-27T02:30:18.426Z] [INFO] Processed row 95: X XX 1 2.09 11
+[2025-11-27T02:30:20.201Z] [INFO] Created SubKegiatan: X.XX.1.2.09.12 - Pemeliharaan/Rehabilitasi Tanah
+[2025-11-27T02:30:20.203Z] [INFO] Processed row 96: X XX 1 2.09 12
+[2025-11-27T02:30:21.693Z] [INFO] Created Kegiatan: X.XX.1.2.1 - Peningkatan Pelayanan BLUD
+[2025-11-27T02:30:21.694Z] [INFO] Processed row 97: X XX 1 2.1 
+[2025-11-27T02:30:23.405Z] [INFO] Created SubKegiatan: X.XX.1.2.1.1 - Pelayanan dan Penunjang Pelayanan BLUD
+[2025-11-27T02:30:23.406Z] [INFO] Processed row 98: X XX 1 2.1 1
+[2025-11-27T02:30:24.872Z] [INFO] Created Kegiatan: X.XX.1.2.11 - Administrasi Keuangan dan Operasional Kepala Daerah dan Wakil Kepala Daerah
+[2025-11-27T02:30:24.874Z] [INFO] Processed row 99: X XX 1 2.11 
+[2025-11-27T02:30:26.649Z] [INFO] Created SubKegiatan: X.XX.1.2.11.1 - Penyediaan Gaji dan Tunjangan Kepala Daerah dan Wakil Kepala Daerah
+[2025-11-27T02:30:26.650Z] [INFO] Processed row 100: X XX 1 2.11 1
+[2025-11-27T02:30:26.651Z] [INFO] Processed 100/593 rows...
+[2025-11-27T02:30:28.408Z] [INFO] Created SubKegiatan: X.XX.1.2.11.2 - Penyediaan Pakaian Dinas dan Atribut Kelengkapan Kepala Daerah dan Wakil Kepala Daerah
+[2025-11-27T02:30:28.410Z] [INFO] Processed row 101: X XX 1 2.11 2
+[2025-11-27T02:30:30.191Z] [INFO] Created SubKegiatan: X.XX.1.2.11.3 - Pelaksanaan Medical Check Up Kepala Daerah dan Wakil Kepala Daerah
+[2025-11-27T02:30:30.192Z] [INFO] Processed row 102: X XX 1 2.11 3
+[2025-11-27T02:30:31.947Z] [INFO] Created SubKegiatan: X.XX.1.2.11.4 - Penyediaan Dana Penunjang Operasional Kepala Daerah dan Wakil Kepala Daerah
+[2025-11-27T02:30:31.948Z] [INFO] Processed row 103: X XX 1 2.11 4
+[2025-11-27T02:30:33.666Z] [INFO] Created Kegiatan: X.XX.1.2.12 - Fasilitasi Kerumahtanggaan Sekretariat Daerah
+[2025-11-27T02:30:33.667Z] [INFO] Processed row 104: X XX 1 2.12 
+[2025-11-27T02:30:35.452Z] [INFO] Created SubKegiatan: X.XX.1.2.12.1 - Penyediaan Kebutuhan Rumah Tangga Kepala Daerah
+[2025-11-27T02:30:35.454Z] [INFO] Processed row 105: X XX 1 2.12 1
+[2025-11-27T02:30:37.163Z] [INFO] Created SubKegiatan: X.XX.1.2.12.2 - Penyediaan Kebutuhan Rumah Tangga Wakil Kepala Daerah
+[2025-11-27T02:30:37.165Z] [INFO] Processed row 106: X XX 1 2.12 2
+[2025-11-27T02:30:38.877Z] [INFO] Created SubKegiatan: X.XX.1.2.12.3 - Penyediaan Kebutuhan Rumah Tangga Sekretariat Daerah
+[2025-11-27T02:30:38.879Z] [INFO] Processed row 107: X XX 1 2.12 3
+[2025-11-27T02:30:40.346Z] [INFO] Created Kegiatan: X.XX.1.2.13 - Penataan Organisasi
+[2025-11-27T02:30:40.348Z] [INFO] Processed row 108: X XX 1 2.13 
+[2025-11-27T02:30:42.061Z] [INFO] Created SubKegiatan: X.XX.1.2.13.1 - Pengelolaan Kelembagaan dan Analisis Jabatan
+[2025-11-27T02:30:42.062Z] [INFO] Processed row 109: X XX 1 2.13 1
+[2025-11-27T02:30:43.778Z] [INFO] Created SubKegiatan: X.XX.1.2.13.2 - Fasilitasi Pelayanan Publik dan Tata Laksana
+[2025-11-27T02:30:43.779Z] [INFO] Processed row 110: X XX 1 2.13 2
+[2025-11-27T02:30:45.497Z] [INFO] Created SubKegiatan: X.XX.1.2.13.3 - Peningkatan Kinerja dan Reformasi Birokrasi
+[2025-11-27T02:30:45.498Z] [INFO] Processed row 111: X XX 1 2.13 3
+[2025-11-27T02:30:47.265Z] [INFO] Created SubKegiatan: X.XX.1.2.13.4 - Monitoring, Evaluasi dan Pengendalian Kualitas Pelayanan Publik dan Tata Laksana
+[2025-11-27T02:30:47.266Z] [INFO] Processed row 112: X XX 1 2.13 4
+[2025-11-27T02:30:49.019Z] [INFO] Created SubKegiatan: X.XX.1.2.13.5 - Koordinasi dan Penyusunan Laporan Kinerja Pemerintah Daerah
+[2025-11-27T02:30:49.021Z] [INFO] Processed row 113: X XX 1 2.13 5
+[2025-11-27T02:30:50.575Z] [INFO] Created Kegiatan: X.XX.1.2.14 - Pelaksanaan Protokol dan Komunikasi Pimpinan
+[2025-11-27T02:30:50.577Z] [INFO] Processed row 114: X XX 1 2.14 
+[2025-11-27T02:30:52.467Z] [INFO] Created SubKegiatan: X.XX.1.2.14.1 - Fasilitasi Keprotokolan
+[2025-11-27T02:30:52.469Z] [INFO] Processed row 115: X XX 1 2.14 1
+[2025-11-27T02:30:54.245Z] [INFO] Created SubKegiatan: X.XX.1.2.14.2 - Fasilitasi Komunikasi Pimpinan
+[2025-11-27T02:30:54.246Z] [INFO] Processed row 116: X XX 1 2.14 2
+[2025-11-27T02:30:55.974Z] [INFO] Created SubKegiatan: X.XX.1.2.14.3 - Pendokumentasian Tugas Pimpinan
+[2025-11-27T02:30:55.975Z] [INFO] Processed row 117: X XX 1 2.14 3
+[2025-11-27T02:30:57.549Z] [INFO] Created Kegiatan: X.XX.1.2.15 - Layanan Keuangan dan Kesejahteraan DPRD
+[2025-11-27T02:30:57.550Z] [INFO] Processed row 118: X XX 1 2.15 
+[2025-11-27T02:30:59.268Z] [INFO] Created SubKegiatan: X.XX.1.2.15.1 - Penyelenggaraan Administrasi Keuangan DPRD
+[2025-11-27T02:30:59.270Z] [INFO] Processed row 119: X XX 1 2.15 1
+[2025-11-27T02:31:00.991Z] [INFO] Created SubKegiatan: X.XX.1.2.15.2 - Penyediaan Pakaian Dinas dan Atribut DPRD
+[2025-11-27T02:31:00.993Z] [INFO] Processed row 120: X XX 1 2.15 2
+[2025-11-27T02:31:02.711Z] [INFO] Created SubKegiatan: X.XX.1.2.15.3 - Pelaksanaan Medical Check Up DPRD
+[2025-11-27T02:31:02.713Z] [INFO] Processed row 121: X XX 1 2.15 3
+[2025-11-27T02:31:04.182Z] [INFO] Created Kegiatan: X.XX.1.2.16 - Layanan Administrasi DPRD
+[2025-11-27T02:31:04.183Z] [INFO] Processed row 122: X XX 1 2.16 
+[2025-11-27T02:31:05.902Z] [INFO] Created SubKegiatan: X.XX.1.2.16.1 - Penyelenggaraan Administrasi Keanggotaan DPRD
+[2025-11-27T02:31:05.904Z] [INFO] Processed row 123: X XX 1 2.16 1
+[2025-11-27T02:31:07.628Z] [INFO] Created SubKegiatan: X.XX.1.2.16.2 - Fasilitasi Fraksi DPRD
+[2025-11-27T02:31:07.629Z] [INFO] Processed row 124: X XX 1 2.16 2
+[2025-11-27T02:31:09.343Z] [INFO] Created SubKegiatan: X.XX.1.2.16.3 - Fasilitasi Rapat Koordinasi dan Konsultasi DPRD
+[2025-11-27T02:31:09.345Z] [INFO] Processed row 125: X XX 1 2.16 3
+[2025-11-27T02:31:11.082Z] [INFO] Created SubKegiatan: X.XX.1.2.16.4 - Penyediaan Kebutuhan Rumah Tangga DPRD
+[2025-11-27T02:31:11.085Z] [INFO] Processed row 126: X XX 1 2.16 4
+[2025-11-27T02:31:11.841Z] [INFO] Created Urusan: 1 - BIDANG PEKERJAAN UMUM DAN PENATAAN RUANG
+[2025-11-27T02:31:12.621Z] [INFO] Created Bidang: 1.3 - UMUM DAN PENATAAN RUANG
+[2025-11-27T02:31:12.622Z] [INFO] Processed row 127: 1 3   
+[2025-11-27T02:31:13.875Z] [INFO] Created Program: 1.3.2 - PENGELOLAAN SUMBER DAYA AIR (SDA)
+[2025-11-27T02:31:13.877Z] [INFO] Processed row 128: 1 3 2  
+[2025-11-27T02:31:15.718Z] [INFO] Created Kegiatan: 1.3.2.2.01 - Pengelolaan SDA dan Bangunan Pengaman Pantai pada Wilayah Sungai (WS) dalam 1 (Satu) Daerah Kabupaten/Kota
+[2025-11-27T02:31:15.719Z] [INFO] Processed row 129: 1 3 2 2.01 
+[2025-11-27T02:31:17.570Z] [INFO] Created SubKegiatan: 1.3.2.2.01.13 - Pembangunan Stasiun Pompa Banjir
+[2025-11-27T02:31:17.572Z] [INFO] Processed row 130: 1 3 2 2.01 13
+[2025-11-27T02:31:19.340Z] [INFO] Created SubKegiatan: 1.3.2.2.01.15 - Pembangunan Bangunan Sabo
+[2025-11-27T02:31:19.341Z] [INFO] Processed row 131: 1 3 2 2.01 15
+[2025-11-27T02:31:21.069Z] [INFO] Created SubKegiatan: 1.3.2.2.01.19 - Pembangunan Flood Forecasting And Warning System (FFWS)
+[2025-11-27T02:31:21.070Z] [INFO] Processed row 132: 1 3 2 2.01 19
+[2025-11-27T02:31:22.779Z] [INFO] Created SubKegiatan: 1.3.2.2.01.26 - Rehabilitasi Pintu Air/Bendung Pengendali Banjir
+[2025-11-27T02:31:22.780Z] [INFO] Processed row 133: 1 3 2 2.01 26
+[2025-11-27T02:31:24.541Z] [INFO] Created SubKegiatan: 1.3.2.2.01.28 - Rehabilitasi Stasiun Pompa Banjir
+[2025-11-27T02:31:24.542Z] [INFO] Processed row 134: 1 3 2 2.01 28
+[2025-11-27T02:31:26.391Z] [INFO] Created SubKegiatan: 1.3.2.2.01.30 - Rehabilitasi Bangunan Sabo
+[2025-11-27T02:31:26.393Z] [INFO] Processed row 135: 1 3 2 2.01 30
+[2025-11-27T02:31:28.311Z] [INFO] Created SubKegiatan: 1.3.2.2.01.31 - Rehabilitasi Check Dam
+[2025-11-27T02:31:28.312Z] [INFO] Processed row 136: 1 3 2 2.01 31
+[2025-11-27T02:31:30.059Z] [INFO] Created SubKegiatan: 1.3.2.2.01.51 - Operasi dan Pemeliharaan Embung Air Baku
+[2025-11-27T02:31:30.060Z] [INFO] Processed row 137: 1 3 2 2.01 51
+[2025-11-27T02:31:31.859Z] [INFO] Created SubKegiatan: 1.3.2.2.01.67 - Revitalisasi Penampung Air Alami Lainnya
+[2025-11-27T02:31:31.860Z] [INFO] Processed row 138: 1 3 2 2.01 67
+[2025-11-27T02:31:33.613Z] [INFO] Created SubKegiatan: 1.3.2.2.01.68 - Operasi dan Pemeliharaan Penampung Air Alami Lainnya
+[2025-11-27T02:31:33.614Z] [INFO] Processed row 139: 1 3 2 2.01 68
+[2025-11-27T02:31:35.582Z] [INFO] Created SubKegiatan: 1.3.2.2.01.69 - Revitalisasi Situ
+[2025-11-27T02:31:35.583Z] [INFO] Processed row 140: 1 3 2 2.01 69
+[2025-11-27T02:31:37.293Z] [INFO] Created SubKegiatan: 1.3.2.2.01.70 - Operasi dan Pemeliharaan Situ
+[2025-11-27T02:31:37.295Z] [INFO] Processed row 141: 1 3 2 2.01 70
+[2025-11-27T02:31:39.040Z] [INFO] Created SubKegiatan: 1.3.2.2.01.71 - Operasi dan Pemeliharaan Unit Air Baku
+[2025-11-27T02:31:39.041Z] [INFO] Processed row 142: 1 3 2 2.01 71
+[2025-11-27T02:31:40.858Z] [INFO] Created SubKegiatan: 1.3.2.2.01.72 - Evaluasi dan Rekomendasi Teknis (Rekomtek) Pemanfaatan Sumber Daya Air Wilayah Sungai Kewenangan Kabupaten/Kota
+[2025-11-27T02:31:40.859Z] [INFO] Processed row 143: 1 3 2 2.01 72
+[2025-11-27T02:31:42.580Z] [INFO] Created SubKegiatan: 1.3.2.2.01.73 - Operasi dan Pemeliharaan Sungai
+[2025-11-27T02:31:42.581Z] [INFO] Processed row 144: 1 3 2 2.01 73
+[2025-11-27T02:31:44.520Z] [INFO] Created SubKegiatan: 1.3.2.2.01.74 - Operasi dan Pemeliharaan Breakwater/Seawall dan Bangunan Pengaman Pantai Lainnya
+[2025-11-27T02:31:44.521Z] [INFO] Processed row 145: 1 3 2 2.01 74
+[2025-11-27T02:31:46.308Z] [INFO] Created SubKegiatan: 1.3.2.2.01.75 - Pembinaan dan Pemberdayaan Kelembagaan Pengelolaan SDA Kewenangan Kabupaten/Kota
+[2025-11-27T02:31:46.309Z] [INFO] Processed row 146: 1 3 2 2.01 75
+[2025-11-27T02:31:48.188Z] [INFO] Created SubKegiatan: 1.3.2.2.01.76 - Operasi dan Pemeliharaan Infrastruktur untuk Melindungi Mata Air
+[2025-11-27T02:31:48.190Z] [INFO] Processed row 147: 1 3 2 2.01 76
+[2025-11-27T02:31:50.045Z] [INFO] Created SubKegiatan: 1.3.2.2.01.77 - Pengelolaan Hidrologi dan Kualitas Air WS Kewenangan Kabupaten/Kota
+[2025-11-27T02:31:50.047Z] [INFO] Processed row 148: 1 3 2 2.01 77
+[2025-11-27T02:31:51.777Z] [INFO] Created SubKegiatan: 1.3.2.2.01.78 - Koordinasi dan Sinkronisasi Peningkatan Kapasitas Kelembagaan Pengelolaan SDA Kewenangan Kabupaten/Kota
+[2025-11-27T02:31:51.778Z] [INFO] Processed row 149: 1 3 2 2.01 78
+[2025-11-27T02:31:53.504Z] [INFO] Created SubKegiatan: 1.3.2.2.01.79 - Operasi dan Pemeliharaan Danau
+[2025-11-27T02:31:53.506Z] [INFO] Processed row 150: 1 3 2 2.01 79
+[2025-11-27T02:31:53.507Z] [INFO] Processed 150/593 rows...
+[2025-11-27T02:31:55.283Z] [INFO] Created SubKegiatan: 1.3.2.2.01.80 - Operasi dan Pemeliharaan Tanggul dan Tebing Sungai
+[2025-11-27T02:31:55.284Z] [INFO] Processed row 151: 1 3 2 2.01 80
+[2025-11-27T02:31:57.003Z] [INFO] Created SubKegiatan: 1.3.2.2.01.81 - Operasi dan Pemeliharaan Kanal Banjir
+[2025-11-27T02:31:57.004Z] [INFO] Processed row 152: 1 3 2 2.01 81
+[2025-11-27T02:31:58.764Z] [INFO] Created SubKegiatan: 1.3.2.2.01.82 - Operasi dan Pemeliharaan Polder/Kolam Retensi
+[2025-11-27T02:31:58.765Z] [INFO] Processed row 153: 1 3 2 2.01 82
+[2025-11-27T02:32:00.489Z] [INFO] Created SubKegiatan: 1.3.2.2.01.83 - Operasi dan Pemeliharaan Check Dam
+[2025-11-27T02:32:00.490Z] [INFO] Processed row 154: 1 3 2 2.01 83
+[2025-11-27T02:32:02.208Z] [INFO] Created SubKegiatan: 1.3.2.2.01.84 - Operasi dan Pemeliharaan Bangunan Sabo
+[2025-11-27T02:32:02.209Z] [INFO] Processed row 155: 1 3 2 2.01 84
+[2025-11-27T02:32:04.066Z] [INFO] Created SubKegiatan: 1.3.2.2.01.85 - Operasi dan Pemeliharaan Stasiun Pompa Banjir
+[2025-11-27T02:32:04.067Z] [INFO] Processed row 156: 1 3 2 2.01 85
+[2025-11-27T02:32:05.797Z] [INFO] Created SubKegiatan: 1.3.2.2.01.86 - Revitalisasi Danau
+[2025-11-27T02:32:05.799Z] [INFO] Processed row 157: 1 3 2 2.01 86
+[2025-11-27T02:32:07.518Z] [INFO] Created SubKegiatan: 1.3.2.2.01.87 - Peningkatan Seawall dan Bangunan Pengaman Pantai Lainnya
+[2025-11-27T02:32:07.519Z] [INFO] Processed row 158: 1 3 2 2.01 87
+[2025-11-27T02:32:09.269Z] [INFO] Created SubKegiatan: 1.3.2.2.01.88 - Pembangunan Infrastruktur untuk Melindungi Mata Air
+[2025-11-27T02:32:09.271Z] [INFO] Processed row 159: 1 3 2 2.01 88
+[2025-11-27T02:32:10.999Z] [INFO] Created SubKegiatan: 1.3.2.2.01.89 - Operasi dan Pemeliharaan Embung dan Penampung Air Lainnya
+[2025-11-27T02:32:11.001Z] [INFO] Processed row 160: 1 3 2 2.01 89
+[2025-11-27T02:32:12.738Z] [INFO] Created SubKegiatan: 1.3.2.2.01.90 - Peningkatan Flood Forecasting And Warning System (FFWS)
+[2025-11-27T02:32:12.740Z] [INFO] Processed row 161: 1 3 2 2.01 90
+[2025-11-27T02:32:14.470Z] [INFO] Created SubKegiatan: 1.3.2.2.01.91 - Operasi dan Pemeliharaan Bendungan
+[2025-11-27T02:32:14.472Z] [INFO] Processed row 162: 1 3 2 2.01 91
+[2025-11-27T02:32:16.199Z] [INFO] Created SubKegiatan: 1.3.2.2.01.92 - Peningkatan Breakwater
+[2025-11-27T02:32:16.200Z] [INFO] Processed row 163: 1 3 2 2.01 92
+[2025-11-27T02:32:17.952Z] [INFO] Created SubKegiatan: 1.3.2.2.01.93 - Normalisasi/Restorasi Sungai
+[2025-11-27T02:32:17.954Z] [INFO] Processed row 164: 1 3 2 2.01 93
+[2025-11-27T02:32:19.695Z] [INFO] Created SubKegiatan: 1.3.2.2.01.94 - Peningkatan Check Dam
+[2025-11-27T02:32:19.696Z] [INFO] Processed row 165: 1 3 2 2.01 94
+[2025-11-27T02:32:21.429Z] [INFO] Created SubKegiatan: 1.3.2.2.01.95 - Operasi dan Pemeliharaan Sumur Air Tanah untuk Air Baku
+[2025-11-27T02:32:21.431Z] [INFO] Processed row 166: 1 3 2 2.01 95
+[2025-11-27T02:32:23.209Z] [INFO] Created SubKegiatan: 1.3.2.2.01.96 - Peningkatan Bangunan Sabo
+[2025-11-27T02:32:23.210Z] [INFO] Processed row 167: 1 3 2 2.01 96
+[2025-11-27T02:32:25.194Z] [INFO] Created SubKegiatan: 1.3.2.2.01.97 - Peningkatan Polder/Kolam Retensi
+[2025-11-27T02:32:25.195Z] [INFO] Processed row 168: 1 3 2 2.01 97
+[2025-11-27T02:32:27.022Z] [INFO] Created SubKegiatan: 1.3.2.2.01.98 - Peningkatan Stasiun Pompa Banjir
+[2025-11-27T02:32:27.024Z] [INFO] Processed row 169: 1 3 2 2.01 98
+[2025-11-27T02:32:28.732Z] [INFO] Created SubKegiatan: 1.3.2.2.01.99 - Peningkatan Kanal Banjir
+[2025-11-27T02:32:28.734Z] [INFO] Processed row 170: 1 3 2 2.01 99
+[2025-11-27T02:32:30.453Z] [INFO] Created SubKegiatan: 1.3.2.2.01.100 - Peningkatan Pintu Air/Bendung Pengendali Banjir
+[2025-11-27T02:32:30.455Z] [INFO] Processed row 171: 1 3 2 2.01 100
+[2025-11-27T02:32:32.170Z] [INFO] Created SubKegiatan: 1.3.2.2.01.101 - Peningkatan Bangunan Perkuatan Tebing
+[2025-11-27T02:32:32.171Z] [INFO] Processed row 172: 1 3 2 2.01 101
+[2025-11-27T02:32:34.092Z] [INFO] Created SubKegiatan: 1.3.2.2.01.102 - Pembangunan Breakwater
+[2025-11-27T02:32:34.094Z] [INFO] Processed row 173: 1 3 2 2.01 102
+[2025-11-27T02:32:35.829Z] [INFO] Created SubKegiatan: 1.3.2.2.01.103 - Peningkatan Tanggul Sungai
+[2025-11-27T02:32:35.830Z] [INFO] Processed row 174: 1 3 2 2.01 103
+[2025-11-27T02:32:37.664Z] [INFO] Created SubKegiatan: 1.3.2.2.01.104 - Pembangunan Check Dam
+[2025-11-27T02:32:37.665Z] [INFO] Processed row 175: 1 3 2 2.01 104
+[2025-11-27T02:32:39.403Z] [INFO] Created SubKegiatan: 1.3.2.2.01.105 - Rehabilitasi Seawall dan Bangunan Pengaman Pantai Lainnya
+[2025-11-27T02:32:39.404Z] [INFO] Processed row 176: 1 3 2 2.01 105
+[2025-11-27T02:32:41.139Z] [INFO] Created SubKegiatan: 1.3.2.2.01.106 - Rehabilitasi Breakwater
+[2025-11-27T02:32:41.142Z] [INFO] Processed row 177: 1 3 2 2.01 106
+[2025-11-27T02:32:42.886Z] [INFO] Created SubKegiatan: 1.3.2.2.01.107 - Pembangunan Unit Air Baku
+[2025-11-27T02:32:42.887Z] [INFO] Processed row 178: 1 3 2 2.01 107
+[2025-11-27T02:32:44.602Z] [INFO] Created SubKegiatan: 1.3.2.2.01.108 - Rehabilitasi Unit Air Baku
+[2025-11-27T02:32:44.604Z] [INFO] Processed row 179: 1 3 2 2.01 108
+[2025-11-27T02:32:46.317Z] [INFO] Created SubKegiatan: 1.3.2.2.01.109 - Pembangunan Bangunan Perkuatan Tebing
+[2025-11-27T02:32:46.318Z] [INFO] Processed row 180: 1 3 2 2.01 109
+[2025-11-27T02:32:48.051Z] [INFO] Created SubKegiatan: 1.3.2.2.01.110 - Rehabilitasi Bangunan Perkuatan Tebing
+[2025-11-27T02:32:48.052Z] [INFO] Processed row 181: 1 3 2 2.01 110
+[2025-11-27T02:32:49.790Z] [INFO] Created SubKegiatan: 1.3.2.2.01.111 - Pembangunan Bendungan
+[2025-11-27T02:32:49.791Z] [INFO] Processed row 182: 1 3 2 2.01 111
+[2025-11-27T02:32:51.615Z] [INFO] Created SubKegiatan: 1.3.2.2.01.112 - Rehabilitasi Bendungan
+[2025-11-27T02:32:51.616Z] [INFO] Processed row 183: 1 3 2 2.01 112
+[2025-11-27T02:32:53.334Z] [INFO] Created SubKegiatan: 1.3.2.2.01.113 - Pembangunan Kanal Banjir
+[2025-11-27T02:32:53.335Z] [INFO] Processed row 184: 1 3 2 2.01 113
+[2025-11-27T02:32:55.111Z] [INFO] Created SubKegiatan: 1.3.2.2.01.114 - Rehabilitasi Embung dan Penampungan Air Lainnya
+[2025-11-27T02:32:55.113Z] [INFO] Processed row 185: 1 3 2 2.01 114
+[2025-11-27T02:32:56.849Z] [INFO] Created SubKegiatan: 1.3.2.2.01.115 - Pembangunan Tanggul Sungai
+[2025-11-27T02:32:56.851Z] [INFO] Processed row 186: 1 3 2 2.01 115
+[2025-11-27T02:32:58.575Z] [INFO] Created SubKegiatan: 1.3.2.2.01.116 - Rehabilitasi Sumur Air Tanah untuk Air Baku
+[2025-11-27T02:32:58.576Z] [INFO] Processed row 187: 1 3 2 2.01 116
+[2025-11-27T02:33:00.317Z] [INFO] Created SubKegiatan: 1.3.2.2.01.117 - Pembangunan Seawall dan Bangunan Pengaman Pantai Lainnya
+[2025-11-27T02:33:00.318Z] [INFO] Processed row 188: 1 3 2 2.01 117
+[2025-11-27T02:33:02.044Z] [INFO] Created SubKegiatan: 1.3.2.2.01.118 - Penyusunan Pola dan Rencana Pengelolaan SDA WS Kewenangan Kabupaten/Kota
+[2025-11-27T02:33:02.045Z] [INFO] Processed row 189: 1 3 2 2.01 118
+[2025-11-27T02:33:03.761Z] [INFO] Created SubKegiatan: 1.3.2.2.01.119 - Pembangunan Sumur Air Tanah untuk Air Baku
+[2025-11-27T02:33:03.762Z] [INFO] Processed row 190: 1 3 2 2.01 119
+[2025-11-27T02:33:05.517Z] [INFO] Created SubKegiatan: 1.3.2.2.01.120 - Penyusunan Rencana Teknis dan Dokumen Lingkungan Hidup untuk Konstruksi Pengendali Banjir, Lahar, dan Pengaman Pantai
+[2025-11-27T02:33:05.519Z] [INFO] Processed row 191: 1 3 2 2.01 120
+[2025-11-27T02:33:07.288Z] [INFO] Created SubKegiatan: 1.3.2.2.01.121 - Pembangunan Embung dan Penampung Air Lainnya
+[2025-11-27T02:33:07.290Z] [INFO] Processed row 192: 1 3 2 2.01 121
+[2025-11-27T02:33:09.009Z] [INFO] Created SubKegiatan: 1.3.2.2.01.122 - Rehabilitasi Kanal Banjir
+[2025-11-27T02:33:09.010Z] [INFO] Processed row 193: 1 3 2 2.01 122
+[2025-11-27T02:33:10.843Z] [INFO] Created SubKegiatan: 1.3.2.2.01.123 - Rehabilitasi Polder/Kolam Retensi
+[2025-11-27T02:33:10.844Z] [INFO] Processed row 194: 1 3 2 2.01 123
+[2025-11-27T02:33:12.596Z] [INFO] Created SubKegiatan: 1.3.2.2.01.124 - Pembangunan Polder/Kolam Retensi
+[2025-11-27T02:33:12.598Z] [INFO] Processed row 195: 1 3 2 2.01 124
+[2025-11-27T02:33:14.328Z] [INFO] Created SubKegiatan: 1.3.2.2.01.125 - Pembangunan Pintu Air/Bendung Pengendali Banjir
+[2025-11-27T02:33:14.329Z] [INFO] Processed row 196: 1 3 2 2.01 125
+[2025-11-27T02:33:16.092Z] [INFO] Created SubKegiatan: 1.3.2.2.01.126 - Rehabilitasi Tanggul Sungai
+[2025-11-27T02:33:16.094Z] [INFO] Processed row 197: 1 3 2 2.01 126
+[2025-11-27T02:33:17.818Z] [INFO] Created SubKegiatan: 1.3.2.2.01.127 - Penyusunan Rencana Teknis dan Dokumen Lingkungan Hidup untuk Konstruksi Air Tanah dan Air Baku
+[2025-11-27T02:33:17.819Z] [INFO] Processed row 198: 1 3 2 2.01 127
+[2025-11-27T02:33:19.579Z] [INFO] Created SubKegiatan: 1.3.2.2.01.128 - Penyusunan Rencana Teknis dan Dokumen Lingkungan Hidup untuk Konstruksi Bendungan, Embung, dan Bangunan Penampung Air Lainnya
+[2025-11-27T02:33:19.581Z] [INFO] Processed row 199: 1 3 2 2.01 128
+[2025-11-27T02:33:21.094Z] [INFO] Created Kegiatan: 1.3.2.2.02 - Pengembangan dan Pengelolaan Sistem Irigasi Primer dan Sekunder pada Daerah Irigasi yang Luasnya di Bawah 1000 Ha dalam 1 (Satu) Daerah Kabupaten/Kota
+[2025-11-27T02:33:21.096Z] [INFO] Processed row 200: 1 3 2 2.02 
+[2025-11-27T02:33:21.097Z] [INFO] Processed 200/593 rows...
+[2025-11-27T02:33:22.806Z] [INFO] Created SubKegiatan: 1.3.2.2.02.2 - Pembangunan Jaringan Irigasi Permukaan
+[2025-11-27T02:33:22.807Z] [INFO] Processed row 201: 1 3 2 2.02 2
+[2025-11-27T02:33:24.563Z] [INFO] Created SubKegiatan: 1.3.2.2.02.3 - Pembangunan Bendung Irigasi
+[2025-11-27T02:33:24.564Z] [INFO] Processed row 202: 1 3 2 2.02 3
+[2025-11-27T02:33:26.479Z] [INFO] Created SubKegiatan: 1.3.2.2.02.4 - Pembangunan Jaringan Irigasi Rawa
+[2025-11-27T02:33:26.481Z] [INFO] Processed row 203: 1 3 2 2.02 4
+[2025-11-27T02:33:28.201Z] [INFO] Created SubKegiatan: 1.3.2.2.02.5 - Pembangunan Jaringan Irigasi Tambak
+[2025-11-27T02:33:28.202Z] [INFO] Processed row 204: 1 3 2 2.02 5
+[2025-11-27T02:33:29.935Z] [INFO] Created SubKegiatan: 1.3.2.2.02.6 - Pembangunan Sumur Jaringan Irigasi Air Tanah
+[2025-11-27T02:33:29.937Z] [INFO] Processed row 205: 1 3 2 2.02 6
+[2025-11-27T02:33:31.710Z] [INFO] Created SubKegiatan: 1.3.2.2.02.7 - Pembangunan Jaringan Irigasi Air Tanah
+[2025-11-27T02:33:31.712Z] [INFO] Processed row 206: 1 3 2 2.02 7
+[2025-11-27T02:33:33.423Z] [INFO] Created SubKegiatan: 1.3.2.2.02.8 - Peningkatan Jaringan Irigasi Permukaan
+[2025-11-27T02:33:33.425Z] [INFO] Processed row 207: 1 3 2 2.02 8
+[2025-11-27T02:33:35.198Z] [INFO] Created SubKegiatan: 1.3.2.2.02.9 - Peningkatan Bendung Irigasi
+[2025-11-27T02:33:35.199Z] [INFO] Processed row 208: 1 3 2 2.02 9
+[2025-11-27T02:33:36.952Z] [INFO] Created SubKegiatan: 1.3.2.2.02.10 - Peningkatan Jaringan Irigasi Rawa
+[2025-11-27T02:33:36.953Z] [INFO] Processed row 209: 1 3 2 2.02 10
+[2025-11-27T02:33:38.670Z] [INFO] Created SubKegiatan: 1.3.2.2.02.11 - Peningkatan Jaringan Irigasi Tambak
+[2025-11-27T02:33:38.672Z] [INFO] Processed row 210: 1 3 2 2.02 11
+[2025-11-27T02:33:40.400Z] [INFO] Created SubKegiatan: 1.3.2.2.02.12 - Peningkatan Sumur Jaringan Irigasi Air Tanah
+[2025-11-27T02:33:40.402Z] [INFO] Processed row 211: 1 3 2 2.02 12
+[2025-11-27T02:33:42.135Z] [INFO] Created SubKegiatan: 1.3.2.2.02.13 - Peningkatan Jaringan Irigasi Air Tanah
+[2025-11-27T02:33:42.136Z] [INFO] Processed row 212: 1 3 2 2.02 13
+[2025-11-27T02:33:43.856Z] [INFO] Created SubKegiatan: 1.3.2.2.02.14 - Rehabilitasi Jaringan Irigasi Permukaan
+[2025-11-27T02:33:43.857Z] [INFO] Processed row 213: 1 3 2 2.02 14
+[2025-11-27T02:33:45.588Z] [INFO] Created SubKegiatan: 1.3.2.2.02.15 - Rehabilitasi Bendung Irigasi
+[2025-11-27T02:33:45.590Z] [INFO] Processed row 214: 1 3 2 2.02 15
+[2025-11-27T02:33:47.364Z] [INFO] Created SubKegiatan: 1.3.2.2.02.16 - Rehabilitasi Jaringan Irigasi Rawa
+[2025-11-27T02:33:47.366Z] [INFO] Processed row 215: 1 3 2 2.02 16
+[2025-11-27T02:33:49.159Z] [INFO] Created SubKegiatan: 1.3.2.2.02.17 - Rehabilitasi Jaringan Irigasi Tambak
+[2025-11-27T02:33:49.161Z] [INFO] Processed row 216: 1 3 2 2.02 17
+[2025-11-27T02:33:50.879Z] [INFO] Created SubKegiatan: 1.3.2.2.02.18 - Rehabilitasi Sumur Jaringan Irigasi Air Tanah
+[2025-11-27T02:33:50.881Z] [INFO] Processed row 217: 1 3 2 2.02 18
+[2025-11-27T02:33:52.605Z] [INFO] Created SubKegiatan: 1.3.2.2.02.19 - Rehabilitasi Jaringan Irigasi Air Tanah
+[2025-11-27T02:33:52.607Z] [INFO] Processed row 218: 1 3 2 2.02 19
+[2025-11-27T02:33:54.403Z] [INFO] Created SubKegiatan: 1.3.2.2.02.21 - Operasi dan Pemeliharaan Jaringan Irigasi Permukaan
+[2025-11-27T02:33:54.404Z] [INFO] Processed row 219: 1 3 2 2.02 21
+[2025-11-27T02:33:56.171Z] [INFO] Created SubKegiatan: 1.3.2.2.02.22 - Operasi dan Pemeliharaan Bendung Irigasi
+[2025-11-27T02:33:56.172Z] [INFO] Processed row 220: 1 3 2 2.02 22
+[2025-11-27T02:33:57.922Z] [INFO] Created SubKegiatan: 1.3.2.2.02.23 - Operasi dan Pemeliharaan Jaringan Irigasi Rawa
+[2025-11-27T02:33:57.923Z] [INFO] Processed row 221: 1 3 2 2.02 23
+[2025-11-27T02:33:59.653Z] [INFO] Created SubKegiatan: 1.3.2.2.02.24 - Operasi dan Pemeliharaan Jaringan Irigasi Tambak
+[2025-11-27T02:33:59.654Z] [INFO] Processed row 222: 1 3 2 2.02 24
+[2025-11-27T02:34:01.382Z] [INFO] Created SubKegiatan: 1.3.2.2.02.25 - Operasi dan Pemeliharaan Sumur Jaringan Irigasi Air Tanah
+[2025-11-27T02:34:01.383Z] [INFO] Processed row 223: 1 3 2 2.02 25
+[2025-11-27T02:34:03.135Z] [INFO] Created SubKegiatan: 1.3.2.2.02.26 - Operasi dan Pemeliharaan Jaringan Irigasi Air Tanah
+[2025-11-27T02:34:03.137Z] [INFO] Processed row 224: 1 3 2 2.02 26
+[2025-11-27T02:34:05.065Z] [INFO] Created SubKegiatan: 1.3.2.2.02.30 - Penguatan Kapasitas Kelembagaan Pengelola Irigasi Kewenangan Kabupaten/Kota
+[2025-11-27T02:34:05.067Z] [INFO] Processed row 225: 1 3 2 2.02 30
+[2025-11-27T02:34:06.814Z] [INFO] Created SubKegiatan: 1.3.2.2.02.31 - Koordinasi, Sinkronisasi dan Pelaksanaan Konservasi Kawasan Rawa
+[2025-11-27T02:34:06.816Z] [INFO] Processed row 226: 1 3 2 2.02 31
+[2025-11-27T02:34:08.570Z] [INFO] Created SubKegiatan: 1.3.2.2.02.32 - Pengelolaan dan Pengawasan Alokasi Air Irigasi
+[2025-11-27T02:34:08.571Z] [INFO] Processed row 227: 1 3 2 2.02 32
+[2025-11-27T02:34:10.483Z] [INFO] Created SubKegiatan: 1.3.2.2.02.33 - Koordinasi, Sinkronisasi dan Pelaksanaan Pemeliharaan Kawasan Rawa
+[2025-11-27T02:34:10.484Z] [INFO] Processed row 228: 1 3 2 2.02 33
+[2025-11-27T02:34:12.196Z] [INFO] Created SubKegiatan: 1.3.2.2.02.34 - Operasional Kelembagaan Pengelola Irigasi
+[2025-11-27T02:34:12.198Z] [INFO] Processed row 229: 1 3 2 2.02 34
+[2025-11-27T02:34:13.981Z] [INFO] Created SubKegiatan: 1.3.2.2.02.35 - Penyusunan Rencana Teknis dan Dokumen Lingkungan Hidup untuk Konstruksi Irigasi dan Rawa
+[2025-11-27T02:34:13.983Z] [INFO] Processed row 230: 1 3 2 2.02 35
+[2025-11-27T02:34:15.208Z] [INFO] Created Program: 1.3.3 - PENGELOLAAN DAN PENGEMBANGAN SISTEM PENYEDIAAN AIR MINUM
+[2025-11-27T02:34:15.209Z] [INFO] Processed row 231: 1 3 3  
+[2025-11-27T02:34:16.689Z] [INFO] Created Kegiatan: 1.3.3.2.01 - Pengelolaan dan Pengembangan Sistem Penyediaan Air Minum (SPAM) di Daerah Kabupaten/Kota
+[2025-11-27T02:34:16.690Z] [INFO] Processed row 232: 1 3 3 2.01 
+[2025-11-27T02:34:18.418Z] [INFO] Created SubKegiatan: 1.3.3.2.01.22 - Pembangunan Sistem Penyediaan Air Minum (SPAM) Bukan Jaringan Perpipaan
+[2025-11-27T02:34:18.419Z] [INFO] Processed row 233: 1 3 3 2.01 22
+[2025-11-27T02:34:20.143Z] [INFO] Created SubKegiatan: 1.3.3.2.01.23 - Peningkatan Kapasitas Kelembagaan Sistem Penyediaan Air Minum (SPAM)
+[2025-11-27T02:34:20.145Z] [INFO] Processed row 234: 1 3 3 2.01 23
+[2025-11-27T02:34:21.891Z] [INFO] Created SubKegiatan: 1.3.3.2.01.24 - Pembinaan dan Pemberdayaan Masyarakat dalam Pengelolaan dan Pengembangan Sistem Penyediaan Air Minum (SPAM)
+[2025-11-27T02:34:21.893Z] [INFO] Processed row 235: 1 3 3 2.01 24
+[2025-11-27T02:34:23.608Z] [INFO] Created SubKegiatan: 1.3.3.2.01.25 - Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Penyediaan Air Minum (SPAM)
+[2025-11-27T02:34:23.609Z] [INFO] Processed row 236: 1 3 3 2.01 25
+[2025-11-27T02:34:25.450Z] [INFO] Created SubKegiatan: 1.3.3.2.01.26 - Peningkatan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan
+[2025-11-27T02:34:25.451Z] [INFO] Processed row 237: 1 3 3 2.01 26
+[2025-11-27T02:34:27.239Z] [INFO] Created SubKegiatan: 1.3.3.2.01.27 - Pembinaan Pengelolaan dan Pengembangan Sistem Penyediaan Air Minum (SPAM) Desa
+[2025-11-27T02:34:27.240Z] [INFO] Processed row 238: 1 3 3 2.01 27
+[2025-11-27T02:34:29.045Z] [INFO] Created SubKegiatan: 1.3.3.2.01.28 - Pembangunan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan
+[2025-11-27T02:34:29.047Z] [INFO] Processed row 239: 1 3 3 2.01 28
+[2025-11-27T02:34:30.818Z] [INFO] Created SubKegiatan: 1.3.3.2.01.29 - Operasi dan Pemeliharaan Sistem Penyediaan Air Minum (SPAM)
+[2025-11-27T02:34:30.820Z] [INFO] Processed row 240: 1 3 3 2.01 29
+[2025-11-27T02:34:32.561Z] [INFO] Created SubKegiatan: 1.3.3.2.01.30 - Fasilitasi Kerja Sama Penyelenggaraan Sistem Penyediaan Air Minum (SPAM) di Daerah Kabupaten/Kota
+[2025-11-27T02:34:32.563Z] [INFO] Processed row 241: 1 3 3 2.01 30
+[2025-11-27T02:34:34.317Z] [INFO] Created SubKegiatan: 1.3.3.2.01.31 - Optimalisasi Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan
+[2025-11-27T02:34:34.318Z] [INFO] Processed row 242: 1 3 3 2.01 31
+[2025-11-27T02:34:36.039Z] [INFO] Created SubKegiatan: 1.3.3.2.01.32 - Perluasan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan
+[2025-11-27T02:34:36.041Z] [INFO] Processed row 243: 1 3 3 2.01 32
+[2025-11-27T02:34:37.755Z] [INFO] Created SubKegiatan: 1.3.3.2.01.33 - Optimalisasi Sistem Penyediaan Air Minum (SPAM) Bukan Jaringan Perpipaan
+[2025-11-27T02:34:37.757Z] [INFO] Processed row 244: 1 3 3 2.01 33
+[2025-11-27T02:34:39.010Z] [INFO] Created Program: 1.3.4 - PENGEMBANGAN SISTEM DAN PENGELOLAAN PERSAMPAHAN REGIONAL
+[2025-11-27T02:34:39.012Z] [INFO] Processed row 245: 1 3 4  
+[2025-11-27T02:34:40.552Z] [INFO] Created Kegiatan: 1.3.4.2.01 - Pengembangan Sistem dan Pengelolaan Persampahan di Daerah Kabupaten/Kota
+[2025-11-27T02:34:40.554Z] [INFO] Processed row 246: 1 3 4 2.01 
+[2025-11-27T02:34:42.256Z] [INFO] Created SubKegiatan: 1.3.4.2.01.9 - Fasilitasi Kerja Sama Penyelenggaraan Sistem Pengelolaan Persampahan di Daerah Kabupaten/Kota
+[2025-11-27T02:34:42.257Z] [INFO] Processed row 247: 1 3 4 2.01 9
+[2025-11-27T02:34:43.963Z] [INFO] Created SubKegiatan: 1.3.4.2.01.10 - Pembangunan TPA/TPST/SPA/TPS- 3R/TPS
+[2025-11-27T02:34:43.965Z] [INFO] Processed row 248: 1 3 4 2.01 10
+[2025-11-27T02:34:45.670Z] [INFO] Created SubKegiatan: 1.3.4.2.01.11 - Pembinaan dan Pemberdayaan Masyarakat dalam Pengembangan Sistem Pengelolaan Persampahan
+[2025-11-27T02:34:45.671Z] [INFO] Processed row 249: 1 3 4 2.01 11
+[2025-11-27T02:34:47.406Z] [INFO] Created SubKegiatan: 1.3.4.2.01.12 - Pengembangan Kapasitas Kelembagaan Sistem Pengelolaan Infrastruktur Persampahan
+[2025-11-27T02:34:47.407Z] [INFO] Processed row 250: 1 3 4 2.01 12
+[2025-11-27T02:34:47.409Z] [INFO] Processed 250/593 rows...
+[2025-11-27T02:34:49.103Z] [INFO] Created SubKegiatan: 1.3.4.2.01.13 - Peningkatan TPA/TPST/SPA/TPS- 3R/TPS
+[2025-11-27T02:34:49.105Z] [INFO] Processed row 251: 1 3 4 2.01 13
+[2025-11-27T02:34:50.800Z] [INFO] Created SubKegiatan: 1.3.4.2.01.14 - Pembinaan Pengembangan Sistem Pengelolaan Persampahan Desa
+[2025-11-27T02:34:50.802Z] [INFO] Processed row 252: 1 3 4 2.01 14
+[2025-11-27T02:34:52.498Z] [INFO] Created SubKegiatan: 1.3.4.2.01.15 - Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Pengelolaan Persampahan
+[2025-11-27T02:34:52.500Z] [INFO] Processed row 253: 1 3 4 2.01 15
+[2025-11-27T02:34:54.198Z] [INFO] Created SubKegiatan: 1.3.4.2.01.16 - Optimalisasi TPA/TPST/SPA/TPS- 3R/TPS
+[2025-11-27T02:34:54.200Z] [INFO] Processed row 254: 1 3 4 2.01 16
+[2025-11-27T02:34:55.956Z] [INFO] Created SubKegiatan: 1.3.4.2.01.17 - Penyediaan Sarana Pendukung TPA/TPST/SPA/TPS-3R/TPS
+[2025-11-27T02:34:55.957Z] [INFO] Processed row 255: 1 3 4 2.01 17
+[2025-11-27T02:34:57.211Z] [INFO] Created Program: 1.3.5 - PENGELOLAAN DAN PENGEMBANGAN SISTEM AIR LIMBAH
+[2025-11-27T02:34:57.212Z] [INFO] Processed row 256: 1 3 5  
+[2025-11-27T02:34:58.684Z] [INFO] Created Kegiatan: 1.3.5.2.01 - Pengelolaan dan Pengembangan Sistem Air Limbah Domestik dalam Daerah Kabupaten/Kota
+[2025-11-27T02:34:58.685Z] [INFO] Processed row 257: 1 3 5 2.01 
+[2025-11-27T02:35:00.419Z] [INFO] Created SubKegiatan: 1.3.5.2.01.18 - Optimalisasi Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Kawasan Tertentu
+[2025-11-27T02:35:00.421Z] [INFO] Processed row 258: 1 3 5 2.01 18
+[2025-11-27T02:35:02.137Z] [INFO] Created SubKegiatan: 1.3.5.2.01.19 - Optimalisasi Instalasi Pengolahan Lumpur Tinja (IPLT)
+[2025-11-27T02:35:02.139Z] [INFO] Processed row 259: 1 3 5 2.01 19
+[2025-11-27T02:35:03.893Z] [INFO] Created SubKegiatan: 1.3.5.2.01.20 - Optimalisasi Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman Berbasis Masyarakat
+[2025-11-27T02:35:03.894Z] [INFO] Processed row 260: 1 3 5 2.01 20
+[2025-11-27T02:35:05.755Z] [INFO] Created SubKegiatan: 1.3.5.2.01.21 - Peningkatan Instalasi Pengolahan Lumpur Tinja (IPLT)
+[2025-11-27T02:35:05.757Z] [INFO] Processed row 261: 1 3 5 2.01 21
+[2025-11-27T02:35:07.535Z] [INFO] Created SubKegiatan: 1.3.5.2.01.22 - Pembangunan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman
+[2025-11-27T02:35:07.537Z] [INFO] Processed row 262: 1 3 5 2.01 22
+[2025-11-27T02:35:09.274Z] [INFO] Created SubKegiatan: 1.3.5.2.01.23 - Pembangunan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman Berbasis Masyarakat
+[2025-11-27T02:35:09.275Z] [INFO] Processed row 263: 1 3 5 2.01 23
+[2025-11-27T02:35:11.026Z] [INFO] Created SubKegiatan: 1.3.5.2.01.24 - Optimalisasi Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Perkotaan
+[2025-11-27T02:35:11.027Z] [INFO] Processed row 264: 1 3 5 2.01 24
+[2025-11-27T02:35:12.773Z] [INFO] Created SubKegiatan: 1.3.5.2.01.25 - Pembangunan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Perkotaan
+[2025-11-27T02:35:12.774Z] [INFO] Processed row 265: 1 3 5 2.01 25
+[2025-11-27T02:35:14.516Z] [INFO] Created SubKegiatan: 1.3.5.2.01.26 - Fasilitasi Kerja Sama Penyelenggaraan Sistem Pengelolaan Air Limbah Domestik (SPALD) di Daerah Kabupaten/Kota
+[2025-11-27T02:35:14.517Z] [INFO] Processed row 266: 1 3 5 2.01 26
+[2025-11-27T02:35:16.291Z] [INFO] Created SubKegiatan: 1.3.5.2.01.27 - Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman Berbasis Masyarakat
+[2025-11-27T02:35:16.292Z] [INFO] Processed row 267: 1 3 5 2.01 27
+[2025-11-27T02:35:18.030Z] [INFO] Created SubKegiatan: 1.3.5.2.01.28 - Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Perkotaan
+[2025-11-27T02:35:18.032Z] [INFO] Processed row 268: 1 3 5 2.01 28
+[2025-11-27T02:35:19.754Z] [INFO] Created SubKegiatan: 1.3.5.2.01.29 - Optimalisasi Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman
+[2025-11-27T02:35:19.756Z] [INFO] Processed row 269: 1 3 5 2.01 29
+[2025-11-27T02:35:21.555Z] [INFO] Created SubKegiatan: 1.3.5.2.01.30 - Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Kawasan Tertentu
+[2025-11-27T02:35:21.557Z] [INFO] Processed row 270: 1 3 5 2.01 30
+[2025-11-27T02:35:23.416Z] [INFO] Created SubKegiatan: 1.3.5.2.01.31 - Pembangunan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Kawasan Tertentu
+[2025-11-27T02:35:23.418Z] [INFO] Processed row 271: 1 3 5 2.01 31
+[2025-11-27T02:35:25.464Z] [INFO] Created SubKegiatan: 1.3.5.2.01.32 - Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman
+[2025-11-27T02:35:25.465Z] [INFO] Processed row 272: 1 3 5 2.01 32
+[2025-11-27T02:35:27.222Z] [INFO] Created SubKegiatan: 1.3.5.2.01.33 - Penyediaan Jasa Penyedotan Lumpur Tinja
+[2025-11-27T02:35:27.224Z] [INFO] Processed row 273: 1 3 5 2.01 33
+[2025-11-27T02:35:28.960Z] [INFO] Created SubKegiatan: 1.3.5.2.01.34 - Pembinaan Pengembangan Sistem Pengelolaan Air Limbah Domestik (SPALD) Desa
+[2025-11-27T02:35:28.962Z] [INFO] Processed row 274: 1 3 5 2.01 34
+[2025-11-27T02:35:30.972Z] [INFO] Created SubKegiatan: 1.3.5.2.01.35 - Pengembangan Kapasitas Kelembagaan Sistem Pengelolaan Air Limbah Domestik (SPALD)
+[2025-11-27T02:35:30.974Z] [INFO] Processed row 275: 1 3 5 2.01 35
+[2025-11-27T02:35:32.707Z] [INFO] Created SubKegiatan: 1.3.5.2.01.36 - Pembangunan Instalasi Pengolahan Lumpur Tinja (IPLT)
+[2025-11-27T02:35:32.709Z] [INFO] Processed row 276: 1 3 5 2.01 36
+[2025-11-27T02:35:34.451Z] [INFO] Created SubKegiatan: 1.3.5.2.01.37 - Penyediaan Sarana Pengangkutan Lumpur Tinja
+[2025-11-27T02:35:34.452Z] [INFO] Processed row 277: 1 3 5 2.01 37
+[2025-11-27T02:35:36.193Z] [INFO] Created SubKegiatan: 1.3.5.2.01.38 - Operasi dan Pemeliharaan Sistem Pengelolaan Air Limbah Domestik (SPALD)
+[2025-11-27T02:35:36.194Z] [INFO] Processed row 278: 1 3 5 2.01 38
+[2025-11-27T02:35:37.903Z] [INFO] Created SubKegiatan: 1.3.5.2.01.39 - Penyediaan Sub Sistem Pengolahan Air Limbah Domestik (SPALD) Setempat
+[2025-11-27T02:35:37.904Z] [INFO] Processed row 279: 1 3 5 2.01 39
+[2025-11-27T02:35:39.617Z] [INFO] Created SubKegiatan: 1.3.5.2.01.40 - Pembinaan dan Pemberdayaan Masyarakat dalam Pengembangan Sistem Pengelolaan Air Limbah Domestik (SPALD)
+[2025-11-27T02:35:39.618Z] [INFO] Processed row 280: 1 3 5 2.01 40
+[2025-11-27T02:35:41.346Z] [INFO] Created SubKegiatan: 1.3.5.2.01.41 - Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Pengelolaan Air Limbah Domestik (SPALD)
+[2025-11-27T02:35:41.348Z] [INFO] Processed row 281: 1 3 5 2.01 41
+[2025-11-27T02:35:42.582Z] [INFO] Created Program: 1.3.6 - PENGELOLAAN DAN PENGEMBANGAN SISTEM DRAINASE
+[2025-11-27T02:35:42.583Z] [INFO] Processed row 282: 1 3 6  
+[2025-11-27T02:35:44.049Z] [INFO] Created Kegiatan: 1.3.6.2.01 - Pengelolaan dan Pengembangan Sistem Drainase yang Terhubung Langsung dengan Sungai dalam Daerah Kabupaten/Kota
+[2025-11-27T02:35:44.051Z] [INFO] Processed row 283: 1 3 6 2.01 
+[2025-11-27T02:35:45.793Z] [INFO] Created SubKegiatan: 1.3.6.2.01.12 - Pembangunan Sistem Drainase Lingkungan
+[2025-11-27T02:35:45.795Z] [INFO] Processed row 284: 1 3 6 2.01 12
+[2025-11-27T02:35:47.511Z] [INFO] Created SubKegiatan: 1.3.6.2.01.17 - Pengembangan Kapasitas Kelembagaan Sistem Drainase Lingkungan
+[2025-11-27T02:35:47.513Z] [INFO] Processed row 285: 1 3 6 2.01 17
+[2025-11-27T02:35:49.240Z] [INFO] Created SubKegiatan: 1.3.6.2.01.18 - Pembinaan dan Pemberdayaan Masyarakat dalam Pengelolaan Sistem Drainase Lingkungan
+[2025-11-27T02:35:49.241Z] [INFO] Processed row 286: 1 3 6 2.01 18
+[2025-11-27T02:35:50.954Z] [INFO] Created SubKegiatan: 1.3.6.2.01.19 - Operasi dan Pemeliharaan Sistem Drainase Lingkungan
+[2025-11-27T02:35:50.956Z] [INFO] Processed row 287: 1 3 6 2.01 19
+[2025-11-27T02:35:52.680Z] [INFO] Created SubKegiatan: 1.3.6.2.01.20 - Optimalisasai Sistem Drainase Lingkungan
+[2025-11-27T02:35:52.681Z] [INFO] Processed row 288: 1 3 6 2.01 20
+[2025-11-27T02:35:54.428Z] [INFO] Created SubKegiatan: 1.3.6.2.01.21 - Peningkatan Sistem Drainase Lingkungan
+[2025-11-27T02:35:54.429Z] [INFO] Processed row 289: 1 3 6 2.01 21
+[2025-11-27T02:35:56.158Z] [INFO] Created SubKegiatan: 1.3.6.2.01.22 - Penyediaan Sarana Pendukung Sistem Drainase Lingkungan
+[2025-11-27T02:35:56.159Z] [INFO] Processed row 290: 1 3 6 2.01 22
+[2025-11-27T02:35:57.887Z] [INFO] Created SubKegiatan: 1.3.6.2.01.23 - Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Drainase Lingkungan
+[2025-11-27T02:35:57.889Z] [INFO] Processed row 291: 1 3 6 2.01 23
+[2025-11-27T02:35:59.671Z] [INFO] Created SubKegiatan: 1.3.6.2.01.24 - Peningkatan Sistem Drainase Perkotaan
+[2025-11-27T02:35:59.673Z] [INFO] Processed row 292: 1 3 6 2.01 24
+[2025-11-27T02:36:01.406Z] [INFO] Created SubKegiatan: 1.3.6.2.01.25 - Pembinaan Teknis Sistem Drainase Perkotaan
+[2025-11-27T02:36:01.408Z] [INFO] Processed row 293: 1 3 6 2.01 25
+[2025-11-27T02:36:03.136Z] [INFO] Created SubKegiatan: 1.3.6.2.01.26 - Penyediaan Sarana Pendukung Sistem Drainase Perkotaan
+[2025-11-27T02:36:03.137Z] [INFO] Processed row 294: 1 3 6 2.01 26
+[2025-11-27T02:36:04.907Z] [INFO] Created SubKegiatan: 1.3.6.2.01.27 - Penyusunan Outline Plan pada Kawasan Genangan
+[2025-11-27T02:36:04.908Z] [INFO] Processed row 295: 1 3 6 2.01 27
+[2025-11-27T02:36:06.651Z] [INFO] Created SubKegiatan: 1.3.6.2.01.28 - Rehabilitasi Sistem Drainase Perkotaan
+[2025-11-27T02:36:06.652Z] [INFO] Processed row 296: 1 3 6 2.01 28
+[2025-11-27T02:36:08.363Z] [INFO] Created SubKegiatan: 1.3.6.2.01.29 - Pembangunan Sistem Drainase Perkotaan
+[2025-11-27T02:36:08.364Z] [INFO] Processed row 297: 1 3 6 2.01 29
+[2025-11-27T02:36:10.076Z] [INFO] Created SubKegiatan: 1.3.6.2.01.30 - Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Drainase Perkotaan
+[2025-11-27T02:36:10.077Z] [INFO] Processed row 298: 1 3 6 2.01 30
+[2025-11-27T02:36:11.932Z] [INFO] Created SubKegiatan: 1.3.6.2.01.31 - Operasi dan Pemeliharaan Sistem Drainase Perkotaan
+[2025-11-27T02:36:11.934Z] [INFO] Processed row 299: 1 3 6 2.01 31
+[2025-11-27T02:36:13.161Z] [INFO] Created Program: 1.3.7 - PENGEMBANGAN PERMUKIMAN
+[2025-11-27T02:36:13.162Z] [INFO] Processed row 300: 1 3 7  
+[2025-11-27T02:36:13.163Z] [INFO] Processed 300/593 rows...
+[2025-11-27T02:36:14.636Z] [INFO] Created Kegiatan: 1.3.7.2.01 - Penyelenggaraan Infrastruktur pada Permukiman di Kawasan Strategis Daerah Kabupaten/Kota
+[2025-11-27T02:36:14.638Z] [INFO] Processed row 301: 1 3 7 2.01 
+[2025-11-27T02:36:16.370Z] [INFO] Created SubKegiatan: 1.3.7.2.01.5 - Peningkatan Instalasi Pengolahan Lumpur Tinja (IPLT) di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:16.372Z] [INFO] Processed row 302: 1 3 7 2.01 5
+[2025-11-27T02:36:18.111Z] [INFO] Created SubKegiatan: 1.3.7.2.01.6 - Penyediaan Jasa Penyedotan Lumpur Tinja di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:18.112Z] [INFO] Processed row 303: 1 3 7 2.01 6
+[2025-11-27T02:36:19.982Z] [INFO] Created SubKegiatan: 1.3.7.2.01.7 - Optimalisasi TPA/TPST/SPA/TPS- 3R/TPS di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:19.984Z] [INFO] Processed row 304: 1 3 7 2.01 7
+[2025-11-27T02:36:21.700Z] [INFO] Created SubKegiatan: 1.3.7.2.01.8 - Optimalisasi TPA di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:21.701Z] [INFO] Processed row 305: 1 3 7 2.01 8
+[2025-11-27T02:36:23.451Z] [INFO] Created SubKegiatan: 1.3.7.2.01.9 - Peningkatan TPA/TPST/SPA/TPS- 3R/TPS di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:23.453Z] [INFO] Processed row 306: 1 3 7 2.01 9
+[2025-11-27T02:36:25.162Z] [INFO] Created SubKegiatan: 1.3.7.2.01.10 - Penyediaan Sarana Pengangkutan Lumpur Tinja di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:25.163Z] [INFO] Processed row 307: 1 3 7 2.01 10
+[2025-11-27T02:36:26.894Z] [INFO] Created SubKegiatan: 1.3.7.2.01.11 - Optimalisasi Sistem Pengelolaan Air Limbah Domestik (SPALD) Setempat (IPLT) di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:26.895Z] [INFO] Processed row 308: 1 3 7 2.01 11
+[2025-11-27T02:36:28.624Z] [INFO] Created SubKegiatan: 1.3.7.2.01.12 - Peningkatan TPA di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:28.625Z] [INFO] Processed row 309: 1 3 7 2.01 12
+[2025-11-27T02:36:30.351Z] [INFO] Created SubKegiatan: 1.3.7.2.01.13 - Pembangunan SPA di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:30.353Z] [INFO] Processed row 310: 1 3 7 2.01 13
+[2025-11-27T02:36:32.073Z] [INFO] Created SubKegiatan: 1.3.7.2.01.14 - Optimalisasi SPA di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:32.075Z] [INFO] Processed row 311: 1 3 7 2.01 14
+[2025-11-27T02:36:33.823Z] [INFO] Created SubKegiatan: 1.3.7.2.01.15 - Pembangunan TPA/TPST/SPA/TPS- 3R/TPS di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:33.825Z] [INFO] Processed row 312: 1 3 7 2.01 15
+[2025-11-27T02:36:35.556Z] [INFO] Created SubKegiatan: 1.3.7.2.01.16 - Peningkatan TPS di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:35.557Z] [INFO] Processed row 313: 1 3 7 2.01 16
+[2025-11-27T02:36:37.279Z] [INFO] Created SubKegiatan: 1.3.7.2.01.17 - Pembangunan TPS di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:37.281Z] [INFO] Processed row 314: 1 3 7 2.01 17
+[2025-11-27T02:36:39.067Z] [INFO] Created SubKegiatan: 1.3.7.2.01.18 - Optimalisasi Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat (IPAL) di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:39.068Z] [INFO] Processed row 315: 1 3 7 2.01 18
+[2025-11-27T02:36:40.792Z] [INFO] Created SubKegiatan: 1.3.7.2.01.19 - Pembangunan TPA di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:40.794Z] [INFO] Processed row 316: 1 3 7 2.01 19
+[2025-11-27T02:36:42.514Z] [INFO] Created SubKegiatan: 1.3.7.2.01.20 - Perluasan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:42.515Z] [INFO] Processed row 317: 1 3 7 2.01 20
+[2025-11-27T02:36:44.224Z] [INFO] Created SubKegiatan: 1.3.7.2.01.21 - Pembangunan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:44.226Z] [INFO] Processed row 318: 1 3 7 2.01 21
+[2025-11-27T02:36:45.976Z] [INFO] Created SubKegiatan: 1.3.7.2.01.22 - Optimalisasi TPST di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:45.977Z] [INFO] Processed row 319: 1 3 7 2.01 22
+[2025-11-27T02:36:47.706Z] [INFO] Created SubKegiatan: 1.3.7.2.01.23 - Pembangunan TPS-3R di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:47.707Z] [INFO] Processed row 320: 1 3 7 2.01 23
+[2025-11-27T02:36:49.443Z] [INFO] Created SubKegiatan: 1.3.7.2.01.24 - Peningkatan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:49.444Z] [INFO] Processed row 321: 1 3 7 2.01 24
+[2025-11-27T02:36:51.158Z] [INFO] Created SubKegiatan: 1.3.7.2.01.25 - Optimalisasi Sistem Penyediaan Air Minum (SPAM) Bukan Jaringan Perpipaan di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:51.160Z] [INFO] Processed row 322: 1 3 7 2.01 25
+[2025-11-27T02:36:52.882Z] [INFO] Created SubKegiatan: 1.3.7.2.01.26 - Pembangunan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat (IPAL) di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:52.884Z] [INFO] Processed row 323: 1 3 7 2.01 26
+[2025-11-27T02:36:54.602Z] [INFO] Created SubKegiatan: 1.3.7.2.01.27 - Optimalisasi TPS di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:54.603Z] [INFO] Processed row 324: 1 3 7 2.01 27
+[2025-11-27T02:36:56.313Z] [INFO] Created SubKegiatan: 1.3.7.2.01.28 - Peningkatan SPA di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:56.315Z] [INFO] Processed row 325: 1 3 7 2.01 28
+[2025-11-27T02:36:58.051Z] [INFO] Created SubKegiatan: 1.3.7.2.01.29 - Peningkatan TPS-3R di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:58.052Z] [INFO] Processed row 326: 1 3 7 2.01 29
+[2025-11-27T02:36:59.804Z] [INFO] Created SubKegiatan: 1.3.7.2.01.30 - Optimalisasi Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:36:59.805Z] [INFO] Processed row 327: 1 3 7 2.01 30
+[2025-11-27T02:37:01.545Z] [INFO] Created SubKegiatan: 1.3.7.2.01.31 - Pembangunan TPST di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:37:01.546Z] [INFO] Processed row 328: 1 3 7 2.01 31
+[2025-11-27T02:37:03.270Z] [INFO] Created SubKegiatan: 1.3.7.2.01.32 - Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat (IPAL) di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:37:03.271Z] [INFO] Processed row 329: 1 3 7 2.01 32
+[2025-11-27T02:37:04.990Z] [INFO] Created SubKegiatan: 1.3.7.2.01.33 - Penyediaan Sub Sistem Pengolahan Setempat di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:37:04.992Z] [INFO] Processed row 330: 1 3 7 2.01 33
+[2025-11-27T02:37:07.623Z] [INFO] Created SubKegiatan: 1.3.7.2.01.34 - Pembangunan Instalasi Pengolahan Lumpur Tinja (IPLT) di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:37:07.624Z] [INFO] Processed row 331: 1 3 7 2.01 34
+[2025-11-27T02:37:09.441Z] [INFO] Created SubKegiatan: 1.3.7.2.01.35 - Peningkatan TPST di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:37:09.442Z] [INFO] Processed row 332: 1 3 7 2.01 35
+[2025-11-27T02:37:11.195Z] [INFO] Created SubKegiatan: 1.3.7.2.01.36 - Pembangunan Sistem Penyediaan Air Minum (SPAM) Bukan Jaringan Perpipaan di Kawasan Strategis Kabupaten/Kota
+[2025-11-27T02:37:11.196Z] [INFO] Processed row 333: 1 3 7 2.01 36
+[2025-11-27T02:37:13.101Z] [INFO] Created Kegiatan: 1.3.7.3.02 - Penyelenggaraan perumahan dan kawasan permukiman melalui pemberian bantuan untuk pembangunan layak huni dan kawasan permukiman layak terutama bagi OAP dalam satu (1) wilayah Kabupaten/kota
+[2025-11-27T02:37:13.102Z] [INFO] Processed row 334: 1 3 7 3.02 
+[2025-11-27T02:37:14.817Z] [INFO] Created SubKegiatan: 1.3.7.3.02.1 - Pembangunan rumah sehat yang dilengkapi dengan prasarana dan sarana utilitas umum, terutama bagi OAP di daerah terisolasi, terpencil, dan terluar dalam satu (1) wilayah Kabupaten/kota
+[2025-11-27T02:37:14.819Z] [INFO] Processed row 335: 1 3 7 3.02 1
+[2025-11-27T02:37:16.548Z] [INFO] Created SubKegiatan: 1.3.7.3.02.2 - Peningkatan akses kredit atau pembiayaan dan bantuan prasarana, sarana dam utilitas umum bagi masyarakat berpenghasilan rendah (MBR)
+[2025-11-27T02:37:16.550Z] [INFO] Processed row 336: 1 3 7 3.02 2
+[2025-11-27T02:37:18.284Z] [INFO] Created SubKegiatan: 1.3.7.3.02.3 - Penyediaan perumahan dan permukiman layak huni bagi setiap rumah tangga OAP dengan kriteria dan prioritas sesuai karakteristik dan budaya OAP
+[2025-11-27T02:37:18.285Z] [INFO] Processed row 337: 1 3 7 3.02 3
+[2025-11-27T02:37:19.515Z] [INFO] Processed row 338: 1 3 7 4.02 
+[2025-11-27T02:37:20.989Z] [INFO] Created Kegiatan: 1.3.7.4.02 - Kegiatan 4.02
+[2025-11-27T02:37:21.728Z] [INFO] Created SubKegiatan: 1.3.7.4.02.1 - Pembangunan rumah sehat yang dilengkapi dengan prasarana dan sarana utilitas umum, terutama bagi OAP di daerah terisolasi, terpencil, dan terluar dalam satu (1) wilayah Kabupaten/kota
+[2025-11-27T02:37:21.730Z] [INFO] Processed row 339: 1 3 7 4.02 1
+[2025-11-27T02:37:23.450Z] [INFO] Created SubKegiatan: 1.3.7.4.02.2 - Peningkatan akses kredit atau pembiayaan dan bantuan prasarana, sarana dan utilitas umum bagi masyarakat berpenghasilan rendah (MBR)
+[2025-11-27T02:37:23.451Z] [INFO] Processed row 340: 1 3 7 4.02 2
+[2025-11-27T02:37:25.163Z] [INFO] Created SubKegiatan: 1.3.7.4.02.3 - Penyediaan perumahan dan permukiman layak huni bagi setiap rumah tangga OAP dengan kriteria dan prioritas sesuai karakteristik dan budaya OAP
+[2025-11-27T02:37:25.164Z] [INFO] Processed row 341: 1 3 7 4.02 3
+[2025-11-27T02:37:26.412Z] [INFO] Created Program: 1.3.8 - PENATAAN BANGUNAN GEDUNG
+[2025-11-27T02:37:26.414Z] [INFO] Processed row 342: 1 3 8  
+[2025-11-27T02:37:27.926Z] [INFO] Created Kegiatan: 1.3.8.2.01 - Penyelenggaraan Bangunan Gedung di Wilayah Daerah Kabupaten/Kota, Pemberian Izin Mendirikan Bangunan (IMB) dan Sertifikat Laik Fungsi Bangunan Gedung
+[2025-11-27T02:37:27.927Z] [INFO] Processed row 343: 1 3 8 2.01 
+[2025-11-27T02:37:29.683Z] [INFO] Created SubKegiatan: 1.3.8.2.01.14 - Pendaftaran Huruf Daftar Nomor (HDNo) Bangunan Gedung Negara
+[2025-11-27T02:37:29.685Z] [INFO] Processed row 344: 1 3 8 2.01 14
+[2025-11-27T02:37:31.404Z] [INFO] Created SubKegiatan: 1.3.8.2.01.15 - Identifikasi, Penetapan, Penyelenggaraan Bangunan Gedung Cagar Budaya yang Dilestarikan untuk Kepentingan Strategis Daerah Kabupaten/Kota
+[2025-11-27T02:37:31.405Z] [INFO] Processed row 345: 1 3 8 2.01 15
+[2025-11-27T02:37:33.159Z] [INFO] Created SubKegiatan: 1.3.8.2.01.16 - Pemberian Kompensasi, Insentif dan Disinsentif kepada Pemilik, Pengguna, dan/atau Pengelola Bangunan Gedung Cagar Budaya untuk Kepentingan Strategis Daerah Kabupaten/Kota
+[2025-11-27T02:37:33.160Z] [INFO] Processed row 346: 1 3 8 2.01 16
+[2025-11-27T02:37:35.035Z] [INFO] Created SubKegiatan: 1.3.8.2.01.17 - Pengubahsuaian Bangunan Gedung untuk Kepentingan Strategis Daerah Kabupaten/Kota
+[2025-11-27T02:37:35.037Z] [INFO] Processed row 347: 1 3 8 2.01 17
+[2025-11-27T02:37:36.771Z] [INFO] Created SubKegiatan: 1.3.8.2.01.18 - Pemeliharaan, Perawatan, dan Pemeriksaan Berkala Bangunan Gedung untuk Kepentingan Strategis Daerah Kabupaten/Kota
+[2025-11-27T02:37:36.772Z] [INFO] Processed row 348: 1 3 8 2.01 18
+[2025-11-27T02:37:38.529Z] [INFO] Created SubKegiatan: 1.3.8.2.01.19 - Penyusunan Kebijakan terkait Penyelenggaraan Bangunan Gedung
+[2025-11-27T02:37:38.530Z] [INFO] Processed row 349: 1 3 8 2.01 19
+[2025-11-27T02:37:40.249Z] [INFO] Created SubKegiatan: 1.3.8.2.01.20 - Bantuan Teknis Pembangunan Bangunan Gedung Negara untuk Kepentingan Strategis Kabupaten/Kota
+[2025-11-27T02:37:40.251Z] [INFO] Processed row 350: 1 3 8 2.01 20
+[2025-11-27T02:37:40.252Z] [INFO] Processed 350/593 rows...
+[2025-11-27T02:37:42.073Z] [INFO] Created SubKegiatan: 1.3.8.2.01.21 - Pembangunan, Pemanfaatan, Pelestariaan dan Pembongkaran Bangunan Gedung untuk Kepentingan Strategis Daerah Kabupaten/Kota
+[2025-11-27T02:37:42.074Z] [INFO] Processed row 351: 1 3 8 2.01 21
+[2025-11-27T02:37:43.803Z] [INFO] Created SubKegiatan: 1.3.8.2.01.22 - Pembinaan dan Pengawasan Penyelenggaraan Bangunan Gedung
+[2025-11-27T02:37:43.805Z] [INFO] Processed row 352: 1 3 8 2.01 22
+[2025-11-27T02:37:45.553Z] [INFO] Created SubKegiatan: 1.3.8.2.01.23 - Penyelenggaraan Penerbitan Persetujuan Bangunan Gedung (PBG), Sertifikat Laik Fungsi (SLF), Surat Bukti Kepemilikan Bangunan Gedung (SBKBG), Rencana Teknis Pembongkaran Bangunan Gedung (RTB), Tim Profesi Ahli (TPA), Tim Penilai Teknis (TPT), Penilik, dan Pendataan Bangunan Gedung melalui SIMBG
+[2025-11-27T02:37:45.554Z] [INFO] Processed row 353: 1 3 8 2.01 23
+[2025-11-27T02:37:46.781Z] [INFO] Created Program: 1.3.9 - PENATAAN BANGUNAN DAN LINGKUNGANNYA
+[2025-11-27T02:37:46.782Z] [INFO] Processed row 354: 1 3 9  
+[2025-11-27T02:37:48.266Z] [INFO] Created Kegiatan: 1.3.9.2.01 - Penyelenggaraan Penataan Bangunan dan Lingkungannya di Daerah Kabupaten/Kota
+[2025-11-27T02:37:48.268Z] [INFO] Processed row 355: 1 3 9 2.01 
+[2025-11-27T02:37:50.007Z] [INFO] Created SubKegiatan: 1.3.9.2.01.7 - Pengawasan Penataan Bangunan dan Lingkungan
+[2025-11-27T02:37:50.008Z] [INFO] Processed row 356: 1 3 9 2.01 7
+[2025-11-27T02:37:51.722Z] [INFO] Created SubKegiatan: 1.3.9.2.01.8 - Penataan Bangunan dan Lingkungan Kawasan Cagar Budaya, Kawasan Pariwisata, Kawasan Sistem Perkotaan Nasional dan Kawasan Strategis Lainnya
+[2025-11-27T02:37:51.723Z] [INFO] Processed row 357: 1 3 9 2.01 8
+[2025-11-27T02:37:53.480Z] [INFO] Created SubKegiatan: 1.3.9.2.01.9 - Supervisi Penataan Bangunan dan Lingkungan Kawasan Cagar Budaya, Kawasan Pariwisata, Kawasan Sistem Perkotaan Nasional dan Kawasan Strategis Lainnya
+[2025-11-27T02:37:53.481Z] [INFO] Processed row 358: 1 3 9 2.01 9
+[2025-11-27T02:37:55.304Z] [INFO] Created SubKegiatan: 1.3.9.2.01.10 - Penyusunan Rencana dan Teknis Penataan Bangunan dan Lingkungan di Kawasan Strategis Daerah Kabupaten/Kota
+[2025-11-27T02:37:55.306Z] [INFO] Processed row 359: 1 3 9 2.01 10
+[2025-11-27T02:37:56.658Z] [INFO] Created Program: 1.3.10 - PENYELENGGARAAN JALAN
+[2025-11-27T02:37:56.660Z] [INFO] Processed row 360: 1 3 10  
+[2025-11-27T02:37:58.303Z] [INFO] Created Kegiatan: 1.3.10.2.01 - Penyelenggaraan Jalan Kabupaten/Kota
+[2025-11-27T02:37:58.304Z] [INFO] Processed row 361: 1 3 10 2.01 
+[2025-11-27T02:38:00.337Z] [INFO] Created SubKegiatan: 1.3.10.2.01.28 - Pengelolaan Leger Jalan
+[2025-11-27T02:38:00.338Z] [INFO] Processed row 362: 1 3 10 2.01 28
+[2025-11-27T02:38:02.264Z] [INFO] Created SubKegiatan: 1.3.10.2.01.29 - Penyusunan Rencana, Kebijakan, Strategi dan Teknis Pengembangan Jaringan Jalan serta Perencanaan Teknis Penyelenggaraan Jalan dan Jembatan
+[2025-11-27T02:38:02.265Z] [INFO] Processed row 363: 1 3 10 2.01 29
+[2025-11-27T02:38:04.378Z] [INFO] Created SubKegiatan: 1.3.10.2.01.30 - Pengawasan Penyelenggaraan Jalan Kewenangan Kabupaten/Kota dan Desa
+[2025-11-27T02:38:04.380Z] [INFO] Processed row 364: 1 3 10 2.01 30
+[2025-11-27T02:38:06.149Z] [INFO] Created SubKegiatan: 1.3.10.2.01.31 - Penggantian Jembatan
+[2025-11-27T02:38:06.151Z] [INFO] Processed row 365: 1 3 10 2.01 31
+[2025-11-27T02:38:07.884Z] [INFO] Created SubKegiatan: 1.3.10.2.01.32 - Pembangunan Jalan
+[2025-11-27T02:38:07.885Z] [INFO] Processed row 366: 1 3 10 2.01 32
+[2025-11-27T02:38:09.608Z] [INFO] Created SubKegiatan: 1.3.10.2.01.33 - Rekonstruksi Jalan
+[2025-11-27T02:38:09.609Z] [INFO] Processed row 367: 1 3 10 2.01 33
+[2025-11-27T02:38:11.356Z] [INFO] Created SubKegiatan: 1.3.10.2.01.34 - Pemeliharaan Berkala Jalan
+[2025-11-27T02:38:11.357Z] [INFO] Processed row 368: 1 3 10 2.01 34
+[2025-11-27T02:38:13.076Z] [INFO] Created SubKegiatan: 1.3.10.2.01.35 - Pembangunan Flyover
+[2025-11-27T02:38:13.077Z] [INFO] Processed row 369: 1 3 10 2.01 35
+[2025-11-27T02:38:14.787Z] [INFO] Created SubKegiatan: 1.3.10.2.01.36 - Pemantauan dan Evaluasi Penyelenggaraan Jalan Kewenangan Kabupaten/Kota dan Desa
+[2025-11-27T02:38:14.789Z] [INFO] Processed row 370: 1 3 10 2.01 36
+[2025-11-27T02:38:16.527Z] [INFO] Created SubKegiatan: 1.3.10.2.01.37 - Pelebaran Jalan Menuju Standar
+[2025-11-27T02:38:16.529Z] [INFO] Processed row 371: 1 3 10 2.01 37
+[2025-11-27T02:38:18.268Z] [INFO] Created SubKegiatan: 1.3.10.2.01.38 - Pemeliharaan Rutin Jembatan
+[2025-11-27T02:38:18.269Z] [INFO] Processed row 372: 1 3 10 2.01 38
+[2025-11-27T02:38:20.148Z] [INFO] Created SubKegiatan: 1.3.10.2.01.39 - Rehabilitasi Jembatan
+[2025-11-27T02:38:20.150Z] [INFO] Processed row 373: 1 3 10 2.01 39
+[2025-11-27T02:38:21.897Z] [INFO] Created SubKegiatan: 1.3.10.2.01.40 - Pembangunan Jembatan
+[2025-11-27T02:38:21.898Z] [INFO] Processed row 374: 1 3 10 2.01 40
+[2025-11-27T02:38:23.618Z] [INFO] Created SubKegiatan: 1.3.10.2.01.41 - Pelebaran Jalan Menambah Lajur
+[2025-11-27T02:38:23.619Z] [INFO] Processed row 375: 1 3 10 2.01 41
+[2025-11-27T02:38:25.336Z] [INFO] Created SubKegiatan: 1.3.10.2.01.42 - Pemeliharaan Berkala Jembatan
+[2025-11-27T02:38:25.337Z] [INFO] Processed row 376: 1 3 10 2.01 42
+[2025-11-27T02:38:27.118Z] [INFO] Created SubKegiatan: 1.3.10.2.01.43 - Survey Kondisi Jalan/Jembatan
+[2025-11-27T02:38:27.119Z] [INFO] Processed row 377: 1 3 10 2.01 43
+[2025-11-27T02:38:28.962Z] [INFO] Created SubKegiatan: 1.3.10.2.01.44 - Rehabilitasi Jalan
+[2025-11-27T02:38:28.963Z] [INFO] Processed row 378: 1 3 10 2.01 44
+[2025-11-27T02:38:30.726Z] [INFO] Created SubKegiatan: 1.3.10.2.01.45 - Pembangunan Terowongan/Tunnel
+[2025-11-27T02:38:30.727Z] [INFO] Processed row 379: 1 3 10 2.01 45
+[2025-11-27T02:38:32.457Z] [INFO] Created SubKegiatan: 1.3.10.2.01.46 - Pemeliharaan Rutin Jalan
+[2025-11-27T02:38:32.458Z] [INFO] Processed row 380: 1 3 10 2.01 46
+[2025-11-27T02:38:34.175Z] [INFO] Created SubKegiatan: 1.3.10.2.01.47 - Pembangunan Underpass
+[2025-11-27T02:38:34.176Z] [INFO] Processed row 381: 1 3 10 2.01 47
+[2025-11-27T02:38:35.911Z] [INFO] Created SubKegiatan: 1.3.10.2.01.48 - Pelebaran Jembatan
+[2025-11-27T02:38:35.913Z] [INFO] Processed row 382: 1 3 10 2.01 48
+[2025-11-27T02:38:37.326Z] [INFO] Created Program: 1.3.11 - PENGEMBANGAN JASA KONSTRUKSI
+[2025-11-27T02:38:37.328Z] [INFO] Processed row 383: 1 3 11  
+[2025-11-27T02:38:38.797Z] [INFO] Created Kegiatan: 1.3.11.2.01 - Penyelenggaraan Pelatihan Tenaga Terampil Konstruksi
+[2025-11-27T02:38:38.799Z] [INFO] Processed row 384: 1 3 11 2.01 
+[2025-11-27T02:38:40.831Z] [INFO] Created SubKegiatan: 1.3.11.2.01.9 - Penyediaan Training Need Assessment (TNA) Pelatihan Tenaga Kerja Konstruksi Kualifikasi Jabatan Operator dan Teknisi atau Analis
+[2025-11-27T02:38:40.833Z] [INFO] Processed row 385: 1 3 11 2.01 9
+[2025-11-27T02:38:42.549Z] [INFO] Created SubKegiatan: 1.3.11.2.01.10 - Fasilitasi Sertifikasi Tenaga Kerja Konstruksi Kualifikasi Jabatan Operator dan Teknisi atau Analis
+[2025-11-27T02:38:42.550Z] [INFO] Processed row 386: 1 3 11 2.01 10
+[2025-11-27T02:38:44.292Z] [INFO] Created SubKegiatan: 1.3.11.2.01.11 - Pembinaan dan Peningkatan Kapasitas Kelembagaan Jasa Konstruksi
+[2025-11-27T02:38:44.293Z] [INFO] Processed row 387: 1 3 11 2.01 11
+[2025-11-27T02:38:46.016Z] [INFO] Created SubKegiatan: 1.3.11.2.01.12 - Penyediaan Instruktur/Asesor/Penyelenggara Pelatihan Tenaga Kerja Konstruksi Kualifikasi Jabatan Operator dan Teknisi atau Analis
+[2025-11-27T02:38:46.018Z] [INFO] Processed row 388: 1 3 11 2.01 12
+[2025-11-27T02:38:47.744Z] [INFO] Created SubKegiatan: 1.3.11.2.01.13 - Identifikasi Potensi Kerja Sama dan Pemberdayaan Jasa Konstruksi
+[2025-11-27T02:38:47.745Z] [INFO] Processed row 389: 1 3 11 2.01 13
+[2025-11-27T02:38:49.477Z] [INFO] Created SubKegiatan: 1.3.11.2.01.14 - Pemantauan dan Evaluasi Pelatihan Tenaga Kerja Konstruksi Kualifikasi Jabatan Operator dan Teknisi atau Analis
+[2025-11-27T02:38:49.479Z] [INFO] Processed row 390: 1 3 11 2.01 14
+[2025-11-27T02:38:51.189Z] [INFO] Created SubKegiatan: 1.3.11.2.01.15 - Penyediaan SOP Penyelenggaraan Pelatihan Tenaga Kerja Konstruksi Kualifikasi Jabatan Operator, Teknisi atau Analis
+[2025-11-27T02:38:51.189Z] [INFO] Processed row 391: 1 3 11 2.01 15
+[2025-11-27T02:38:52.896Z] [INFO] Created SubKegiatan: 1.3.11.2.01.16 - Pelatihan Tenaga Kerja Konstruksi Kualifikasi Jabatan Operator, Teknisi atau Analis
+[2025-11-27T02:38:52.898Z] [INFO] Processed row 392: 1 3 11 2.01 16
+[2025-11-27T02:38:54.392Z] [INFO] Created Kegiatan: 1.3.11.2.02 - Penyelenggaraan Sistem Informasi Jasa Konstruksi Cakupan Daerah Kabupaten/Kota
+[2025-11-27T02:38:54.394Z] [INFO] Processed row 393: 1 3 11 2.02 
+[2025-11-27T02:38:56.106Z] [INFO] Created SubKegiatan: 1.3.11.2.02.12 - Penyediaan Perangkat Pendukung Layanan Informasi Jasa Konstruksi
+[2025-11-27T02:38:56.107Z] [INFO] Processed row 394: 1 3 11 2.02 12
+[2025-11-27T02:38:57.835Z] [INFO] Created SubKegiatan: 1.3.11.2.02.13 - Penyediaan Data dan Informasi Jasa Konstruksi Cakupan Kabupaten/Kota
+[2025-11-27T02:38:57.836Z] [INFO] Processed row 395: 1 3 11 2.02 13
+[2025-11-27T02:38:59.549Z] [INFO] Created SubKegiatan: 1.3.11.2.02.14 - Peningkatan Kapasitas Pengelola SIPJAKI
+[2025-11-27T02:38:59.550Z] [INFO] Processed row 396: 1 3 11 2.02 14
+[2025-11-27T02:39:01.427Z] [INFO] Created SubKegiatan: 1.3.11.2.02.15 - Operasionalisasi Layanan Informasi Jasa Konstruksi
+[2025-11-27T02:39:01.429Z] [INFO] Processed row 397: 1 3 11 2.02 15
+[2025-11-27T02:39:02.892Z] [INFO] Created Kegiatan: 1.3.11.2.03 - Penerbitan Izin Usaha Jasa Konstruksi Nasional (Non Kecil dan Kecil)
+[2025-11-27T02:39:02.893Z] [INFO] Processed row 398: 1 3 11 2.03 
+[2025-11-27T02:39:04.634Z] [INFO] Created SubKegiatan: 1.3.11.2.03.6 - Pemantauan dan Evaluasi Perizinan Berusaha Berbasis Risiko Jasa konstruksi
+[2025-11-27T02:39:04.635Z] [INFO] Processed row 399: 1 3 11 2.03 6
+[2025-11-27T02:39:06.349Z] [INFO] Created SubKegiatan: 1.3.11.2.03.7 - Penyusunan Produk Hukum Daerah terkait Penyelenggaraan Jasa Konstruksi di Kabupaten/Kota
+[2025-11-27T02:39:06.350Z] [INFO] Processed row 400: 1 3 11 2.03 7
+[2025-11-27T02:39:06.352Z] [INFO] Processed 400/593 rows...
+[2025-11-27T02:39:07.833Z] [INFO] Created Kegiatan: 1.3.11.2.04 - Pengawasan Tertib Usaha, Tertib Penyelenggaraan dan Tertib Pemanfaatan Jasa Konstruksi
+[2025-11-27T02:39:07.834Z] [INFO] Processed row 401: 1 3 11 2.04 
+[2025-11-27T02:39:09.562Z] [INFO] Created SubKegiatan: 1.3.11.2.04.4 - Pengawasan dan Evaluasi Tertib Penyelenggaraan Jasa Konstruksi Kabupaten/Kota
+[2025-11-27T02:39:09.563Z] [INFO] Processed row 402: 1 3 11 2.04 4
+[2025-11-27T02:39:11.374Z] [INFO] Created SubKegiatan: 1.3.11.2.04.5 - Pengawasan dan Evaluasi Tertib Pemanfaatan Produk Jasa Konstruksi Kabupaten/Kota
+[2025-11-27T02:39:11.376Z] [INFO] Processed row 403: 1 3 11 2.04 5
+[2025-11-27T02:39:13.092Z] [INFO] Created SubKegiatan: 1.3.11.2.04.6 - Pembinaan Tertib Usaha, Tertib Penyelenggaraan, dan Tertib Pemanfaatan Produk Jasa Konstruksi
+[2025-11-27T02:39:13.093Z] [INFO] Processed row 404: 1 3 11 2.04 6
+[2025-11-27T02:39:14.805Z] [INFO] Created SubKegiatan: 1.3.11.2.04.7 - Pengawasan dan Evaluasi Tertib Usaha Jasa Konstruksi Kabupaten/Kota
+[2025-11-27T02:39:14.807Z] [INFO] Processed row 405: 1 3 11 2.04 7
+[2025-11-27T02:39:16.514Z] [INFO] Created SubKegiatan: 1.3.11.2.04.8 - Penyusunan SOP/Pedoman Tertib Usaha, Tertib Penyelenggaraan, dan Tertib Pemanfaatan Produk Jasa Konstruksi
+[2025-11-27T02:39:16.515Z] [INFO] Processed row 406: 1 3 11 2.04 8
+[2025-11-27T02:39:17.780Z] [INFO] Processed row 407: 1 3 11 3.01 
+[2025-11-27T02:39:19.249Z] [INFO] Created Kegiatan: 1.3.11.3.01 - Kegiatan 3.01
+[2025-11-27T02:39:19.996Z] [INFO] Created SubKegiatan: 1.3.11.3.01.9 - Pengembangan Kompetensi Keterampilan dan Ketehnikan konstruksi bagi OAP
+[2025-11-27T02:39:19.998Z] [INFO] Processed row 408: 1 3 11 3.01 9
+[2025-11-27T02:39:21.236Z] [INFO] Processed row 409: 1 3 11 4.01 
+[2025-11-27T02:39:22.882Z] [INFO] Created Kegiatan: 1.3.11.4.01 - Kegiatan 4.01
+[2025-11-27T02:39:23.630Z] [INFO] Created SubKegiatan: 1.3.11.4.01.9 - Pengembangan Kompetensi Keterampilan dan Ketehnikan konstruksi bagi OAP
+[2025-11-27T02:39:23.632Z] [INFO] Processed row 410: 1 3 11 4.01 9
+[2025-11-27T02:39:24.856Z] [INFO] Created Program: 1.3.12 - PENYELENGGARAAN PENATAAN RUANG
+[2025-11-27T02:39:24.858Z] [INFO] Processed row 411: 1 3 12  
+[2025-11-27T02:39:26.348Z] [INFO] Created Kegiatan: 1.3.12.2.01 - Penetapan Rencana Tata Ruang Wilayah (RTRW) dan Rencana Rinci Tata Ruang (RRTR) Kabupaten/Kota
+[2025-11-27T02:39:26.348Z] [INFO] Processed row 412: 1 3 12 2.01 
+[2025-11-27T02:39:28.083Z] [INFO] Created SubKegiatan: 1.3.12.2.01.3 - Penetapan Kebijakan dalam rangka Pelaksanaan Penataan Ruang
+[2025-11-27T02:39:28.084Z] [INFO] Processed row 413: 1 3 12 2.01 3
+[2025-11-27T02:39:29.808Z] [INFO] Created SubKegiatan: 1.3.12.2.01.5 - Pelaksanaan Persetujuan Substansi RTRW Kabupaten/Kota
+[2025-11-27T02:39:29.809Z] [INFO] Processed row 414: 1 3 12 2.01 5
+[2025-11-27T02:39:31.537Z] [INFO] Created SubKegiatan: 1.3.12.2.01.6 - Pelaksanaan Persetujuan Substansi RDTR Kabupaten/Kota
+[2025-11-27T02:39:31.538Z] [INFO] Processed row 415: 1 3 12 2.01 6
+[2025-11-27T02:39:33.280Z] [INFO] Created SubKegiatan: 1.3.12.2.01.7 - Penyebarluasan Informasi Penataan Ruang
+[2025-11-27T02:39:33.281Z] [INFO] Processed row 416: 1 3 12 2.01 7
+[2025-11-27T02:39:34.996Z] [INFO] Created SubKegiatan: 1.3.12.2.01.8 - Pelaksanaan Fasilitasi RDTR Kabupaten/Kota
+[2025-11-27T02:39:34.997Z] [INFO] Processed row 417: 1 3 12 2.01 8
+[2025-11-27T02:39:36.720Z] [INFO] Created SubKegiatan: 1.3.12.2.01.9 - Pelaksanaan Evaluasi dan Konsultasi Evaluasi RTRW Kabupaten/Kota
+[2025-11-27T02:39:36.721Z] [INFO] Processed row 418: 1 3 12 2.01 9
+[2025-11-27T02:39:38.488Z] [INFO] Created SubKegiatan: 1.3.12.2.01.10 - Penetapan RDTR Kabupaten/Kota
+[2025-11-27T02:39:38.489Z] [INFO] Processed row 419: 1 3 12 2.01 10
+[2025-11-27T02:39:40.232Z] [INFO] Created SubKegiatan: 1.3.12.2.01.11 - Penetapan RTRW Kabupaten/Kota
+[2025-11-27T02:39:40.234Z] [INFO] Processed row 420: 1 3 12 2.01 11
+[2025-11-27T02:39:41.958Z] [INFO] Created SubKegiatan: 1.3.12.2.01.13 - Sosialisasi Kebijakan dan Peraturan Perundang-Undangan Bidang Penataan Ruang
+[2025-11-27T02:39:41.959Z] [INFO] Processed row 421: 1 3 12 2.01 13
+[2025-11-27T02:39:43.527Z] [INFO] Created Kegiatan: 1.3.12.2.02 - Koordinasi dan Sinkronisasi Perencanaan Tata Ruang Daerah Kabupaten/Kota
+[2025-11-27T02:39:43.528Z] [INFO] Processed row 422: 1 3 12 2.02 
+[2025-11-27T02:39:45.273Z] [INFO] Created SubKegiatan: 1.3.12.2.02.4 - Penyusunan Peta Dasar
+[2025-11-27T02:39:45.274Z] [INFO] Processed row 423: 1 3 12 2.02 4
+[2025-11-27T02:39:47.009Z] [INFO] Created SubKegiatan: 1.3.12.2.02.5 - Penyusunan RDTR Kabupaten/Kota
+[2025-11-27T02:39:47.010Z] [INFO] Processed row 424: 1 3 12 2.02 5
+[2025-11-27T02:39:48.765Z] [INFO] Created SubKegiatan: 1.3.12.2.02.6 - Peningkatan kompetensi SDM bidang penataan ruang
+[2025-11-27T02:39:48.767Z] [INFO] Processed row 425: 1 3 12 2.02 6
+[2025-11-27T02:39:50.533Z] [INFO] Created SubKegiatan: 1.3.12.2.02.7 - Penyusunan RTRW Kabupaten/Kota
+[2025-11-27T02:39:50.534Z] [INFO] Processed row 426: 1 3 12 2.02 7
+[2025-11-27T02:39:52.272Z] [INFO] Created SubKegiatan: 1.3.12.2.02.8 - Peningkatan Peran Masyarakat dalam Penataan Ruang
+[2025-11-27T02:39:52.273Z] [INFO] Processed row 427: 1 3 12 2.02 8
+[2025-11-27T02:39:53.811Z] [INFO] Created Kegiatan: 1.3.12.2.03 - Koordinasi dan Sinkronisasi Pemanfaatan Ruang Daerah Kabupaten/Kota
+[2025-11-27T02:39:53.812Z] [INFO] Processed row 428: 1 3 12 2.03 
+[2025-11-27T02:39:55.587Z] [INFO] Created SubKegiatan: 1.3.12.2.03.3 - Koordinasi Penyelenggaraan Penataan Ruang
+[2025-11-27T02:39:55.588Z] [INFO] Processed row 429: 1 3 12 2.03 3
+[2025-11-27T02:39:57.304Z] [INFO] Created SubKegiatan: 1.3.12.2.03.4 - Pelaksanaan Persetujuan Kesesuaian Kegiatan Pemanfaatan Ruang
+[2025-11-27T02:39:57.305Z] [INFO] Processed row 430: 1 3 12 2.03 4
+[2025-11-27T02:39:59.023Z] [INFO] Created SubKegiatan: 1.3.12.2.03.5 - Pelaksanaan Sinkronisasi Program Pemanfaatan Ruang
+[2025-11-27T02:39:59.024Z] [INFO] Processed row 431: 1 3 12 2.03 5
+[2025-11-27T02:40:00.750Z] [INFO] Created SubKegiatan: 1.3.12.2.03.7 - Sistem informasi dan komunikasi penataan ruang
+[2025-11-27T02:40:00.751Z] [INFO] Processed row 432: 1 3 12 2.03 7
+[2025-11-27T02:40:02.254Z] [INFO] Created Kegiatan: 1.3.12.2.04 - Koordinasi dan Sinkronisasi Pengendalian Pemanfaatan Ruang Daerah Kabupaten/Kota
+[2025-11-27T02:40:02.255Z] [INFO] Processed row 433: 1 3 12 2.04 
+[2025-11-27T02:40:03.986Z] [INFO] Created SubKegiatan: 1.3.12.2.04.3 - Operasionalisasi Tugas dan Fungsi Penyidik Pegawai Negeri Sipil (PPNS) Bidang Penataan Ruang
+[2025-11-27T02:40:03.987Z] [INFO] Processed row 434: 1 3 12 2.04 3
+[2025-11-27T02:40:05.740Z] [INFO] Created SubKegiatan: 1.3.12.2.04.4 - Koordinasi Pelaksanaan Penataan Ruang
+[2025-11-27T02:40:05.742Z] [INFO] Processed row 435: 1 3 12 2.04 4
+[2025-11-27T02:40:07.459Z] [INFO] Created SubKegiatan: 1.3.12.2.04.5 - Operasionalisasi Tugas dan Fungsi Inspektur Pembangunan Bidang Penataan Ruang
+[2025-11-27T02:40:07.460Z] [INFO] Processed row 436: 1 3 12 2.04 5
+[2025-11-27T02:40:09.186Z] [INFO] Created SubKegiatan: 1.3.12.2.04.6 - Pelaksanaan Audit Tata Ruang
+[2025-11-27T02:40:09.187Z] [INFO] Processed row 437: 1 3 12 2.04 6
+[2025-11-27T02:40:10.904Z] [INFO] Created SubKegiatan: 1.3.12.2.04.7 - Pengenaan Sanksi Administratif terhadap pelanggaran pemanfaatan ruang dalam RTR
+[2025-11-27T02:40:10.906Z] [INFO] Processed row 438: 1 3 12 2.04 7
+[2025-11-27T02:40:12.630Z] [INFO] Created SubKegiatan: 1.3.12.2.04.8 - Penilaian Pelaksanaan Kesesuaian Kegiatan Pemanfaatan Ruang dan/atau pernyataan mandiri pelaku UMK
+[2025-11-27T02:40:12.631Z] [INFO] Processed row 439: 1 3 12 2.04 8
+[2025-11-27T02:40:14.345Z] [INFO] Created SubKegiatan: 1.3.12.2.04.9 - Operasionalisasi Tugas dan Fungsi Forum Penataan Ruang
+[2025-11-27T02:40:14.347Z] [INFO] Processed row 440: 1 3 12 2.04 9
+[2025-11-27T02:40:16.068Z] [INFO] Created SubKegiatan: 1.3.12.2.04.10 - Pengawasan kinerja pemenuhan standar teknis kawasan
+[2025-11-27T02:40:16.069Z] [INFO] Processed row 441: 1 3 12 2.04 10
+[2025-11-27T02:40:17.827Z] [INFO] Created SubKegiatan: 1.3.12.2.04.11 - Pengawasan TURBINLAK dan Pengawasan Fungsi dan Manfaat
+[2025-11-27T02:40:17.828Z] [INFO] Processed row 442: 1 3 12 2.04 11
+[2025-11-27T02:40:19.587Z] [INFO] Created SubKegiatan: 1.3.12.2.04.12 - Penilaian Perwujudan RTR
+[2025-11-27T02:40:19.589Z] [INFO] Processed row 443: 1 3 12 2.04 12
+[2025-11-27T02:40:21.333Z] [INFO] Created SubKegiatan: 1.3.12.2.04.13 - Penyelesaian Sengketa Penataan Ruang
+[2025-11-27T02:40:21.334Z] [INFO] Processed row 444: 1 3 12 2.04 13
+[2025-11-27T02:40:23.057Z] [INFO] Created SubKegiatan: 1.3.12.2.04.14 - Pengawasan Standar Pelayanan Bidang Penataan Ruang
+[2025-11-27T02:40:23.059Z] [INFO] Processed row 445: 1 3 12 2.04 14
+[2025-11-27T02:40:24.788Z] [INFO] Created SubKegiatan: 1.3.12.2.04.15 - Pemberian insentif dan/atau disinsentif non fiskal
+[2025-11-27T02:40:24.789Z] [INFO] Processed row 446: 1 3 12 2.04 15
+[2025-11-27T02:40:26.068Z] [INFO] Processed row 447: 1 3 12 3.03 
+[2025-11-27T02:40:27.552Z] [INFO] Created Kegiatan: 1.3.12.3.03 - Kegiatan 3.03
+[2025-11-27T02:40:28.289Z] [INFO] Created SubKegiatan: 1.3.12.3.03.3 - Pelaksanaan Persetujuan Kesesuaian Kegiatan Pemanfaatan Ruang untuk Kegiatan Berusaha
+[2025-11-27T02:40:28.291Z] [INFO] Processed row 448: 1 3 12 3.03 3
+[2025-11-27T02:40:29.999Z] [INFO] Created SubKegiatan: 1.3.12.3.03.4 - Pelaksanaan Persetujuan Kesesuaian Kegiatan Pemanfaatan Ruang untuk Kegiatan Non Berusaha
+[2025-11-27T02:40:30.000Z] [INFO] Processed row 449: 1 3 12 3.03 4
+[2025-11-27T02:40:31.487Z] [INFO] Created Kegiatan: 1.3.12.3.05 - Koordinasi Penyelenggaraan Penataan Ruang
+[2025-11-27T02:40:31.488Z] [INFO] Processed row 450: 1 3 12 3.05 
+[2025-11-27T02:40:31.489Z] [INFO] Processed 450/593 rows...
+[2025-11-27T02:40:33.206Z] [INFO] Created SubKegiatan: 1.3.12.3.05.1 - Fasilitasi forum penataan ruang di lingkungan Kabupaten/Kota
+[2025-11-27T02:40:33.208Z] [INFO] Processed row 451: 1 3 12 3.05 1
+[2025-11-27T02:40:34.724Z] [INFO] Created Kegiatan: 1.3.12.3.06 - Pengawasan Penataan Ruang
+[2025-11-27T02:40:34.726Z] [INFO] Processed row 452: 1 3 12 3.06 
+[2025-11-27T02:40:36.439Z] [INFO] Created SubKegiatan: 1.3.12.3.06.1 - Pengawasan TURBINLAK dan Pengawasan Fungsi dan Manfaat
+[2025-11-27T02:40:36.440Z] [INFO] Processed row 453: 1 3 12 3.06 1
+[2025-11-27T02:40:38.155Z] [INFO] Created SubKegiatan: 1.3.12.3.06.2 - Pengawasan Standar Pelayanan Bidang Penataan Ruang
+[2025-11-27T02:40:38.156Z] [INFO] Processed row 454: 1 3 12 3.06 2
+[2025-11-27T02:40:39.903Z] [INFO] Created SubKegiatan: 1.3.12.3.06.3 - Pengawasan kinerja pemenuhan standar teknis kawasan
+[2025-11-27T02:40:39.904Z] [INFO] Processed row 455: 1 3 12 3.06 3
+[2025-11-27T02:40:41.627Z] [INFO] Created SubKegiatan: 1.3.12.3.06.4 - Operasionalisasi Tugas dan Fungsi Inspektur Pembangunan Bidang Penataan Ruang
+[2025-11-27T02:40:41.629Z] [INFO] Processed row 456: 1 3 12 3.06 4
+[2025-11-27T02:40:43.439Z] [INFO] Processed row 457: 1 3 12 4.03 
+[2025-11-27T02:40:44.923Z] [INFO] Created Kegiatan: 1.3.12.4.03 - Kegiatan 4.03
+[2025-11-27T02:40:45.663Z] [INFO] Created SubKegiatan: 1.3.12.4.03.3 - Pelaksanaan Persetujuan Kesesuaian Kegiatan Pemanfaatan Ruang untuk Kegiatan Berusaha
+[2025-11-27T02:40:45.664Z] [INFO] Processed row 458: 1 3 12 4.03 3
+[2025-11-27T02:40:47.398Z] [INFO] Created SubKegiatan: 1.3.12.4.03.4 - Pelaksanaan Persetujuan Kesesuaian Kegiatan Pemanfaatan Ruang untuk Kegiatan Non Berusaha
+[2025-11-27T02:40:47.399Z] [INFO] Processed row 459: 1 3 12 4.03 4
+[2025-11-27T02:40:48.640Z] [INFO] Processed row 460: 1 3 12 4.05 
+[2025-11-27T02:40:50.123Z] [INFO] Created Kegiatan: 1.3.12.4.05 - Kegiatan 4.05
+[2025-11-27T02:40:50.880Z] [INFO] Created SubKegiatan: 1.3.12.4.05.1 - Fasilitasi forum penataan ruang di lingkungan Kabupaten/Kota
+[2025-11-27T02:40:50.881Z] [INFO] Processed row 461: 1 3 12 4.05 1
+[2025-11-27T02:40:52.105Z] [INFO] Processed row 462: 1 3 12 4.06 
+[2025-11-27T02:40:53.586Z] [INFO] Created Kegiatan: 1.3.12.4.06 - Kegiatan 4.06
+[2025-11-27T02:40:54.321Z] [INFO] Created SubKegiatan: 1.3.12.4.06.1 - Pengawasan TURBINLAK dan Pengawasan Fungsi dan Manfaat
+[2025-11-27T02:40:54.323Z] [INFO] Processed row 463: 1 3 12 4.06 1
+[2025-11-27T02:40:56.047Z] [INFO] Created SubKegiatan: 1.3.12.4.06.2 - Pengawasan Standar Pelayanan Bidang Penataan Ruang
+[2025-11-27T02:40:56.048Z] [INFO] Processed row 464: 1 3 12 4.06 2
+[2025-11-27T02:40:57.791Z] [INFO] Created SubKegiatan: 1.3.12.4.06.3 - Pengawasan kinerja pemenuhan standar teknis kawasan
+[2025-11-27T02:40:57.793Z] [INFO] Processed row 465: 1 3 12 4.06 3
+[2025-11-27T02:40:59.567Z] [INFO] Created SubKegiatan: 1.3.12.4.06.4 - Operasionalisasi Tugas dan Fungsi Inspektur Pembangunan Bidang Penataan Ruang
+[2025-11-27T02:40:59.568Z] [INFO] Processed row 466: 1 3 12 4.06 4
+[2025-11-27T02:41:00.812Z] [INFO] Created Program: 1.3.13 - PENYELENGGARAAN KEISTIMEWAAN YOGYAKARTA URUSAN TATA RUANG
+[2025-11-27T02:41:00.814Z] [INFO] Processed row 467: 1 3 13  
+[2025-11-27T02:41:02.325Z] [INFO] Created Kegiatan: 1.3.13.5.01 - Perencanaan Tata Ruang Satuan Ruang Strategis Kasultanan dan Kadipaten
+[2025-11-27T02:41:02.326Z] [INFO] Processed row 468: 1 3 13 5.01 
+[2025-11-27T02:41:04.057Z] [INFO] Created SubKegiatan: 1.3.13.5.01.3 - Penyusunan Rencana Induk Satuan Ruang Strategis Kasultanan dan Kadipaten
+[2025-11-27T02:41:04.058Z] [INFO] Processed row 469: 1 3 13 5.01 3
+[2025-11-27T02:41:05.814Z] [INFO] Created SubKegiatan: 1.3.13.5.01.5 - Perencanaan Program/Kegiatan Urusan Tata Ruang
+[2025-11-27T02:41:05.816Z] [INFO] Processed row 470: 1 3 13 5.01 5
+[2025-11-27T02:41:07.594Z] [INFO] Created SubKegiatan: 1.3.13.5.01.6 - Penyebarluasan Informasi Rencana Tata Ruang
+[2025-11-27T02:41:07.595Z] [INFO] Processed row 471: 1 3 13 5.01 6
+[2025-11-27T02:41:09.319Z] [INFO] Created SubKegiatan: 1.3.13.5.01.7 - Penyusunan Rencana Tata Bangunan dan Lingkungan Satuan Ruang Strategis Kasultanan dan Kadipaten
+[2025-11-27T02:41:09.321Z] [INFO] Processed row 472: 1 3 13 5.01 7
+[2025-11-27T02:41:11.031Z] [INFO] Created SubKegiatan: 1.3.13.5.01.8 - Penyusunan Rencana Rinci Tata Ruang pada Satuan Ruang Strategis Kasultanan dan Kadipaten
+[2025-11-27T02:41:11.032Z] [INFO] Processed row 473: 1 3 13 5.01 8
+[2025-11-27T02:41:12.497Z] [INFO] Created Kegiatan: 1.3.13.5.02 - Pemanfaatan Ruang Satuan Ruang Strategis Kasultanan dan Kadipaten
+[2025-11-27T02:41:12.499Z] [INFO] Processed row 474: 1 3 13 5.02 
+[2025-11-27T02:41:14.390Z] [INFO] Created SubKegiatan: 1.3.13.5.02.1 - Pemanfaatan Ruang Satuan Ruang Strategis Sumbu Filosofis
+[2025-11-27T02:41:14.391Z] [INFO] Processed row 475: 1 3 13 5.02 1
+[2025-11-27T02:41:16.108Z] [INFO] Created SubKegiatan: 1.3.13.5.02.2 - Pemanfaatan Ruang Satuan Ruang Strategis Pantai Selatan
+[2025-11-27T02:41:16.109Z] [INFO] Processed row 476: 1 3 13 5.02 2
+[2025-11-27T02:41:17.825Z] [INFO] Created SubKegiatan: 1.3.13.5.02.3 - Pemanfaatan Ruang Satuan Ruang Strategis Karst Gunung Sewu
+[2025-11-27T02:41:17.826Z] [INFO] Processed row 477: 1 3 13 5.02 3
+[2025-11-27T02:41:19.709Z] [INFO] Created SubKegiatan: 1.3.13.5.02.4 - Pemanfaatan Ruang Satuan Ruang Strategis Perbukitan Menoreh
+[2025-11-27T02:41:19.710Z] [INFO] Processed row 478: 1 3 13 5.02 4
+[2025-11-27T02:41:21.429Z] [INFO] Created SubKegiatan: 1.3.13.5.02.5 - Pemanfaatan Ruang Satuan Ruang Strategis Kawasan Makam Raja-Raja Mataram di Imogiri
+[2025-11-27T02:41:21.430Z] [INFO] Processed row 479: 1 3 13 5.02 5
+[2025-11-27T02:41:23.164Z] [INFO] Created SubKegiatan: 1.3.13.5.02.6 - Pemanfaatan Ruang Satuan Ruang Strategis Kawasan Candi Prambanan- Candi Ijo
+[2025-11-27T02:41:23.165Z] [INFO] Processed row 480: 1 3 13 5.02 6
+[2025-11-27T02:41:24.877Z] [INFO] Created SubKegiatan: 1.3.13.5.02.7 - Pemanfaatan Ruang Satuan Ruang Strategis Kotabaru
+[2025-11-27T02:41:24.879Z] [INFO] Processed row 481: 1 3 13 5.02 7
+[2025-11-27T02:41:26.597Z] [INFO] Created SubKegiatan: 1.3.13.5.02.8 - Pemanfaatan Ruang Satuan Ruang Strategis Merapi
+[2025-11-27T02:41:26.598Z] [INFO] Processed row 482: 1 3 13 5.02 8
+[2025-11-27T02:41:28.407Z] [INFO] Created SubKegiatan: 1.3.13.5.02.9 - Pemanfaatan Ruang Satuan Ruang Strategis Kotagede
+[2025-11-27T02:41:28.408Z] [INFO] Processed row 483: 1 3 13 5.02 9
+[2025-11-27T02:41:30.258Z] [INFO] Created SubKegiatan: 1.3.13.5.02.10 - Pemanfaatan Ruang Satuan Ruang Strategis Pantai Samas-Parangtritis
+[2025-11-27T02:41:30.259Z] [INFO] Processed row 484: 1 3 13 5.02 10
+[2025-11-27T02:41:31.994Z] [INFO] Created SubKegiatan: 1.3.13.5.02.11 - Pemanfaatan Ruang Kawasan Kiskendo-Sermo-Wates
+[2025-11-27T02:41:31.995Z] [INFO] Processed row 485: 1 3 13 5.02 11
+[2025-11-27T02:41:33.721Z] [INFO] Created SubKegiatan: 1.3.13.5.02.12 - Pemanfaatan Ruang Satuan Ruang Strategis Kawasan Kerto-Pleret
+[2025-11-27T02:41:33.722Z] [INFO] Processed row 486: 1 3 13 5.02 12
+[2025-11-27T02:41:35.453Z] [INFO] Created SubKegiatan: 1.3.13.5.02.13 - Pemanfaatan Ruang Satuan Ruang Strategis Pantai Selatan Kulon Progo
+[2025-11-27T02:41:35.454Z] [INFO] Processed row 487: 1 3 13 5.02 13
+[2025-11-27T02:41:37.340Z] [INFO] Created SubKegiatan: 1.3.13.5.02.14 - Pemanfaatan Ruang Satuan Ruang Strategis Karaton
+[2025-11-27T02:41:37.341Z] [INFO] Processed row 488: 1 3 13 5.02 14
+[2025-11-27T02:41:39.109Z] [INFO] Created SubKegiatan: 1.3.13.5.02.15 - Pemanfaatan Ruang Satuan Ruang Strategis Sokoliman
+[2025-11-27T02:41:39.110Z] [INFO] Processed row 489: 1 3 13 5.02 15
+[2025-11-27T02:41:40.894Z] [INFO] Created SubKegiatan: 1.3.13.5.02.16 - Pemanfaatan Ruang Satuan Ruang Strategis Puro Pakualaman
+[2025-11-27T02:41:40.895Z] [INFO] Processed row 490: 1 3 13 5.02 16
+[2025-11-27T02:41:42.643Z] [INFO] Created SubKegiatan: 1.3.13.5.02.17 - Pemanfaatan Ruang Satuan Ruang Strategis Makam Girindo
+[2025-11-27T02:41:42.644Z] [INFO] Processed row 491: 1 3 13 5.02 17
+[2025-11-27T02:41:44.403Z] [INFO] Created SubKegiatan: 1.3.13.5.02.18 - Pemanfaatan Ruang Satuan Ruang Strategis Pantai Selatan Gunungkidul
+[2025-11-27T02:41:44.405Z] [INFO] Processed row 492: 1 3 13 5.02 18
+[2025-11-27T02:41:46.154Z] [INFO] Created SubKegiatan: 1.3.13.5.02.19 - Pemanfaatan Ruang Satuan Ruang Strategis Masjid Pathok Nagoro
+[2025-11-27T02:41:46.156Z] [INFO] Processed row 493: 1 3 13 5.02 19
+[2025-11-27T02:41:47.623Z] [INFO] Created Kegiatan: 1.3.13.5.03 - Pengendalian Pemanfaatan Penataan Ruang Satuan Ruang Strategis
+[2025-11-27T02:41:47.625Z] [INFO] Processed row 494: 1 3 13 5.03 
+[2025-11-27T02:41:49.431Z] [INFO] Created SubKegiatan: 1.3.13.5.03.1 - Pengawasan Penyelenggaraan Penataan Ruang
+[2025-11-27T02:41:49.432Z] [INFO] Processed row 495: 1 3 13 5.03 1
+[2025-11-27T02:41:50.931Z] [INFO] Created Kegiatan: 1.3.13.5.04 - Sarana dan Prasarana Keistimewaan Urusan Tata Ruang
+[2025-11-27T02:41:50.932Z] [INFO] Processed row 496: 1 3 13 5.04 
+[2025-11-27T02:41:52.627Z] [INFO] Created SubKegiatan: 1.3.13.5.04.1 - Pengadaan Sarana dan Prasarana Pendukung Pelaksanaan Kegiatan Keistimewaan Urusan Tata Ruang
+[2025-11-27T02:41:52.628Z] [INFO] Processed row 497: 1 3 13 5.04 1
+[2025-11-27T02:41:53.596Z] [INFO] Created Bidang: 1.4 - DAN KAWASAN PERMUKIMAN
+[2025-11-27T02:41:53.597Z] [INFO] Processed row 498: 1 4   
+[2025-11-27T02:41:54.815Z] [INFO] Created Program: 1.4.2 - PENGEMBANGAN PERUMAHAN
+[2025-11-27T02:41:54.817Z] [INFO] Processed row 499: 1 4 2  
+[2025-11-27T02:41:56.348Z] [INFO] Created Kegiatan: 1.4.2.2.01 - Pendataan Penyediaan dan Rehabilitasi Rumah Korban Bencana atau Relokasi Program Kabupaten/Kota
+[2025-11-27T02:41:56.350Z] [INFO] Processed row 500: 1 4 2 2.01 
+[2025-11-27T02:41:56.351Z] [INFO] Processed 500/593 rows...
+[2025-11-27T02:41:58.158Z] [INFO] Created SubKegiatan: 1.4.2.2.01.2 - Identifikasi Lahan-Lahan Potensial sebagai Lokasi Relokasi Perumahan
+[2025-11-27T02:41:58.159Z] [INFO] Processed row 501: 1 4 2 2.01 2
+[2025-11-27T02:41:59.879Z] [INFO] Created SubKegiatan: 1.4.2.2.01.3 - Pengumpulan Data Rumah Korban Bencana Kejadian Sebelumnya yang Belum Tertangani
+[2025-11-27T02:41:59.880Z] [INFO] Processed row 502: 1 4 2 2.01 3
+[2025-11-27T02:42:01.619Z] [INFO] Created SubKegiatan: 1.4.2.2.01.4 - Pendataan Tingkat Kerusakan Rumah Akibat Bencana
+[2025-11-27T02:42:01.620Z] [INFO] Processed row 503: 1 4 2 2.01 4
+[2025-11-27T02:42:03.329Z] [INFO] Created SubKegiatan: 1.4.2.2.01.6 - Pendataan Rumah Sewa Milik Masyarakat, Rumah Susun dan Rumah Khusus
+[2025-11-27T02:42:03.330Z] [INFO] Processed row 504: 1 4 2 2.01 6
+[2025-11-27T02:42:05.108Z] [INFO] Created SubKegiatan: 1.4.2.2.01.7 - Identifikasi Perumahan di Lokasi yang Berpotensi Terkena Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:05.109Z] [INFO] Processed row 505: 1 4 2 2.01 7
+[2025-11-27T02:42:06.837Z] [INFO] Created SubKegiatan: 1.4.2.2.01.8 - Pendataan dan Verifikasi Calon Penerima Rumah bagi Masyarakat yang Terkena Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:06.838Z] [INFO] Processed row 506: 1 4 2 2.01 8
+[2025-11-27T02:42:08.562Z] [INFO] Created SubKegiatan: 1.4.2.2.01.9 - Identifikasi Perumahan di Lokasi Rawan Bencana Kabupaten/Kota
+[2025-11-27T02:42:08.564Z] [INFO] Processed row 507: 1 4 2 2.01 9
+[2025-11-27T02:42:10.287Z] [INFO] Created SubKegiatan: 1.4.2.2.01.10 - Pendataan dan Verifikasi Calon Penerima Rumah bagi Korban Bencana Kabupaten/Kota
+[2025-11-27T02:42:10.288Z] [INFO] Processed row 508: 1 4 2 2.01 10
+[2025-11-27T02:42:11.788Z] [INFO] Created Kegiatan: 1.4.2.2.02 - Sosialisasi dan Persiapan Penyediaan dan Rehabilitasi Rumah Korban Bencana atau Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:11.791Z] [INFO] Processed row 509: 1 4 2 2.02 
+[2025-11-27T02:42:13.527Z] [INFO] Created SubKegiatan: 1.4.2.2.02.1 - Sosialisasi Standar Teknis Penyediaan dan Rehabilitasi Rumah kepada Masyarakat/Sukarelawan Tanggap Bencana
+[2025-11-27T02:42:13.529Z] [INFO] Processed row 510: 1 4 2 2.02 1
+[2025-11-27T02:42:15.232Z] [INFO] Created SubKegiatan: 1.4.2.2.02.4 - Pembentukan dan Pelatihan Tim Satgas, Tim Pendamping dan Fasilitator
+[2025-11-27T02:42:15.234Z] [INFO] Processed row 511: 1 4 2 2.02 4
+[2025-11-27T02:42:16.945Z] [INFO] Created SubKegiatan: 1.4.2.2.02.6 - Koordinasi untuk Menyepakati Penerima dan Jenis Pelayanan
+[2025-11-27T02:42:16.946Z] [INFO] Processed row 512: 1 4 2 2.02 6
+[2025-11-27T02:42:18.660Z] [INFO] Created SubKegiatan: 1.4.2.2.02.7 - Rembug Warga untuk Menentukan Calon Penerima Rumah bagi Masyarakat yang Terkena Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:18.661Z] [INFO] Processed row 513: 1 4 2 2.02 7
+[2025-11-27T02:42:20.400Z] [INFO] Created SubKegiatan: 1.4.2.2.02.8 - Rembug Warga untuk Menentukan Calon Penerima Rumah bagi Korban Bencana Kabupaten/Kota
+[2025-11-27T02:42:20.402Z] [INFO] Processed row 514: 1 4 2 2.02 8
+[2025-11-27T02:42:22.157Z] [INFO] Created SubKegiatan: 1.4.2.2.02.9 - Sosialisasi Pengembangan Perumahan Baru dan Mekanisme Akses Pembiayaan Perumahan
+[2025-11-27T02:42:22.158Z] [INFO] Processed row 515: 1 4 2 2.02 9
+[2025-11-27T02:42:23.877Z] [INFO] Created SubKegiatan: 1.4.2.2.02.10 - Sosialisasi tentang Mekanisme Penggantian Hak atas Tanah dan/atau Bangunan
+[2025-11-27T02:42:23.878Z] [INFO] Processed row 516: 1 4 2 2.02 10
+[2025-11-27T02:42:25.397Z] [INFO] Created Kegiatan: 1.4.2.2.03 - Pembangunan dan Rehabilitasi Rumah Korban Bencana atau Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:25.399Z] [INFO] Processed row 517: 1 4 2 2.03 
+[2025-11-27T02:42:27.114Z] [INFO] Created SubKegiatan: 1.4.2.2.03.1 - Rehabilitasi Rumah bagi Korban Bencana
+[2025-11-27T02:42:27.115Z] [INFO] Processed row 518: 1 4 2 2.03 1
+[2025-11-27T02:42:28.838Z] [INFO] Created SubKegiatan: 1.4.2.2.03.4 - Pembangunan Rumah bagi Korban Bencana
+[2025-11-27T02:42:28.839Z] [INFO] Processed row 519: 1 4 2 2.03 4
+[2025-11-27T02:42:30.565Z] [INFO] Created SubKegiatan: 1.4.2.2.03.6 - Operasional dan Pemeliharaan Lingkungan Perumahan pada Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:30.566Z] [INFO] Processed row 520: 1 4 2 2.03 6
+[2025-11-27T02:42:32.281Z] [INFO] Created SubKegiatan: 1.4.2.2.03.7 - Fasilitasi Penyediaan Rumah bagi Korban Bencana Kabupaten/Kota
+[2025-11-27T02:42:32.282Z] [INFO] Processed row 521: 1 4 2 2.03 7
+[2025-11-27T02:42:34.000Z] [INFO] Created SubKegiatan: 1.4.2.2.03.8 - Fasilitasi Penyediaan Rumah bagi Masyarakat yang Terdampak Relokasi Program Pemerintah Kabupaten/Kota
+[2025-11-27T02:42:34.001Z] [INFO] Processed row 522: 1 4 2 2.03 8
+[2025-11-27T02:42:35.741Z] [INFO] Created SubKegiatan: 1.4.2.2.03.9 - Pembangunan Rumah bagi Masyarakat yang Terdampak Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:35.742Z] [INFO] Processed row 523: 1 4 2 2.03 9
+[2025-11-27T02:42:37.456Z] [INFO] Created SubKegiatan: 1.4.2.2.03.10 - Operasional dan Pemeliharaan Lingkungan Perumahan Bagi Korban Bencana Kabupaten/Kota
+[2025-11-27T02:42:37.457Z] [INFO] Processed row 524: 1 4 2 2.03 10
+[2025-11-27T02:42:39.185Z] [INFO] Created SubKegiatan: 1.4.2.2.03.11 - Pembangunan Rumah Khusus beserta PSU bagi Masyarakat yang Terkena Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:39.186Z] [INFO] Processed row 525: 1 4 2 2.03 11
+[2025-11-27T02:42:40.907Z] [INFO] Created SubKegiatan: 1.4.2.2.03.12 - Pembangunan Rumah Khusus beserta PSU bagi Korban Bencana Kabupaten/Kota
+[2025-11-27T02:42:40.908Z] [INFO] Processed row 526: 1 4 2 2.03 12
+[2025-11-27T02:42:42.378Z] [INFO] Created Kegiatan: 1.4.2.2.04 - Pendistribusian dan Serah Terima Rumah bagi Korban Bencana atau Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:42.379Z] [INFO] Processed row 527: 1 4 2 2.04 
+[2025-11-27T02:42:44.090Z] [INFO] Created SubKegiatan: 1.4.2.2.04.3 - Pelaksanaan Pembagian Rumah bagi Masyarakat yang Terkena Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:44.092Z] [INFO] Processed row 528: 1 4 2 2.04 3
+[2025-11-27T02:42:45.818Z] [INFO] Created SubKegiatan: 1.4.2.2.04.4 - Penatausahaan Serah Terima Rumah bagi Masyarakat yang Terkena Relokasi Program Kabupaten/Kota
+[2025-11-27T02:42:45.819Z] [INFO] Processed row 529: 1 4 2 2.04 4
+[2025-11-27T02:42:47.585Z] [INFO] Created SubKegiatan: 1.4.2.2.04.5 - Penatausahaan Serah Terima Rumah bagi Korban Bencana Kabupaten/Kota
+[2025-11-27T02:42:47.586Z] [INFO] Processed row 530: 1 4 2 2.04 5
+[2025-11-27T02:42:49.328Z] [INFO] Created SubKegiatan: 1.4.2.2.04.6 - Pelaksanaan Pembagian Rumah bagi Korban Bencana Kabupaten/Kota
+[2025-11-27T02:42:49.329Z] [INFO] Processed row 531: 1 4 2 2.04 6
+[2025-11-27T02:42:50.841Z] [INFO] Created Kegiatan: 1.4.2.2.05 - Pembinaan Pengelolaan Rumah Susun Umum dan/atau Rumah Khusus
+[2025-11-27T02:42:50.843Z] [INFO] Processed row 532: 1 4 2 2.05 
+[2025-11-27T02:42:52.636Z] [INFO] Created SubKegiatan: 1.4.2.2.05.1 - Fasilitasi Pengelolaan Kelembagaan dan Pemilik/Penghuni Rumah Susun
+[2025-11-27T02:42:52.637Z] [INFO] Processed row 533: 1 4 2 2.05 1
+[2025-11-27T02:42:54.400Z] [INFO] Created SubKegiatan: 1.4.2.2.05.2 - Penatausahaan Pemanfaatan Rumah Susun Umum dan/atau Rumah Khusus
+[2025-11-27T02:42:54.401Z] [INFO] Processed row 534: 1 4 2 2.05 2
+[2025-11-27T02:42:56.129Z] [INFO] Created SubKegiatan: 1.4.2.2.05.3 - Pembangunan Rumah Khusus
+[2025-11-27T02:42:56.130Z] [INFO] Processed row 535: 1 4 2 2.05 3
+[2025-11-27T02:42:57.885Z] [INFO] Created SubKegiatan: 1.4.2.2.05.4 - Pengendalian dan Pengawasan Pelaksanaan Penjualan Rumah
+[2025-11-27T02:42:57.886Z] [INFO] Processed row 536: 1 4 2 2.05 4
+[2025-11-27T02:42:59.354Z] [INFO] Created Kegiatan: 1.4.2.2.06 - Penerbitan Izin Pembangunan dan Pengembangan Perumahan
+[2025-11-27T02:42:59.356Z] [INFO] Processed row 537: 1 4 2 2.06 
+[2025-11-27T02:43:01.082Z] [INFO] Created SubKegiatan: 1.4.2.2.06.1 - Fasilitasi Pemenuhan Komitmen Penerbitan Izin Pembangunan dan Pengembangan Perumahan Terintegrasi Secara Elektronik
+[2025-11-27T02:43:01.083Z] [INFO] Processed row 538: 1 4 2 2.06 1
+[2025-11-27T02:43:02.793Z] [INFO] Created SubKegiatan: 1.4.2.2.06.2 - Penguatan dan Pembinaan kepada BLU/BUMD untuk Penyelenggaraan Rumah Sederhana
+[2025-11-27T02:43:02.794Z] [INFO] Processed row 539: 1 4 2 2.06 2
+[2025-11-27T02:43:04.508Z] [INFO] Created SubKegiatan: 1.4.2.2.06.3 - Koordinasi dan Sinkronisasi Pengendalian Pembangunan dan Pengembangan Perumahan
+[2025-11-27T02:43:04.509Z] [INFO] Processed row 540: 1 4 2 2.06 3
+[2025-11-27T02:43:06.216Z] [INFO] Created SubKegiatan: 1.4.2.2.06.4 - Koordinasi dan Sinkronisasi Kerja Sama Pemerintah Daerah dengan Badan Usaha (KPDBU) Perumahan Umum/Rumah Susun Umum
+[2025-11-27T02:43:06.218Z] [INFO] Processed row 541: 1 4 2 2.06 4
+[2025-11-27T02:43:08.008Z] [INFO] Created SubKegiatan: 1.4.2.2.06.5 - Pembangunan/Pengembangan/Pemel iharaan Sistem Layanan Informasi dan Komunikasi Bidang Perumahan dan Kawasan Permukiman
+[2025-11-27T02:43:08.009Z] [INFO] Processed row 542: 1 4 2 2.06 5
+[2025-11-27T02:43:09.717Z] [INFO] Created SubKegiatan: 1.4.2.2.06.6 - Fasilitasi Pemenuhan Kesesuaian Rencana Tapak dan Lantai Perumahan
+[2025-11-27T02:43:09.719Z] [INFO] Processed row 543: 1 4 2 2.06 6
+[2025-11-27T02:43:11.208Z] [INFO] Created Kegiatan: 1.4.2.2.07 - Penerbitan Sertifikat Kepemilikan Bangunan Gedung (SKGB)
+[2025-11-27T02:43:11.209Z] [INFO] Processed row 544: 1 4 2 2.07 
+[2025-11-27T02:43:12.925Z] [INFO] Created SubKegiatan: 1.4.2.2.07.2 - Koordinasi dan Sinkronisasi Penerbitan Sertifikat Kepemilikan Bangunan Gedung (SKBG)
+[2025-11-27T02:43:12.927Z] [INFO] Processed row 545: 1 4 2 2.07 2
+[2025-11-27T02:43:14.155Z] [INFO] Created Program: 1.4.3 - KAWASAN PERMUKIMAN
+[2025-11-27T02:43:14.156Z] [INFO] Processed row 546: 1 4 3  
+[2025-11-27T02:43:15.678Z] [INFO] Created Kegiatan: 1.4.3.2.01 - Penerbitan Izin Pembangunan dan Pengembangan Kawasan Permukiman
+[2025-11-27T02:43:15.679Z] [INFO] Processed row 547: 1 4 3 2.01 
+[2025-11-27T02:43:17.389Z] [INFO] Created SubKegiatan: 1.4.3.2.01.1 - Fasilitasi Pemenuhan Komitmen Penerbitan Izin Pembangunan dan Pengembangan Kawasan Permukiman Terintegrasi Secara Elektronik
+[2025-11-27T02:43:17.390Z] [INFO] Processed row 548: 1 4 3 2.01 1
+[2025-11-27T02:43:19.096Z] [INFO] Created SubKegiatan: 1.4.3.2.01.4 - Koordinasi dan Sinkronisasi Penyelenggaraan Kawasan Permukiman
+[2025-11-27T02:43:19.098Z] [INFO] Processed row 549: 1 4 3 2.01 4
+[2025-11-27T02:43:20.566Z] [INFO] Created Kegiatan: 1.4.3.2.02 - Penataan dan Peningkatan Kualitas Kawasan Permukiman Kumuh dengan Luas di Bawah 10 (Sepuluh) Ha
+[2025-11-27T02:43:20.567Z] [INFO] Processed row 550: 1 4 3 2.02 
+[2025-11-27T02:43:20.568Z] [INFO] Processed 550/593 rows...
+[2025-11-27T02:43:22.304Z] [INFO] Created SubKegiatan: 1.4.3.2.02.8 - Penyusunan/Review/Legalisasi Kebijakan Bidang PKP
+[2025-11-27T02:43:22.305Z] [INFO] Processed row 551: 1 4 3 2.02 8
+[2025-11-27T02:43:24.025Z] [INFO] Created SubKegiatan: 1.4.3.2.02.10 - Penatausahaan Serah Terima Rumah Baru Layak Huni bagi Masyarakat di Kawasan Permukiman Kumuh dengan Luas dibawah 10 (Sepuluh) Ha
+[2025-11-27T02:43:24.034Z] [INFO] Processed row 552: 1 4 3 2.02 10
+[2025-11-27T02:43:25.743Z] [INFO] Created SubKegiatan: 1.4.3.2.02.11 - Pelaksanaan Pembagian Rumah bagi Masyarakat untuk Peningkatan Kualitas Permukiman Kumuh dengan luasan di bawah 10 (Sepuluh) Ha
+[2025-11-27T02:43:25.744Z] [INFO] Processed row 553: 1 4 3 2.02 11
+[2025-11-27T02:43:27.453Z] [INFO] Created SubKegiatan: 1.4.3.2.02.12 - Pembentukan/Pembinaan Kelompok Swadaya Masyarakat di Permukiman Kumuh
+[2025-11-27T02:43:27.454Z] [INFO] Processed row 554: 1 4 3 2.02 12
+[2025-11-27T02:43:29.195Z] [INFO] Created SubKegiatan: 1.4.3.2.02.13 - Penatausahaan Serah Terima Rumah bagi Masyarakat Terdampak Program Pemugaran/Peremajaan/Pemukiman Kembali Kawasan Permukiman Kumuh
+[2025-11-27T02:43:29.196Z] [INFO] Processed row 555: 1 4 3 2.02 13
+[2025-11-27T02:43:30.934Z] [INFO] Created SubKegiatan: 1.4.3.2.02.14 - Survei dan Penetapan Lokasi Perumahan dan Permukiman Kumuh
+[2025-11-27T02:43:30.936Z] [INFO] Processed row 556: 1 4 3 2.02 14
+[2025-11-27T02:43:32.655Z] [INFO] Created SubKegiatan: 1.4.3.2.02.15 - Peningkatan Kesadaran Keluarga dalam Mewujudkan Rumah Sehat dan Layak Huni Serta Kesadaran Hukum Tentang Kepemilikan Rumah
+[2025-11-27T02:43:32.656Z] [INFO] Processed row 557: 1 4 3 2.02 15
+[2025-11-27T02:43:34.141Z] [INFO] Created Kegiatan: 1.4.3.2.03 - Peningkatan Kualitas Kawasan Permukiman Kumuh dengan Luas di Bawah 10 (Sepuluh) Ha
+[2025-11-27T02:43:34.143Z] [INFO] Processed row 558: 1 4 3 2.03 
+[2025-11-27T02:43:35.967Z] [INFO] Created SubKegiatan: 1.4.3.2.03.2 - Perbaikan Rumah Tidak Layak Huni
+[2025-11-27T02:43:35.968Z] [INFO] Processed row 559: 1 4 3 2.03 2
+[2025-11-27T02:43:38.045Z] [INFO] Created SubKegiatan: 1.4.3.2.03.3 - Kerja Sama Perbaikan Rumah Tidak Layak Huni Beserta PSU
+[2025-11-27T02:43:38.046Z] [INFO] Processed row 560: 1 4 3 2.03 3
+[2025-11-27T02:43:39.807Z] [INFO] Created SubKegiatan: 1.4.3.2.03.4 - Koordinasi dan Sinkronisasi Pengendalian Penyelenggaraan Pemugaran/Peremajaan Permukiman Kumuh
+[2025-11-27T02:43:39.808Z] [INFO] Processed row 561: 1 4 3 2.03 4
+[2025-11-27T02:43:41.618Z] [INFO] Created SubKegiatan: 1.4.3.2.03.7 - Pendataan dan Verifikasi Penyelenggaraan Kawasan Permukiman Kumuh
+[2025-11-27T02:43:41.620Z] [INFO] Processed row 562: 1 4 3 2.03 7
+[2025-11-27T02:43:43.406Z] [INFO] Created SubKegiatan: 1.4.3.2.03.9 - Pelaksanaan Peremajaan Kawasan Permukiman Kumuh
+[2025-11-27T02:43:43.407Z] [INFO] Processed row 563: 1 4 3 2.03 9
+[2025-11-27T02:43:45.152Z] [INFO] Created SubKegiatan: 1.4.3.2.03.10 - Fasilitasi Penyediaan Perumahan Sementara bagi Masyarakat yang Terkena Program Peremajaan Permukiman Kumuh dengan Luas di Bawah 10 (Sepuluh) Ha
+[2025-11-27T02:43:45.153Z] [INFO] Processed row 564: 1 4 3 2.03 10
+[2025-11-27T02:43:47.155Z] [INFO] Created SubKegiatan: 1.4.3.2.03.11 - Pelaksanaan Pemukiman Kembali Kawasan Permukiman Kumuh
+[2025-11-27T02:43:47.157Z] [INFO] Processed row 565: 1 4 3 2.03 11
+[2025-11-27T02:43:49.124Z] [INFO] Created SubKegiatan: 1.4.3.2.03.12 - Pembangunan Rumah Baru Layak Huni untuk Peningkatan Kualitas Permukiman Kumuh dengan Luas di Bawah 10 (Sepuluh) Ha
+[2025-11-27T02:43:49.125Z] [INFO] Processed row 566: 1 4 3 2.03 12
+[2025-11-27T02:43:50.927Z] [INFO] Created SubKegiatan: 1.4.3.2.03.13 - Pelaksanaan Pemugaran Kawasan Permukiman Kumuh
+[2025-11-27T02:43:50.928Z] [INFO] Processed row 567: 1 4 3 2.03 13
+[2025-11-27T02:43:52.186Z] [INFO] Created Program: 1.4.4 - PERUMAHAN DAN KAWASAN PERMUKIMAN KUMUH
+[2025-11-27T02:43:52.188Z] [INFO] Processed row 568: 1 4 4  
+[2025-11-27T02:43:53.913Z] [INFO] Created Kegiatan: 1.4.4.2.01 - Pencegahan Perumahan dan Kawasan Permukiman Kumuh pada Daerah Kabupaten/Kota
+[2025-11-27T02:43:53.914Z] [INFO] Processed row 569: 1 4 4 2.01 
+[2025-11-27T02:43:55.705Z] [INFO] Created SubKegiatan: 1.4.4.2.01.1 - Perbaikan Rumah Tidak Layak Huni untuk Pencegahan Terhadap Tumbuh dan Berkembangnya Permukiman Kumuh di Luar Kawasan Permukiman Kumuh dengan Luas di Bawah 10 (Sepuluh) Ha
+[2025-11-27T02:43:55.706Z] [INFO] Processed row 570: 1 4 4 2.01 1
+[2025-11-27T02:43:57.573Z] [INFO] Created SubKegiatan: 1.4.4.2.01.4 - Pembangunan Rumah Baru Layak Huni dalam Rangka pencegahan terhadap Kumuh dan berkembangnya Perumahan Kumuh dan Permukiman Kumuh Baru
+[2025-11-27T02:43:57.574Z] [INFO] Processed row 571: 1 4 4 2.01 4
+[2025-11-27T02:43:59.364Z] [INFO] Created SubKegiatan: 1.4.4.2.01.5 - Penatausahaan Serah Terima Rumah Baru Layak Huni bagi Masyarakat untuk Pencegahan terhadap Tumbuh dan Berkembangnya Permukiman Kumuh di luar Kawasan Permukiman Kumuh
+[2025-11-27T02:43:59.365Z] [INFO] Processed row 572: 1 4 4 2.01 5
+[2025-11-27T02:44:01.108Z] [INFO] Created SubKegiatan: 1.4.4.2.01.6 - Pelaksanaan Pembagian Rumah Baru Layak Huni bagi Masyarakat untuk Pencegahan terhadap Tumbuh dan Berkembangnya Permukiman Kumuh di luar Kawasan Permukiman Kumuh
+[2025-11-27T02:44:01.110Z] [INFO] Processed row 573: 1 4 4 2.01 6
+[2025-11-27T02:44:02.840Z] [INFO] Created SubKegiatan: 1.4.4.2.01.7 - Pengawasan dan Pengendalian dalam Rangka pencegahan terhadap Kumuh dan berkembangnya Perumahan Kumuh dan Permukiman Kumuh Baru
+[2025-11-27T02:44:02.841Z] [INFO] Processed row 574: 1 4 4 2.01 7
+[2025-11-27T02:44:04.620Z] [INFO] Created SubKegiatan: 1.4.4.2.01.8 - Penyadaran Publik Pencegahan Tumbuh dan Berkembangnya Permukiman Kumuh
+[2025-11-27T02:44:04.621Z] [INFO] Processed row 575: 1 4 4 2.01 8
+[2025-11-27T02:44:06.465Z] [INFO] Created SubKegiatan: 1.4.4.2.01.9 - Pemberdayaan Masyarakat dalam Rangka pencegahan terhadap Kumuh dan berkembangnya Perumahan Kumuh dan Permukiman Kumuh Baru
+[2025-11-27T02:44:06.467Z] [INFO] Processed row 576: 1 4 4 2.01 9
+[2025-11-27T02:44:07.692Z] [INFO] Created Program: 1.4.5 - PENINGKATAN PRASARANA, SARANA DAN UTILITAS UMUM (PSU)
+[2025-11-27T02:44:07.693Z] [INFO] Processed row 577: 1 4 5  
+[2025-11-27T02:44:09.172Z] [INFO] Created Kegiatan: 1.4.5.2.01 - Urusan Penyelenggaraan PSU Perumahan
+[2025-11-27T02:44:09.173Z] [INFO] Processed row 578: 1 4 5 2.01 
+[2025-11-27T02:44:10.882Z] [INFO] Created SubKegiatan: 1.4.5.2.01.1 - Perencanaan Penyediaan PSU Perumahan
+[2025-11-27T02:44:10.883Z] [INFO] Processed row 579: 1 4 5 2.01 1
+[2025-11-27T02:44:12.596Z] [INFO] Created SubKegiatan: 1.4.5.2.01.2 - Penyediaan Prasarana, Sarana, dan Utilitas Umum di Perumahan untuk Menunjang Fungsi Hunian
+[2025-11-27T02:44:12.598Z] [INFO] Processed row 580: 1 4 5 2.01 2
+[2025-11-27T02:44:14.314Z] [INFO] Created SubKegiatan: 1.4.5.2.01.3 - Koordinasi dan Sinkronisasi dalam rangka Penyediaan Prasarana, Sarana, dan Utilitas Umum Perumahan
+[2025-11-27T02:44:14.315Z] [INFO] Processed row 581: 1 4 5 2.01 3
+[2025-11-27T02:44:16.040Z] [INFO] Created SubKegiatan: 1.4.5.2.01.6 - Sosialisasi standar, prosedur, dan kriteria serah terima PSU
+[2025-11-27T02:44:16.041Z] [INFO] Processed row 582: 1 4 5 2.01 6
+[2025-11-27T02:44:17.772Z] [INFO] Created SubKegiatan: 1.4.5.2.01.7 - Perbaikan Prasarana, Sarana, dan Utilitas Umum di Perumahan untuk Menunjang Fungsi Hunian
+[2025-11-27T02:44:17.773Z] [INFO] Processed row 583: 1 4 5 2.01 7
+[2025-11-27T02:44:19.509Z] [INFO] Created SubKegiatan: 1.4.5.2.01.8 - Operasional dan Pemeliharaan Prasarana, Sarana, dan Utilitas Umum di Perumahan
+[2025-11-27T02:44:19.510Z] [INFO] Processed row 584: 1 4 5 2.01 8
+[2025-11-27T02:44:21.240Z] [INFO] Created SubKegiatan: 1.4.5.2.01.9 - Kerja Sama Penyediaan/Pengelolaan PSU Perumahan
+[2025-11-27T02:44:21.241Z] [INFO] Processed row 585: 1 4 5 2.01 9
+[2025-11-27T02:44:22.968Z] [INFO] Created SubKegiatan: 1.4.5.2.01.10 - Verifikasi dan Penyerahan PSU Perumahan dari Pengembang
+[2025-11-27T02:44:22.969Z] [INFO] Processed row 586: 1 4 5 2.01 10
+[2025-11-27T02:44:24.232Z] [INFO] Processed row 587: 1 4 5 3.01 
+[2025-11-27T02:44:25.714Z] [INFO] Created Kegiatan: 1.4.5.3.01 - Kegiatan 3.01
+[2025-11-27T02:44:26.471Z] [INFO] Created SubKegiatan: 1.4.5.3.01.6 - Penyediaan Tenaga Listrik untuk Masyarakat
+[2025-11-27T02:44:26.472Z] [INFO] Processed row 588: 1 4 5 3.01 6
+[2025-11-27T02:44:27.801Z] [INFO] Processed row 589: 1 4 5 4.01 
+[2025-11-27T02:44:29.329Z] [INFO] Created Kegiatan: 1.4.5.4.01 - Kegiatan 4.01
+[2025-11-27T02:44:30.058Z] [INFO] Created SubKegiatan: 1.4.5.4.01.9 - Penyediaan Tenaga Listrik untuk Masyarakat
+[2025-11-27T02:44:30.059Z] [INFO] Processed row 590: 1 4 5 4.01 9
+[2025-11-27T02:44:31.294Z] [INFO] Created Program: 1.4.6 - PENINGKATAN PELAYANAN SERTIFIKASI, KUALIFIKASI, KLASIFIKASI, DAN REGISTRASI BIDANG PERUMAHAN DAN KAWASAN PERMUKIMAN
+[2025-11-27T02:44:31.296Z] [INFO] Processed row 591: 1 4 6  
+[2025-11-27T02:44:32.794Z] [INFO] Created Kegiatan: 1.4.6.2.01 - Sertifikasi dan Registrasi bagi Orang atau Badan Hukum yang Melaksanakan Perancangan dan Perencanaan Rumah serta Perencanaan Prasarana, Sarana dan Utilitas Umum PSU Tingkat Kemampuan Kecil
+[2025-11-27T02:44:32.796Z] [INFO] Processed row 592: 1 4 6 2.01 
+[2025-11-27T02:44:34.527Z] [INFO] Created SubKegiatan: 1.4.6.2.01.1 - Koordinasi dan Sinkronisasi Penerbitan Sertifikasi dan Registrasi Pengembang Perumahan dengan Kualifikasi Kecil
+[2025-11-27T02:44:34.529Z] [INFO] Processed row 593: 1 4 6 2.01 1
+[2025-11-27T02:44:34.529Z] [INFO] 
+=== IMPORT COMPLETE ===
+[2025-11-27T02:44:34.531Z] [INFO] Duration: 1024.74 seconds
+[2025-11-27T02:44:34.532Z] [INFO] Total rows processed: 593
+[2025-11-27T02:44:34.532Z] [INFO] Rows skipped: 0
+[2025-11-27T02:44:34.533Z] [INFO] Records created:
+[2025-11-27T02:44:34.535Z] [INFO]   - Urusan: 2
+[2025-11-27T02:44:34.535Z] [INFO]   - Bidang: 3
+[2025-11-27T02:44:34.536Z] [INFO]   - Program: 18
+[2025-11-27T02:44:34.537Z] [INFO]   - Kegiatan: 63
+[2025-11-27T02:44:34.538Z] [INFO]   - SubKegiatan: 508
+[2025-11-27T02:44:34.550Z] [INFO] Database connection closed
+[2025-11-27T02:44:34.551Z] [INFO] 
+Log file saved to: C:\Codes\node\2025\simrapu\scripts\import-urusan-log.txt

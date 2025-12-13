@@ -1,0 +1,42 @@
+// NEW IMPLEMENTATION using Indoarea API
+// Replace the current fetch in dist/migrate/index.html (around lines 103-129)
+
+fetch("https://indoarea.vercel.app/api/provinsi", {
+   method: "GET",
+   headers: {
+      "Accept": "application/json"
+   }
+}).then(function (response) {
+   // The API call was successful!
+   return response.json();
+}).then(function (data) {
+   // This is the JSON from our response
+   console.log(data);
+   console.log("Provinces data:", data.data);
+
+   // Transform indoarea format to match your current format
+   const transformedData = data.data.map(item => ({
+      kode: item.code,
+      nama: item.name
+   }));
+
+   console.log("Transformed data:", transformedData);
+
+   // Store in sessionStorage with same format as before
+   sessionStorage.setItem("efinSite", JSON.stringify({ 
+      'wilayah': transformedData 
+   }));
+
+}).catch(function (err) {
+   // There was an error
+   console.warn('Something went wrong.', err);
+});
+
+// Alternative: If you want to keep using the existing API but fetch from Indoarea
+// You would need to modify your server to fetch from Indoarea and store in MongoDB
+
+// OR
+
+// Full migration to Indoarea API (no more MongoDB for wilayah data)
+// This would require updating your client-side code to fetch from Indoarea directly
+// and handle the hierarchical data structure

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Vendor Multipart Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-lg p-8">
+        <h1 class="text-2xl font-bold text-gray-900 mb-6">Test FormData Multipart Upload</h1>
+        
+        <form id="testForm" class="space-y-4">
+            <div>
+                <label class="block text-sm font-semibold text-gray-800 mb-2">Termin ID</label>
+                <input type="text" id="terminId" value="69036f04e5f339cce6907089" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500">
+            </div>
+            
+            <div>
+                <label class="block text-sm font-semibold text-gray-800 mb-2">Tanggal Laporan</label>
+                <input type="date" id="laporanDate" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500">
+            </div>
+            
+            <div>
+                <label class="block text-sm font-semibold text-gray-800 mb-2">Periode Mulai</label>
+                <input type="date" id="periodeMulai" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500">
+            </div>
+            
+            <div>
+                <label class="block text-sm font-semibold text-gray-800 mb-2">Periode Sampai</label>
+                <input type="date" id="periodeSampai" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500">
+            </div>
+            
+            <div>
+                <label class="block text-sm font-semibold text-gray-800 mb-2">Realisasi Fisik (%)</label>
+                <input type="number" id="realisasiFisik" value="75.5" min="0" max="100" step="0.1" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500">
+            </div>
+            
+            <div>
+                <label class="block text-sm font-semibold text-gray-800 mb-2">Realisasi Belanja (Rp)</label>
+                <input type="number" id="realisasiBelanja" value="1500000" min="0" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500">
+            </div>
+            
+            <div>
+                <label class="block text-sm font-semibold text-gray-800 mb-2">File PDF (opsional)</label>
+                <input type="file" id="laporanFile" accept="application/pdf" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-blue-500">
+                <p class="text-xs text-gray-500 mt-1">Maksimal 1MB, hanya PDF</p>
+            </div>
+            
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors">
+                Test Submit FormData
+            </button>
+        </form>
+        
+        <div id="result" class="mt-6 hidden">
+            <h2 class="text-lg font-semibold mb-2">Response:</h2>
+            <pre id="responseData" class="bg-gray-100 p-4 rounded-lg text-sm overflow-auto"></pre>
+        </div>
+        
+        <div id="debug" class="mt-6">
+            <h2 class="text-lg font-semibold mb-2">Debug Info:</h2>
+            <div id="debugContent" class="bg-gray-100 p-4 rounded-lg text-sm"></div>
+        </div>
+    </div>
+
+    <script>
+        // Set default dates
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('laporanDate').value = today;
+        document.getElementById('periodeMulai').value = today;
+        document.getElementById('periodeSampai').value = today;
+        
+        document.getElementById('testForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData();
+            formData.append('terminId', document.getElementById('terminId').value);
+            formData.append('laporanDate', document.getElementById('laporanDate').value);
+            formData.append('periodeMulai', document.getElementById('periodeMulai').value);
+            formData.append('periodeSampai', document.getElementById('periodeSampai').value);
+            formData.append('realisasiFisik', document.getElementById('realisasiFisik').value);
+            formData.append('realisasiBelanja', document.getElementById('realisasiBelanja').value);
+            
+            const fileInput = document.getElementById('laporanFile');
+            if (fileInput.files[0]) {
+                formData.append('laporan', fileInput.files[0]);
+                console.log('📁 File added:', fileInput.files[0].name, fileInput.files[0].size, 'bytes');
+            }
+            
+            // Debug: Log FormData entries
+            console.log('📋 FormData entries:');
+            for (let [key, value] of formData.entries()) {
+                if (value instanceof File) {
+                    console.log(`  ${key}: File(${value.name}, ${value.size} bytes)`);
+                } else {
+                    console.log(`  ${key}: ${value}`);
+                }
+            }
+            
+            // Update debug display
+            let debugHTML = '<h3 class="font-semibold mb-2">FormData Content:</h3>';
+            for (let [key, value] of formData.entries()) {
+                if (value instanceof File) {
+                    debugHTML += `<p><strong>${key}:</strong> File(${value.name}, ${value.size} bytes)</p>`;
+                } else {
+                    debugHTML += `<p><strong>${key}:</strong> ${value}</p>`;
+                }
+            }
+            document.getElementById('debugContent').innerHTML = debugHTML;
+            
+            try {
+                console.log('🔄 Sending request to /api/vendor/realisasi');
+                
+                const response = await fetch('/api/vendor/realisasi', {
+                    method: 'POST',
+                    // Don't set Content-Type header - let browser set it with proper boundary
+                    body: formData
+                });
+                
+                console.log('📡 Response status:', response.status);
+                
+                const responseText = await response.text();
+                console.log('📄 Raw response:', responseText);
+                
+                let responseData;
+                try {
+                    responseData = JSON.parse(responseText);
+                } catch (e) {
+                    responseData = { error: 'Response is not JSON', raw: responseText };
+                }
+                
+                document.getElementById('responseData').textContent = JSON.stringify(responseData, null, 2);
+                document.getElementById('result').classList.remove('hidden');
+                
+            } catch (error) {
+                console.error('❌ Error:', error);
+                document.getElementById('responseData').textContent = `Error: ${error.message}`;
+                document.getElementById('result').classList.remove('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
