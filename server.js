@@ -121,7 +121,7 @@ async function authMiddleware(request, reply) {
 
   // Add user info to request for use in endpoints
   request.user = tokenCheck.decoded;
-  
+
   console.log('🔐 Authenticated user for:', request.url, 'User:', request.user?.username);
 };
 
@@ -379,7 +379,7 @@ server.setNotFoundHandler((request, reply) => {
     reply.code(404).send({ error: 'API route not found' });
     return;
   }
-  
+
   // Serve index.html for all non-API routes to support client-side routing
   reply.sendFile('index.html');
 });
@@ -387,17 +387,29 @@ server.setNotFoundHandler((request, reply) => {
 // Start server
 const start = async () => {
   try {
+    await server.ready();
     const port = process.env.PORT || 3000;
-    await server.listen({ port, host: '0.0.0.0' });
-    console.log(`🚀 Server running on http://localhost:${port}`);
-    console.log(`📁 Static files served from: ${path.join(__dirname, 'public')}`);
-    console.log(`🔐 API endpoints available at: http://localhost:${port}/api`);
+
+    if (process.argv[1] === fileURLToPath(import.meta.url)) {
+      await server.listen({ port, host: '0.0.0.0' });
+      console.log(`🚀 Server running on http://localhost:${port}`);
+      console.log(`📁 Static files served from: ${path.join(__dirname, 'public')}`);
+      console.log(`🔐 API endpoints available at: http://localhost:${port}/api`);
+    }
   } catch (err) {
     server.log.error(err);
     process.exit(1);
   }
+  return server;
 };
 
-start();
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  start();
+}
+
+export default async function (req, res) {
+  const app = await start();
+  app.server.emit('request', req, res);
+}
 
 //yeah yeah yeah
