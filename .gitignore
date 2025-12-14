@@ -35,3 +35,4 @@ Thumbs.db
 # MongoDB data for local
 mongo-data/
 .vercel
+.env*.local
